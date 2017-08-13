@@ -1,0 +1,615 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:201
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:205
+msgid " of the following matches"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_uploader.php:18
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_uploader.php:66
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/settings.php:32
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/settings.php:82
+msgid "%s"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:559
+msgid "%u Result(s) found!"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:294
+msgid "<a href=\"%s\">Shared Files</a>"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_tree.php:298
+msgid "<a href=\"%s\">Shared files</a>"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/render.input.php:30
+msgid "<label for=\"%1$s\">%2$s</label><br />"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:555
+msgid "A-Z"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:201
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:205
+msgid "All"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:201
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:205
+msgid "Any"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:638
+#: nm-file-upload-manager-pro-v-8.3/templates/details.php:723
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_share_file.php:55
+msgid "Any message"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:198
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:203
+msgid "Are you sure to remove this input field?"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:194
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:199
+msgid "Are you sure?"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/get-addon.php:1
+msgid "Best Photo Editing Tool"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:558
+msgid "Clear Search"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:174
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:166
+msgid "Collapse all"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_main.php:17
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_directory.php:35
+msgid "Create directory"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:81
+msgid "Define from what email send the message."
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:107
+msgid "Define the class of submit button."
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:75
+msgid "Define the emails used (separeted by comma) to receive emails."
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:101
+msgid "Define the label of submit button."
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:120
+msgid "Define the message when there is an error on send of email."
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:87
+msgid "Define the name of email that send the message."
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:94
+msgid "Define the subject of the email sent to you."
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/details.php:735
+msgid "Delete File?"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:545
+msgid "Delete all Files"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:227
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_tree.php:227
+msgid "Delete file"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/existing-meta.php:27
+msgid "Delete."
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_uploader.php:299
+msgid "Description (optional)"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_directory.php:20
+msgid "Directory Details"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_directory.php:16
+msgid "Directory Name"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:227
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_tree.php:227
+msgid "Download file"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/classes/inputs/input.file.php:448
+msgid "Drag file(s) in this box"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/classes/inputs/input.file.php:448
+msgid "Drag file(s) or directory in this box"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:172
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:164
+msgid "Drage form fields here"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:227
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_tree.php:227
+msgid "Edit file meta"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:635
+#: nm-file-upload-manager-pro-v-8.3/templates/details.php:720
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_share_file.php:52
+msgid "Email separated by commas"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:117
+msgid "Error Message"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/existing-meta.php:1
+msgid "Existing Form Meta"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:201
+msgid "Existing forms"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:176
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:168
+msgid "Expand all"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:1
+#: nm-file-upload-manager-pro-v-8.3/templates/details.php:1
+msgid "Fail"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:135
+msgid "File Size"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:132
+msgid "File Title"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:141
+msgid "File Tools"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:216
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_tree.php:195
+msgid "File categoris: "
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_uploader.php:44
+msgid "File max size: %s"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:115
+msgid "File meta settings"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_tree.php:125
+msgid "File name"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/details.php:739
+msgid "File sharing"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_tree.php:128
+msgid "File size"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_uploader.php:298
+msgid "File title"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_tree.php:134
+msgid "File tools"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_uploader.php:45
+msgid "File types: %s"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/render.email.php:151
+msgid "File(s) are attached"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_uploader.php:46
+msgid "Files allowed: %s"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:29
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_tree.php:29
+msgid "Files and Directories"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:69
+msgid "For your reference"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:54
+msgid "Form Fields"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:53
+msgid "Form Settings"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:66
+msgid "Form name"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:131
+msgid "Form styling/css"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:133
+msgid "Form styling/css."
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/existing-meta.php:18
+msgid "Form."
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/get-addon.php:1
+msgid "Get Pro + Addon"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:201
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:205
+msgid "Hide"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:543
+#: nm-file-upload-manager-pro-v-8.3/templates/details.php:663
+msgid "Manage Files"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/existing-meta.php:17
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/existing-meta.php:25
+msgid "Meta."
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/details.php:668
+msgid "My File Details"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:294
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_tree.php:298
+msgid "My Files"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/existing-meta.php:16
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/existing-meta.php:24
+msgid "Name."
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:227
+msgid "Open directory"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:126
+msgid "Provide thumb size for images e.g: 75"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:72
+msgid "Receiver(s)"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:563
+msgid "Refresh"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:1
+#: nm-file-upload-manager-pro-v-8.3/templates/details.php:1
+msgid "Removed"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:201
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:205
+msgid "Rule # "
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:180
+msgid "Save all changes"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:56
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/settings.php:107
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/settings-org.php:197
+msgid "Save settings"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/get-addon.php:1
+msgid "See Demo"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/render.input.php:30
+msgid "Select files"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:201
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:205
+msgid "Select/Upload Image"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:641
+#: nm-file-upload-manager-pro-v-8.3/templates/details.php:726
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_share_file.php:58
+msgid "Send File"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:78
+msgid "Sender Email"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:84
+msgid "Sender Name"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:616
+msgid "Share"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:227
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_tree.php:227
+msgid "Share file"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/details.php:741
+msgid "Share this file"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:216
+msgid "Shared by "
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/existing-meta.php:26
+msgid "Shortcode."
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:201
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:205
+msgid "Show"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:91
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:629
+#: nm-file-upload-manager-pro-v-8.3/templates/details.php:714
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_share_file.php:49
+msgid "Subject"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:104
+msgid "Submit Button Class"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:98
+msgid "Submit Button Label"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:111
+msgid "Success Message"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/get-addon.php:1
+msgid "This plugin can be used as best Photo Editing Tool to allow your users to upload and Edit Photos online using world\\'s best Photo Editor \\'Aviary\\'. There is an Add-on for this"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:129
+msgid "Thumb"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:123
+msgid "Thumb size for images"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:544
+msgid "Upload Files"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_main.php:17
+#: nm-file-upload-manager-pro-v-8.3/templates/render.input.php:30
+msgid "Upload files"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_tree.php:131
+msgid "Uploaded date"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_list_files.php:138
+msgid "Uploaded on"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/get-addon.php:1
+msgid "What is Aviary?"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/_template_uploader.php:47
+msgid "You have used %s of %s disk storage space."
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/index.php:556
+msgid "Z-A"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/classes/inputs/input.file.php:270
+msgid "are you sure to delete this file?"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:201
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:205
+msgid "greater then"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:201
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:205
+msgid "is"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:201
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:205
+msgid "less then"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:201
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:205
+msgid "not"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:201
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:205
+msgid "only if"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:205
+msgid "option"
+msgstr ""
+
+#. Text in function
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:205
+msgid "price (if any)"
+msgstr ""
+
+#. Text in echo
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/create-form.php:143
+#: nm-file-upload-manager-pro-v-8.3/templates/admin/file-meta.php:127
+msgid "select input type below and drag it on right side. Then set more options"
+msgstr ""

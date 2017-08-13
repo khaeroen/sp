@@ -1,0 +1,802 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cPanel E-Mail Manager\n"
+"POT-Creation-Date: 2016-07-24 14:47-0400\n"
+"PO-Revision-Date: 2016-07-24 14:47-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: emailmanager.php\n"
+
+#: emailmanager.php:206
+msgid "E-Mail Manager"
+msgstr "E-Mail Manager"
+
+#: emailmanager.php:254
+msgid "E-Mail Account Activated"
+msgstr "Account di posta elettronica attivato"
+
+#: emailmanager.php:256
+#, php-format
+msgid "The e-mail account %1$s@%2$s has been successfully created"
+msgstr "L'account di posta elettronica %1$s@%2$s è stato creato con successo"
+
+#: emailmanager.php:258
+msgid "The following error occurred"
+msgstr "Si è verificato il seguente errore"
+
+#: emailmanager.php:258
+#, php-format
+msgid ""
+"An unknown error occurred while trying to create the e-mail account for %s"
+msgstr ""
+"Si è verificato un errore sconosciuto durante il tentativo di creare "
+"l'account di posta elettronica per %s"
+
+#: emailmanager.php:309
+msgid "cPanel E-Mail Manager Statistics"
+msgstr "cPanel statistiche di gestione posta elettronica"
+
+#: emailmanager.php:420 emailmanager.php:490 emailmanager.php:494
+#: emailmanager.php:521 emailmanager.php:623 emailmanager.php:861
+#: emailmanager.php:867 emailmanager.php:900 emailmanager.php:903
+#: emailmanager.php:1042 emailmanager.php:1341 emailmanager.php:1496
+#: emailmanager.php:1533 emailmanager.php:1549 emailmanager.php:1793
+msgid "Configuration Options"
+msgstr "Opzioni di configurazione"
+
+#: emailmanager.php:420 emailmanager.php:521
+msgid ""
+"There are currently no domains configured in cPanel for this WordPress MU "
+"site. Please contact your server administrator for assistance or click the "
+"button below to create a new DNS entry for this domain."
+msgstr ""
+"Non ci sono attualmente nessun domini configurati in cPanel per questo sito "
+"di WordPress MU. Si prega di contattare l'amministratore del server per "
+"assistenza o fare clic sul pulsante qui sotto per creare una nuova voce DNS "
+"per il dominio."
+
+#: emailmanager.php:424 emailmanager.php:525
+msgid "Create DNS Entry"
+msgstr "Creare la voce DNS"
+
+#: emailmanager.php:490
+#, php-format
+msgid "The DNS entry for %s has been successfully added"
+msgstr "La voce DNS per %s è stato aggiunto con successo"
+
+#: emailmanager.php:490
+msgid "Continue to"
+msgstr "Continuare a"
+
+#: emailmanager.php:493
+msgid "Park Domain"
+msgstr "Dominio di Parco"
+
+#: emailmanager.php:493
+#, php-format
+msgid ""
+"An unspecified error has occurred while trying to add a parked domain for %s."
+msgstr ""
+"Si è verificato un errore non specificato durante il tentativo di aggiungere "
+"un dominio parcheggiato per %s."
+
+#: emailmanager.php:494 emailmanager.php:861 emailmanager.php:900
+msgid "Please contact your server administrator for assistance."
+msgstr "Per assistenza, contattare l'amministratore del server."
+
+#: emailmanager.php:593
+msgid "Configuration options have been updated"
+msgstr "Opzioni di configurazione sono state aggiornate"
+
+#: emailmanager.php:623 emailmanager.php:1042 emailmanager.php:1325
+#: emailmanager.php:1341 emailmanager.php:1391 emailmanager.php:1496
+#: emailmanager.php:1533 emailmanager.php:1793
+msgid "List of Accounts"
+msgstr "Elenco dei conti"
+
+#: emailmanager.php:623 emailmanager.php:1042 emailmanager.php:1341
+#: emailmanager.php:1496 emailmanager.php:1533
+msgid "Link Existing Accounts"
+msgstr "Collegare gli account esistenti"
+
+#: emailmanager.php:623 emailmanager.php:1042 emailmanager.php:1341
+#: emailmanager.php:1496 emailmanager.php:1533 emailmanager.php:1537
+#: emailmanager.php:1541 emailmanager.php:1793
+msgid "Add New Account"
+msgstr "Aggiungere un nuovo account"
+
+#: emailmanager.php:623 emailmanager.php:1042 emailmanager.php:1341
+#: emailmanager.php:1496 emailmanager.php:1533
+msgid "Manage Mailing Lists"
+msgstr "Il gestore di Mailing List"
+
+#: emailmanager.php:623 emailmanager.php:1549
+msgid "Upgrade Plugin"
+msgstr "Aggiornamento Plugin"
+
+#: emailmanager.php:626 emailmanager.php:645 emailmanager.php:870
+#: emailmanager.php:880 emailmanager.php:906 emailmanager.php:916
+#: emailmanager.php:1416 emailmanager.php:1431
+msgid "The following fields are required"
+msgstr "I seguenti campi sono obbligatori"
+
+#: emailmanager.php:628
+msgid "At least one WordPress user group must be selected."
+msgstr "È necessario selezionare almeno un gruppo di utenti di WordPress."
+
+#: emailmanager.php:631 emailmanager.php:814
+msgid "E-Mail Domain"
+msgstr "Dominio di posta elettronica"
+
+#: emailmanager.php:634 emailmanager.php:732 emailmanager.php:1520
+msgid "E-Mail Alias Format"
+msgstr "Formato di Alias di posta elettronica"
+
+#: emailmanager.php:637 emailmanager.php:839 emailmanager.php:872
+#: emailmanager.php:888 emailmanager.php:908 emailmanager.php:924
+msgid "cPanel User ID"
+msgstr "ID utente cPanel"
+
+#: emailmanager.php:640 emailmanager.php:840 emailmanager.php:875
+#: emailmanager.php:889 emailmanager.php:911 emailmanager.php:925
+msgid "cPanel Password"
+msgstr "cPanel Password"
+
+#: emailmanager.php:643 emailmanager.php:878 emailmanager.php:914
+msgid "cPanel Server IP (or localhost)"
+msgstr "cPanel Server IP (o localhost)"
+
+#: emailmanager.php:688
+msgid "Automation"
+msgstr "Automazione"
+
+#: emailmanager.php:690 emailmanager.php:692
+msgid "Automatically Create E-mail Accounts"
+msgstr "Creazione automatica di account di posta elettronica"
+
+#: emailmanager.php:690 emailmanager.php:692
+msgid "Automatically create e-mail account when a new user is registered."
+msgstr ""
+"Consente di creare automaticamente account di posta elettronica quando un "
+"nuovo utente è registrato."
+
+#: emailmanager.php:692 emailmanager.php:848 emailmanager.php:1279
+msgid "Upgrade plugin"
+msgstr "Aggiornamento plugin"
+
+#: emailmanager.php:692 emailmanager.php:848
+msgid "to use this feature"
+msgstr "per utilizzare questa funzione"
+
+#: emailmanager.php:695
+msgid "WordPress Groups"
+msgstr "Gruppi di WordPress"
+
+#: emailmanager.php:730
+msgid "Select the user groups eligible for automatic e-mail accounts."
+msgstr ""
+"Selezionare i gruppi di utenti ammissibili per account di posta elettronica "
+"automatico."
+
+#: emailmanager.php:731 emailmanager.php:1418 emailmanager.php:1519
+msgid "E-Mail Quota"
+msgstr "Quota di e-Mail"
+
+#: emailmanager.php:731 emailmanager.php:841 emailmanager.php:890
+#: emailmanager.php:926 emailmanager.php:1519
+msgid "Enter"
+msgstr "Entrare"
+
+#: emailmanager.php:731 emailmanager.php:1519
+msgid "for unlimited storage"
+msgstr "per spazio di archiviazione illimitato"
+
+#: emailmanager.php:754
+msgid "Password Match"
+msgstr "Corrispondenza di password"
+
+#: emailmanager.php:754
+msgid ""
+"If enabled, the plugin will match the WordPress login and cPanel e-mail "
+"passwords during WordPress user registrations."
+msgstr ""
+"Se attivata, il plugin corrisponderà le password di posta elettronica "
+"WordPress login e cPanel durante le registrazioni degli utenti di WordPress."
+
+#: emailmanager.php:754
+msgid ""
+"Note: If the WordPress password provided during registration does not meet "
+"minimum requirements, it will be replaced with a stronger password."
+msgstr ""
+"Nota: Se la password di WordPress fornita durante la registrazione non "
+"soddisfa i requisiti minimi, esso verrà sostituito con una password più "
+"forte."
+
+#: emailmanager.php:754
+msgid ""
+"Note: If enabled and using a community plugin such as BuddyPress or Ultimate "
+"Member, the e-mail account will be created at the time of user registration "
+"and not once the user's WordPress account has been activated/approved."
+msgstr ""
+"Nota: Se attivata e utilizzando un plugin di comunità come BuddyPress o "
+"Ultimate membro, l'account di posta elettronica verrà creato al momento "
+"della registrazione dell'utente e non una volta che l'account di WordPress è "
+"stato attivato/approvato."
+
+#: emailmanager.php:755
+msgid "Password Strength"
+msgstr "Resistenza password"
+
+#: emailmanager.php:756
+msgid "Number of Lowercase Characters"
+msgstr "Numero di caratteri minuscoli"
+
+#: emailmanager.php:762
+msgid ""
+"Set the password strength criteria for cPanel e-mail accounts. If this "
+"password strength criteria is not met for new accounts, a stronger password "
+"will be generated."
+msgstr ""
+"Impostare la password criteri di resistenza per account di posta elettronica "
+"di cPanel. Se questo criterio di forza di password non è soddisfatta per i "
+"nuovi account, verrà generata una password più forte."
+
+#: emailmanager.php:763
+msgid "Number of Numeric Characters"
+msgstr "Numero di caratteri numerici"
+
+#: emailmanager.php:770
+msgid "Number of Uppercase Characters"
+msgstr "Numero di caratteri maiuscoli"
+
+#: emailmanager.php:778
+msgid "Number of Special Characters"
+msgstr "Numero di caratteri speciali"
+
+#: emailmanager.php:786
+msgid "Minimum Password Length"
+msgstr "Lunghezza minima della password"
+
+#: emailmanager.php:799
+msgid "Display Password Fields"
+msgstr "Visualizzare i campi Password"
+
+#: emailmanager.php:799
+msgid ""
+"Enabling this option will allow users to manually set their own password "
+"during new user registration. If these fields are not shown, a password will "
+"be automatically set."
+msgstr ""
+"Abilitando questa opzione consentirà agli utenti di impostare manualmente la "
+"propria password durante la registrazione nuovo utente. Se questi campi non "
+"sono visualizzati, viene impostata automaticamente una password."
+
+#: emailmanager.php:799
+msgid "Not applicable for BuddyPress installations"
+msgstr "Non applicabile per le installazioni di BuddyPress"
+
+#: emailmanager.php:800
+msgid "Disable Registration E-Mail"
+msgstr "Disabilitare la registrazione E-Mail"
+
+#: emailmanager.php:800
+msgid ""
+"You can choose to disable the WordPress New User Registration E-Mail from "
+"being sent."
+msgstr ""
+"Si può scegliere di disattivare l'email di registrazione WordPress nuovo "
+"utente vengano inviati."
+
+#: emailmanager.php:801
+msgid "Mailing List Cleanup"
+msgstr "Pulitura di Mailing List"
+
+#: emailmanager.php:801
+msgid ""
+"Automatically remove WordPress user e-mail addresses from associated mailing "
+"lists when a WordPress user is deleted."
+msgstr ""
+"Rimuovere automaticamente WordPress indirizzi di posta elettronica utente "
+"dalla mailing list associata quando un utente di WordPress viene eliminato."
+
+#: emailmanager.php:803
+msgid "E-Mail Settings"
+msgstr "Impostazioni e-mail"
+
+#: emailmanager.php:805 emailmanager.php:1785
+msgid "E-Mail Accounts"
+msgstr "Account di posta elettronica"
+
+#: emailmanager.php:809 emailmanager.php:1789
+msgid "Disk Space Usage"
+msgstr "Utilizzo dello spazio su disco"
+
+#: emailmanager.php:832 emailmanager.php:851
+msgid "Webmail URL"
+msgstr "URL webmail"
+
+#: emailmanager.php:833
+msgid "Remove User"
+msgstr "Rimuovere l'utente"
+
+#: emailmanager.php:833
+msgid ""
+"Automatically remove associated cPanel e-mail accounts when a WordPress user "
+"is deleted."
+msgstr ""
+"Consente di rimuovere automaticamente associato cPanel account di posta "
+"elettronica quando un utente di WordPress viene eliminato."
+
+#: emailmanager.php:833
+msgid "WARNING"
+msgstr "AVVISO"
+
+#: emailmanager.php:833
+msgid ""
+"This action is irreversible and will delete all data from the user's e-mail "
+"account."
+msgstr ""
+"Questa azione è irreversibile e cancellerà tutti i dati da account di posta "
+"elettronica dell'utente."
+
+#: emailmanager.php:838
+msgid "cPanel Server Credentials"
+msgstr "cPanel Server credenziali"
+
+#: emailmanager.php:841 emailmanager.php:890 emailmanager.php:926
+msgid "cPanel Server IP"
+msgstr "cPanel Server IP"
+
+#: emailmanager.php:841 emailmanager.php:890 emailmanager.php:926
+msgid "or"
+msgstr "o"
+
+#: emailmanager.php:841 emailmanager.php:890 emailmanager.php:926
+msgid "if logging into cPanel on the same server as this WordPress install"
+msgstr ""
+"Se accedendo a cPanel sullo stesso server come questo WordPress installare"
+
+#: emailmanager.php:844
+msgid ""
+"E-Mail Notification Settings (will send to user's primary e-mail account)"
+msgstr ""
+"Impostazioni di notifica di posta elettronica (invierà all'account di posta "
+"elettronica primario dell'utente)"
+
+#: emailmanager.php:846 emailmanager.php:848
+msgid "Enable E-Mail Notification"
+msgstr "Abilita notifica E-Mail"
+
+#: emailmanager.php:850
+msgid "E-Mail Message"
+msgstr "Messaggio email"
+
+#: emailmanager.php:851
+msgid "The following variables can be used"
+msgstr "Le seguenti variabili possono essere utilizzate"
+
+#: emailmanager.php:851
+msgid "User's first name"
+msgstr "Nome utente"
+
+#: emailmanager.php:851
+msgid "User's last name"
+msgstr "Cognome dell'utente"
+
+#: emailmanager.php:851
+msgid "User's username/login ID"
+msgstr "ID dell'utente username/login"
+
+#: emailmanager.php:851
+msgid "User's registered WordPress e-mail address"
+msgstr "Dell'utente registrato indirizzo e-mail WordPress"
+
+#: emailmanager.php:851
+msgid "cPanel e-mail address assigned to user"
+msgstr "cPanel indirizzo di posta elettronica assegnato all'utente"
+
+#: emailmanager.php:851
+msgid "Temporary password for webmail"
+msgstr "Password temporanea per webmail"
+
+#: emailmanager.php:851
+msgid "WordPress Site URL"
+msgstr "URL del sito di WordPress"
+
+#: emailmanager.php:856 emailmanager.php:893 emailmanager.php:929
+#: emailmanager.php:1529
+msgid "Save Settings"
+msgstr "Salva le impostazioni"
+
+#: emailmanager.php:861 emailmanager.php:865 emailmanager.php:900
+#: emailmanager.php:1537 emailmanager.php:1795
+msgid ""
+"The cPanel credentials entered are not valid or a valid domain has not been "
+"selected. A connection could not be established."
+msgstr ""
+"Le credenziali di cPanel immesse non sono valide o non è stato selezionato "
+"un dominio valido. Non potrebbe essere stabilita una connessione."
+
+#: emailmanager.php:887 emailmanager.php:923
+msgid ""
+"Please enter your cPanel login credentials and click Save Changes to "
+"continue."
+msgstr ""
+"Si prega di immettere le credenziali di login di cPanel e fare clic su Salva "
+"modifiche per continuare."
+
+#: emailmanager.php:956
+#, php-format
+msgid "The password for %s has been successfully changed"
+msgstr "La password per %s è stata cambiata con successo"
+
+#: emailmanager.php:973
+#, php-format
+msgid "The quota for %s has been successfully changed"
+msgstr "La quota per %s è stata modificata con successo"
+
+#: emailmanager.php:979
+#, php-format
+msgid "The e-mail account for %s has been successfully removed"
+msgstr "L'account di posta elettronica per %s è stato rimosso con successo"
+
+#: emailmanager.php:1024
+msgid "User accounts have been successfully linked"
+msgstr "Gli account utente sono stati collegati correttamente"
+
+#: emailmanager.php:1028
+msgid ""
+"More than one user account was assigned to the same e-mail address. You can "
+"only assign each e-mail address to a single WordPress user account."
+msgstr ""
+"Più di un account utente è stato assegnato lo stesso indirizzo di posta "
+"elettronica. È possibile assegnare solo ogni indirizzo di posta elettronica "
+"a un singolo account di utente di WordPress."
+
+#: emailmanager.php:1056 emailmanager.php:1425
+msgid "You must enter a valid password."
+msgstr "È necessario immettere una password valida."
+
+#: emailmanager.php:1060 emailmanager.php:1429
+msgid "The password entered does not meet minimum requirements."
+msgstr "La password immessa non soddisfa i requisiti minimi."
+
+#: emailmanager.php:1069
+msgid "The password could not be updated for the following reasons"
+msgstr "La password non può essere aggiornata per i seguenti motivi"
+
+#: emailmanager.php:1083 emailmanager.php:1093
+msgid "You must enter a valid quota."
+msgstr "È necessario immettere una quota valida."
+
+#: emailmanager.php:1098
+msgid ""
+"Are you sure you want to delete this e-mail account and all associated data?"
+msgstr ""
+"Sei sicuro di che voler cancellare questo account di posta elettronica e "
+"tutti i dati associati?"
+
+#: emailmanager.php:1154 emailmanager.php:1450 emailmanager.php:1585
+#: emailmanager.php:1659
+msgid "Very Weak (Password is not strong enough)"
+msgstr "Molto debole (la Password non è abbastanza forte)"
+
+#: emailmanager.php:1155 emailmanager.php:1451 emailmanager.php:1586
+#: emailmanager.php:1660
+msgid "Weak (Password is not strong enough)"
+msgstr "Debole (la Password non è abbastanza forte)"
+
+#: emailmanager.php:1156 emailmanager.php:1452
+msgid "Better"
+msgstr "Meglio"
+
+#: emailmanager.php:1157 emailmanager.php:1453
+msgid "Medium"
+msgstr "Medio"
+
+#: emailmanager.php:1158 emailmanager.php:1454
+msgid "Strong"
+msgstr "Forte"
+
+#: emailmanager.php:1159 emailmanager.php:1455 emailmanager.php:1590
+#: emailmanager.php:1664
+msgid "Strongest"
+msgstr "Più forte"
+
+#: emailmanager.php:1179 emailmanager.php:1475 emailmanager.php:1610
+#: emailmanager.php:1684
+msgid "Strength"
+msgstr "Forza"
+
+#: emailmanager.php:1184 emailmanager.php:1480
+msgid "Password Should be Minimum 6 Characters"
+msgstr "Password deve essere minimo 6 caratteri"
+
+#: emailmanager.php:1189
+msgid "Active Accounts"
+msgstr "Account attivi"
+
+#: emailmanager.php:1192 emailmanager.php:1239
+msgid "Disk Usage"
+msgstr "Uso del disco"
+
+#: emailmanager.php:1222
+msgid "items"
+msgstr "elementi"
+
+#: emailmanager.php:1228
+msgid "Current Page"
+msgstr "Pagina Corrente"
+
+#: emailmanager.php:1228
+msgid "of"
+msgstr "di"
+
+#: emailmanager.php:1237
+msgid "User"
+msgstr "Utente"
+
+#: emailmanager.php:1238 emailmanager.php:1349
+msgid "E-Mail Account"
+msgstr "Account email"
+
+#: emailmanager.php:1240
+msgid "Actions"
+msgstr "Azioni"
+
+#: emailmanager.php:1260
+msgid "Not Linked to WordPress"
+msgstr "Non collegate a WordPress"
+
+#: emailmanager.php:1262
+msgid "Link Now"
+msgstr "Collegare Ora"
+
+#: emailmanager.php:1277 emailmanager.php:1279 emailmanager.php:1284
+#: emailmanager.php:1285
+msgid "Change Password"
+msgstr "Cambia la password"
+
+#: emailmanager.php:1277 emailmanager.php:1279 emailmanager.php:1288
+#: emailmanager.php:1294
+msgid "Change Quota"
+msgstr "Modifica Quota"
+
+#: emailmanager.php:1277 emailmanager.php:1279
+msgid "Delete Account"
+msgstr "Cancellare l'account"
+
+#: emailmanager.php:1279
+msgid "to enable all features"
+msgstr "per attivare tutte le funzioni"
+
+#: emailmanager.php:1284
+msgid "Enter New Password"
+msgstr "Inserire una nuova password"
+
+#: emailmanager.php:1285 emailmanager.php:1528
+msgid "Generate Password"
+msgstr "Generate Password"
+
+#: emailmanager.php:1290 emailmanager.php:1292
+msgid "Custom Quota"
+msgstr "Quota personalizzata"
+
+#: emailmanager.php:1290 emailmanager.php:1292
+msgid "Unlimited"
+msgstr "Illimitato"
+
+#: emailmanager.php:1298 emailmanager.php:1322
+msgid "There are no accounts to display."
+msgstr "Non sono disponibili account da visualizzare."
+
+#: emailmanager.php:1298 emailmanager.php:1322
+msgid "Add a New Account"
+msgstr "Aggiungere un nuovo account"
+
+#: emailmanager.php:1311
+msgid "You must enter a valid page number."
+msgstr "È necessario immettere un numero di pagina valido."
+
+#: emailmanager.php:1313
+msgid ""
+"The page number you have entered exceeds the total number of pages available."
+msgstr ""
+"Il numero di pagina che avere immesso supera il numero totale di pagine "
+"disponibili."
+
+#: emailmanager.php:1325 emailmanager.php:1391 emailmanager.php:1541
+#: emailmanager.php:1799
+msgid "To use this plugin, please enter your configuration details"
+msgstr "Per usare questo plugin, Inserisci i dati di configurazione"
+
+#: emailmanager.php:1325 emailmanager.php:1391 emailmanager.php:1538
+#: emailmanager.php:1541 emailmanager.php:1796 emailmanager.php:1799
+msgid "here"
+msgstr "qui"
+
+#: emailmanager.php:1348
+msgid "WordPress User"
+msgstr "utente WordPress"
+
+#: emailmanager.php:1382
+msgid "Update User Profiles"
+msgstr "Aggiornare i profili utente"
+
+#: emailmanager.php:1384
+msgid "There are no unassigned WordPress accounts to display."
+msgstr "Non ci sono nessun account di WordPress non assegnato da visualizzare."
+
+#: emailmanager.php:1388
+msgid "There are no unassigned cPanel accounts to display."
+msgstr "Non sono disponibili account cPanel non assegnati da visualizzare."
+
+#: emailmanager.php:1421
+msgid "You must enter a valid e-mail alias."
+msgstr "È necessario immettere un alias di posta elettronica valido."
+
+#: emailmanager.php:1497
+msgid "Complete the form below to create a new e-mail account"
+msgstr ""
+"Compila il modulo sottostante per creare un nuovo account di posta "
+"elettronica"
+
+#: emailmanager.php:1498
+msgid "Link to a WordPress User"
+msgstr "Collegamento a un utente di WordPress"
+
+#: emailmanager.php:1518
+msgid "Optional"
+msgstr "Facoltativo"
+
+#: emailmanager.php:1527
+msgid "Custom E-Mail Alias"
+msgstr "Alias di posta elettronica personalizzata"
+
+#: emailmanager.php:1527
+msgid ""
+"Note: You must select the Custom option in the field above for this setting "
+"to be applied."
+msgstr ""
+"Nota: È necessario selezionare l'opzione personalizzata nel campo sopra "
+"applicare questa impostazione."
+
+#: emailmanager.php:1528
+msgid "User Password"
+msgstr "Password utente"
+
+#: emailmanager.php:1533
+msgid "You have reached maximum capacity for e-mail accounts on this server."
+msgstr ""
+"Hai raggiunto la capacità massima per account di posta elettronica su questo "
+"server."
+
+#: emailmanager.php:1534
+msgid ""
+"Please contact your e-mail hosting provider to increase capacity or delete "
+"an existing e-mail account to add another."
+msgstr ""
+"Si prega di contattare il tuo provider di posta elettronica per aumentare la "
+"capacità o eliminare un account di posta elettronica esistente per "
+"aggiungere un altro."
+
+#: emailmanager.php:1538 emailmanager.php:1796
+msgid "Please update your configuration settings"
+msgstr "Si prega di aggiornare le impostazioni di configurazione"
+
+#: emailmanager.php:1549
+msgid ""
+"To use advanced features of this plugin, please upgrade to the professional "
+"version."
+msgstr ""
+"Per utilizzare le funzionalità avanzate di questo plugin, si prega di "
+"aggiornare alla versione professionale."
+
+#: emailmanager.php:1549
+msgid "Click here"
+msgstr "Clicca qui"
+
+#: emailmanager.php:1549
+msgid "to purchase cPanel E-Mail Manager Pro now"
+msgstr "acquistare ora cPanel E-Mail Manager Pro"
+
+#: emailmanager.php:1550
+msgid ""
+"Note: You must download the additional files required to use the "
+"professional version of this plugin before the advanced features will become "
+"active."
+msgstr ""
+"Nota: È necessario scaricare i file aggiuntivi necessari per utilizzare la "
+"versione professionale di questo plugin prima le caratteristiche avanzate "
+"diventerà attive."
+
+#: emailmanager.php:1571 emailmanager.php:1632
+msgid "Assigned E-Mail Account Information"
+msgstr "Informazioni di Account di posta elettronica assegnato"
+
+#: emailmanager.php:1572 emailmanager.php:1635
+msgid "Your Current E-Mail Address"
+msgstr "Il tuo indirizzo di posta elettronica corrente"
+
+#: emailmanager.php:1573 emailmanager.php:1637
+msgid "Check Webmail"
+msgstr "Controllo Webmail"
+
+#: emailmanager.php:1575 emailmanager.php:1641
+msgid "New E-Mail Password"
+msgstr "Nuova Password posta elettronica"
+
+#: emailmanager.php:1577 emailmanager.php:1644
+msgid ""
+"If you would like to change your e-mail account password, please enter it "
+"here. Otherwise leave these fields blank."
+msgstr ""
+"Se si desidera modificare la password dell'account e-mail, inseriscilo qui. "
+"In caso contrario lasciare vuoti questi campi."
+
+#: emailmanager.php:1578 emailmanager.php:1648
+msgid "Repeat New E-Mail Password"
+msgstr "Ripetere la nuova Password di posta elettronica"
+
+#: emailmanager.php:1580 emailmanager.php:1651
+msgid "Type your new e-mail password again."
+msgstr "Digitare nuovamente la nuova password di posta elettronica."
+
+#: emailmanager.php:1587 emailmanager.php:1661
+msgid "Better (Password does not meet minimum requirements)"
+msgstr "Meglio (Password non soddisfa i requisiti minimi)"
+
+#: emailmanager.php:1588 emailmanager.php:1662
+msgid "Medium (Password does not meet minimum requirements)"
+msgstr "Medio (Password non soddisfa i requisiti minimi)"
+
+#: emailmanager.php:1589 emailmanager.php:1663
+msgid "Strong (Password does not meet minimum requirements)"
+msgstr "Strong (Password non soddisfa i requisiti minimi)"
+
+#: emailmanager.php:1615 emailmanager.php:1689
+msgid "Password Should be Minimum"
+msgstr "Password deve essere minimo"
+
+#: emailmanager.php:1615 emailmanager.php:1689
+msgid "Characters"
+msgstr "Caratteri"
+
+#: emailmanager.php:1621 emailmanager.php:1695
+msgid "Passwords do not match"
+msgstr "le passwords non corrispondono"
+
+#: emailmanager.php:1728
+msgid "Your e-mail password has been successfully updated."
+msgstr "La password di posta elettronica è stata aggiornata con successo."
+
+#: emailmanager.php:1731 emailmanager.php:1769
+msgid "The e-mail password provided does not meet minimum requirements."
+msgstr ""
+"La password di posta elettronica fornita non soddisfa i requisiti minimi."
+
+#: emailmanager.php:1734 emailmanager.php:1773
+msgid "The e-mail passwords provided do not match."
+msgstr "Le password di posta elettronica fornite non corrispondono."
+
+#: emailmanager.php:2098
+msgid "Standard"
+msgstr "Standard"
+
+#: emailmanager.php:2101
+msgid "PayPal - The safer, easier way to pay online!"
+msgstr "PayPal - il modo più sicuro, più facile per pagare online!"
+
+#: emailmanager.php:2105
+msgid "Pro"
+msgstr "Pro"
+
+#~ msgid "WARINING"
+#~ msgstr "WARINING"

@@ -1,0 +1,82 @@
+<?php
+	//this is a review page
+	if($reviewPage){	
+		$enabled = $reviewType->enabled; //this review type is enabled		
+		$reviewColor = "#".$reviewType->color; //get the review color
+		$reviewSkin = $reviewType->skin; //get the review skin
+		if($reviewSkin=="dark") {
+			$skin="dark-skin";
+		} else {
+			$skin="";
+		}
+		$logoBarImage =  $reviewType->logo_bar_image; //get the logobar background image
+		$hideLogoBarBg = $reviewType->hide_logo_bar_bg; //completely hide the background of the logo bar
+		$linkColor = "#".$reviewType->link_color; //get the review link color
+		$bgColor = "#".$reviewType->bg_color; //get the background color if one is specified	
+		$bgImage = $reviewType->bg_image; //get the background image if one is specified	
+		$bgAttach = $reviewType->bg_attach; //get the background attachment
+		$headerAdShow = $reviewType->header_ad_show; //get the unique header ad		
+		$headerAd = $reviewType->header_ad; //get the unique header ad		
+		$bgUnique = false; //variable to hold whether we should change the body bg at all
+		$logo = $reviewType->logo; //get the logo for this review type
+		$logo_iphone = $reviewType->logo_iphone; //get the logo for this review type - iphone responsive
+		$logo_ipad = $reviewType->logo_ipad; //get the logo for this review type - iphone ipad
+		if(!empty($logo)) {$oswc_logo=$logo;} //if a logo was specified, replace the default logo
+		if(!empty($logo_iphone)) {$oswc_logo_iphone=$logo_iphone;} //if a logo was specified, replace the default logo
+		if(!empty($logo_ipad)) {$oswc_logo_ipad=$logo_ipad;} //if a logo was specified, replace the default logo
+		if(!empty($bgColor) || !empty($bgImage)) {$bgUnique=true;}	 //if we have a new bg color or image, set to true	
+		if($headerAdShow==false) {$oswc_header_ad_hide=true;} //if header ad is not shown for this review type, set variable to hide it
+		if(!empty($headerAd)) {$oswc_header_ad=$headerAd;} //if a header ad was specified, replace the default ad		
+		$primaryTaxonomy = $reviewType->get_primary_taxonomy(); //get the primary taxonomy for this review type				
+		//change css colors dynamically ?>                
+		<style type="text/css">	
+			<?php if($bgUnique) { ?>			
+				body {
+					background-color:<?php if(!empty($bgColor)) { echo $bgColor.' !important'; } ?>; /*override the bg color*/
+					background-image:<?php if(!empty($bgImage)) { 
+						if($bgImage=="none") { ?> /*don't display a bg image*/
+							none
+						<?php } else { ?> 
+							url(<?php echo $bgImage; ?>) !important /*override the bg image*/
+						<?php } ?>
+					<?php } elseif(!empty($bgColor)) {?>
+						none
+					<?php } ?>;
+					background-position:center top;
+					<?php if(strpos($bgImage,'stripe')!==false || strpos($bgImage,'texture')!==false || $bgImage=='') { ?> 
+						background-repeat:repeat;
+					<?php } else { ?>
+						background-repeat:no-repeat;
+					<?php } ?>
+					background-attachment:<?php echo $bgAttach; ?> !important;}
+				#page-highlight {display:none;} /*only looks good with light bg, so just don't show it*/
+				#top-menu-shadow {background:none;} /*still want the height of the element, just don't show it*/
+			<?php } ?>	
+			<?php if(!empty($linkColor)) { ?>
+				a:link, a:visited { color:<?php echo $linkColor; ?>; }
+				a:hover {color:#999;}
+			<?php } ?>	
+			#logo-bar-wrapper {<?php if($logoBarImage!='') { ?>background:url(<?php echo $logoBarImage; ?>) no-repeat 0px 0px;<?php } ?>background-color:<?php echo $reviewColor; ?>;}
+			<?php if($hideLogoBarBg) { ?>
+				#logo-bar-wrapper {background:none !important;}
+				#top-menu-wrapper .ribbon-shadow-left, #top-menu-wrapper .ribbon-shadow-right {display:none;} /*ribbon shadows don't look right if logo bar has no bg*/
+				#top-menu-wrapper {width:100%;} /*looks better with a full-width top bar if there is no logo bar bg*/
+				#logo-bar-shadow {display:none;} /*don't need the logo bar shadow anymore since it's transparent*/
+				#top-menu {margin:0px auto;} /*make the top menu full width so it looks better*/
+				#cat-menu {-moz-border-radius-topleft: 5px;border-top-left-radius: 5px;-moz-border-radius-topright: 5px;border-top-right-radius: 5px;margin-top:10px;} /*round the corners of the cat menu*/
+			<?php } ?>
+			.cat-menu ul li.current_page_item a, 
+			.cat-menu ul li.current_page_ancestor a, 
+			.cat-menu ul li.current_page_parent a {background:<?php echo $reviewColor; ?> url(<?php echo get_template_directory_uri(); ?>/images/cat-menu-current-highlight.png) repeat-x 0px 0px;border-top:1px solid <?php echo $reviewColor; ?>;}	
+			/*don't give sub menu items a new top border*/
+			.cat-menu ul li.current_page_item li a, 
+			.cat-menu ul li.current_page_ancestor li a, 
+			.cat-menu ul li.current_page_parent li a {border-top:1px solid #2D2D2D;}	
+			#dontmiss-header {color: <?php echo $reviewColor; ?>;}
+			.review .overview .summary {background:<?php echo $reviewColor; ?> url(<?php echo get_template_directory_uri(); ?>/images/review-summary-bg.png) repeat-x 0px bottom;;border:1px solid <?php echo $reviewColor; ?>;}
+			.review .overview .positive-wrapper {border-bottom:1px solid <?php echo $reviewColor; ?>;}
+		</style>                
+	<?php } ?>
+	
+	<select id="select-menu-main-menu" class="selectBox" style="display: none;"><option>Navigation</option><option value="http://localhost/wp-itb/">Home</option><option value="http://localhost/wp-itb/?page_id=2">Sample Page</option></select>
+    

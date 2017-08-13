@@ -1,0 +1,343 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:242
+msgid " of the following matches"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:242
+msgid "All"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:242
+msgid "Any"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:239
+msgid "Are you sure to remove this input field?"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:235
+msgid "Are you sure?"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:151
+msgid "Aviary API Key (Photo Editing)"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/get-addon.php:1
+msgid "Best Photo Editing Tool"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:162
+msgid "Buy this Add-on"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:215
+msgid "Collapse all"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:86
+msgid "Define from what email send the message."
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:112
+msgid "Define the class of submit button."
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:80
+msgid "Define the emails used (separeted by comma) to receive emails."
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:106
+msgid "Define the label of submit button."
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:125
+msgid "Define the message when there is an error on send of email."
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:92
+msgid "Define the name of email that send the message."
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:99
+msgid "Define the subject of the email sent to you."
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/existing-meta.php:27
+msgid "Delete."
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/classes/inputs/input.file.php:427
+msgid "Drag file(s) in this box"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/classes/inputs/input.file.php:427
+msgid "Drag file(s) or directory in this box"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:213
+msgid "Drage form fields here"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:158
+msgid "Enter Aviary API Key."
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:122
+msgid "Error Message"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/existing-meta.php:1
+msgid "Existing Form Meta"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:242
+msgid "Existing forms"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:217
+msgid "Expand all"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/render.email.php:151
+msgid "File(s) are attached"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:74
+msgid "For your reference"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:59
+msgid "Form Fields"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:58
+msgid "Form Settings"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:71
+msgid "Form name"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:172
+msgid "Form styling/css"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:174
+msgid "Form styling/css."
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/existing-meta.php:18
+msgid "Form."
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/get-addon.php:1
+msgid "Get Pro + Addon"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:242
+msgid "Hide"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:152
+msgid "Learn about Aviary"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/existing-meta.php:17
+#: nm-wp-contact-form-v3.2-pro/templates/admin/existing-meta.php:25
+msgid "Meta."
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/existing-meta.php:16
+#: nm-wp-contact-form-v3.2-pro/templates/admin/existing-meta.php:24
+msgid "Name."
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:144
+msgid "Not all section will be shown at once, it add a nice sliding effect."
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:128
+msgid "Receive file mode"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:77
+msgid "Receiver(s)"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:242
+msgid "Rule # "
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:61
+#: nm-wp-contact-form-v3.2-pro/templates/admin/settings.php:195
+msgid "Save settings"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:163
+#: nm-wp-contact-form-v3.2-pro/templates/admin/get-addon.php:1
+msgid "See Demo"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:138
+msgid "Select whether file uploaded by user will be recieved to admin as attachment or link"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:242
+msgid "Select/Upload Image"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:136
+msgid "Send as Attachment (suggestion: if files sizes are normal)"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:132
+msgid "Send as Link (suggestion: if files sizes are big then use this)"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:83
+msgid "Sender Email"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:89
+msgid "Sender Name"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/existing-meta.php:26
+msgid "Shortcode."
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:242
+msgid "Show"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:142
+msgid "Slide sections using jquery?"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:96
+msgid "Subject"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:109
+msgid "Submit Button Class"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:103
+msgid "Submit Button Label"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:116
+msgid "Success Message"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/get-addon.php:1
+msgid "This plugin can be used as best Photo Editing Tool to allow your users to upload and Edit Photos online using world\\'s best Photo Editor \\'Aviary\\'. There is an Add-on for this"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/get-addon.php:1
+msgid "What is Aviary?"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:159
+msgid "You need to get your API key from Aviary to use this. It is free as long as you need paid features"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/classes/inputs/input.file.php:398
+msgid "are you sure to delete this file?"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:242
+msgid "greater then"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:242
+msgid "is"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:242
+msgid "less then"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:242
+msgid "not"
+msgstr ""
+
+#. Text in function
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:242
+msgid "only if"
+msgstr ""
+
+#. Text in echo
+#: nm-wp-contact-form-v3.2-pro/templates/admin/create-form.php:184
+msgid "select input type below and drag it on right side. Then set more options"
+msgstr ""

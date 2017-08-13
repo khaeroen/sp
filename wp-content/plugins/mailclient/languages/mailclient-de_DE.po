@@ -1,0 +1,326 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mailclient\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-08 10:49+0100\n"
+"PO-Revision-Date: 2015-10-08 10:53+0100\n"
+"Last-Translator: C Stoltenkamp <cees@walchum.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: K:\\wamp\\www\\wordpress\\wp-content\\plugins\\mailclient\n"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient.php:93
+msgid "Createmailclient"
+msgstr "Ihrer Mailbox"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient.php:94
+msgid "Mail"
+msgstr "Email"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient.php:95
+msgid "Init"
+msgstr "Initialisierung"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient.php:96
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_doc.php:43
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_doc.php:137
+msgid "Free"
+msgstr "Kostenlos"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_doc.php:44
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_doc.php:138
+#, fuzzy
+msgid "Lite"
+msgstr "Titel"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_doc.php:45
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_doc.php:139
+msgid "Prof"
+msgstr "Profi"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_doc.php:136
+msgid "Price of"
+msgstr "Preis von"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_doc.php:142
+msgid "Price of MailClient Version"
+msgstr "Preis der Mailclient Version"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_init.php:13
+msgid "Initialize a mailbox!"
+msgstr "Initialisieren Sie Ihre Mailbox!"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_init.php:15
+msgid "Servername"
+msgstr "Mail-Server"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_init.php:16
+msgid "Your Mailserver"
+msgstr "Ihr Mail-Server"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_init.php:21
+msgid "Username"
+msgstr "Benutzernamen"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_init.php:22
+msgid "Your Username"
+msgstr "Ihr benutzernamen"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_init.php:27
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_init.php:34
+msgid "Password"
+msgstr "Kennwort"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_init.php:29
+msgid "Your Password"
+msgstr "Ihr Kennwort"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_init.php:36
+msgid "Your Licence key"
+msgstr "Ihr Lizenzschlüssel"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_init.php:41
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_message.php:58
+msgid "Send"
+msgstr "Senden"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_message.php:5
+msgid "MMessageReadaMessage"
+msgstr "Lesen Sie E-Mail Nachricht"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_message.php:41
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_message.php:42
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/include/imap.php:415
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/include/imap.php:420
+msgid "Subject"
+msgstr "Betreff"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_message.php:47
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_message.php:48
+msgid "Recieved from"
+msgstr "Erhalten von:"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_message.php:68
+msgid "MMessageSendaMessage"
+msgstr "Email senden"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/mailclient_no_imap.php:4
+msgid "Sorry PHP extention IMAP is not activated on your webserver<br /><br />Ask your provider to activated this IMAP extention <br /><br />In our new version we will implement a workaround for this problem"
+msgstr "Es tut uns leid PHP-Erweiterung IMAP ist nicht auf Ihrem Webserver aktiviert<br /> <br />Fragen Sie Ihren Provider aktiviert dieses IMAP-Erweiterung <br /> <br />In unserem neuen Version werden wir eine Abhilfe für dieses Problem implementieren"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/include/imap.php:408
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/include/imap.php:471
+msgid "Delete this E-mail?"
+msgstr "Löschen Sie diese E-Mail?"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/include/imap.php:414
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/include/imap.php:419
+msgid "From"
+msgstr "Erhalten von"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/include/imap.php:416
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/include/imap.php:421
+msgid "Read"
+msgstr "Lesen"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/include/imap.php:417
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/include/imap.php:422
+msgid "Delete"
+msgstr "Entf"
+
+#: K:\wamp\www\wordpress\wp-content\plugins\mailclient/include/imap.php:468
+msgid "Read E-Mail"
+msgstr "Lesen Sie E-Mail"
+
+#~ msgid "MMessage"
+#~ msgstr "Mail-Nachricht"
+
+#~ msgid "Reciever"
+#~ msgstr "Ontvanger"
+
+#~ msgid "Send to"
+#~ msgstr "Verzenden naar:"
+
+#~ msgid "Edit"
+#~ msgstr "Wijzig"
+
+#~ msgid "delMail"
+#~ msgstr "Verwijder E-Mail"
+
+#~ msgid "System haltet!, Ask administrator"
+#~ msgstr "Systeem gestopt, Vraag Administrator"
+
+#, fuzzy
+#~ msgid "Here you can initialize a mailbox!"
+#~ msgstr "Hier kunt u gecodeerde mailbox initialiseren!"
+
+#~ msgid "Options standards"
+#~ msgstr "Kies opties"
+
+#~ msgid "Use"
+#~ msgstr "Gebruik"
+
+#~ msgid "Repeating"
+#~ msgstr "Herhaling"
+
+#~ msgid "[DoubleClick to select encrypted password]"
+#~ msgstr ""
+#~ "<p class=\"abs-button\">Klik met muis op het wachtwoord van je keus, "
+#~ "toets <strong>[ Ctrl C ]</strong> <br />Gebruik het daarna met <strong>"
+#~ "[ Ctrl V ]</strong> in je wachtwoord invoerveld.</p>"
+
+#~ msgid "Here you can initialize encrypted passwords!"
+#~ msgstr "Hier kunt u gecodeerde mailbox initialiseren!"
+
+#~ msgid "Here you can create encrypted passwords!"
+#~ msgstr "Maak een nieuw e-mail account"
+
+#~ msgid "CreatePasswords"
+#~ msgstr "Wachtwoorden"
+
+#~ msgid "Batch Post Category Move/Removed"
+#~ msgstr "Batch Post Category Verplaatsen/Verwijderen"
+
+#~ msgid "Filter data"
+#~ msgstr "Filter data"
+
+#~ msgid "Move categories"
+#~ msgstr "Verplaats Categorien"
+
+#~ msgid "Rows"
+#~ msgstr "Regels"
+
+#~ msgid "Sorted by"
+#~ msgstr "Gesorteerd op"
+
+#~ msgid "Asc or Desc"
+#~ msgstr "Op of aflopend"
+
+#~ msgid "Catogory"
+#~ msgstr "Category"
+
+#~ msgid "Keyword"
+#~ msgstr "Key-woord"
+
+#~ msgid "Tag"
+#~ msgstr "Tag"
+
+#~ msgid "Date from"
+#~ msgstr "Datum van"
+
+#~ msgid "Datum to"
+#~ msgstr "Datum tot"
+
+#~ msgid "To get started select some criteria"
+#~ msgstr "Kies voor start gewenste filter criteria"
+
+#~ msgid "Activate filter"
+#~ msgstr "Activeer filter"
+
+#~ msgid "Date format YEAR-MONTH-DAY like 2010-08-30"
+#~ msgstr "Datum formaat Jaar-Maand-Dag zoals 2010-08-30"
+
+#~ msgid "Use % for wildcards."
+#~ msgstr "Gebruik % als wildcards."
+
+#~ msgid ""
+#~ "'foo, bar': posts tagged with 'foo' or 'bar'. 'foo+bar': posts tagged "
+#~ "with both 'foo' and 'bar'."
+#~ msgstr ""
+#~ "'foo, bar': posts tag is 'foo' of 'bar'. 'foo+bar': posts tag met beiden "
+#~ "'foo' en 'bar'"
+
+#~ msgid "Author"
+#~ msgstr "Autheur"
+
+#~ msgid "Date Posted"
+#~ msgstr "Datum bericht"
+
+#~ msgid "Date Modified"
+#~ msgstr "Datum wijzeging"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Ascending"
+#~ msgstr "Oplopend"
+
+#~ msgid "Descending"
+#~ msgstr "Aflopend"
+
+#~ msgid "Previous"
+#~ msgstr "Vorig"
+
+#~ msgid "Next"
+#~ msgstr "Volgend"
+
+#~ msgid "Looked for posts in,"
+#~ msgstr "Gezocht in berichten "
+
+#~ msgid "with Tag "
+#~ msgstr "met Tag "
+
+#~ msgid "ordered by "
+#~ msgstr "op volgorde "
+
+#~ msgid "Asc or Desc "
+#~ msgstr "op of aflopend "
+
+#~ msgid "found in "
+#~ msgstr "gevonden in "
+
+#~ msgid "posts "
+#~ msgstr "berichten "
+
+#~ msgid "displayed "
+#~ msgstr "getoond "
+
+#~ msgid "per page "
+#~ msgstr "per pagina "
+
+#~ msgid "all "
+#~ msgstr "allemaal"
+
+#~ msgid "none "
+#~ msgstr "geen"
+
+#~ msgid "For this operation, you have insufficient rights "
+#~ msgstr "Voor deze handeling heeft U onvoldoende rechten "
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Categories"
+#~ msgstr "Categorien"
+
+#~ msgid "Tags"
+#~ msgstr "Tags"
+
+#~ msgid "Actions"
+#~ msgstr "Acties"
+
+#~ msgid "Aktion "
+#~ msgstr "Aktie"
+
+#~ msgid "Add"
+#~ msgstr "Toevoegen "
+
+#~ msgid "Update"
+#~ msgstr "Wijzigen "
+
+#~ msgid "Unpublished"
+#~ msgstr "Niet gepubliceerd"
+
+#~ msgid "%s ago"
+#~ msgstr "%s terug"
+
+#~ msgid "Y/m/d"
+#~ msgstr "Y/m/d"

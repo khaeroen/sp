@@ -1,0 +1,1 @@
+[12-Nov-2015 09:18:38 Asia/Jakarta] PHP Fatal error:  Call to undefined function get_header() in /var/cpanel_user/home/dirsti/public_html/wp-content/themes/itb-new-2015-update/index.php on line 1

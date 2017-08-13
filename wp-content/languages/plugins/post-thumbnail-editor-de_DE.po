@@ -1,0 +1,336 @@
+# Translation of Development (trunk) in German
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-09-27 14:55:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Development (trunk)\n"
+
+#: html/pte.php:104
+msgid "width/height"
+msgstr "Breite/Höhe"
+
+#: html/pte.php:110
+msgid "Crop and save"
+msgstr "Zuschneiden und speichern"
+
+#: html/pte.php:119
+msgid "Change the current thumbnails position:"
+msgstr "Ändere die momentane Position der Vorschaubilder"
+
+#: html/pte.php:122 php/options.php:54
+msgid "JPEG Compression"
+msgstr "JPEG Kompression"
+
+#: html/pte.php:126
+msgid "0 to 100 (Default: %d)"
+msgstr "von 0 bis 100 (Standard: %d)"
+
+#: html/pte.php:135
+msgid "Fit crop to thumbnail by adding border"
+msgstr "Passe Zuschnitt dem Vorschaubild an, indem ein Rand hinzugefügt wird"
+
+#: html/pte.php:157 php/options.php:49 post-thumbnail-editor.php:361
+msgid "Thumbnails"
+msgstr "Vorschaubilder"
+
+#: html/pte.php:158
+msgid "width"
+msgstr "Breite"
+
+#: html/pte.php:158
+msgid "W"
+msgstr "B"
+
+#: html/pte.php:159
+msgid "height"
+msgstr "Höhe"
+
+#: html/pte.php:159
+msgid "H"
+msgstr "H"
+
+#: html/pte.php:160
+msgid "crop"
+msgstr "Zuschneiden"
+
+#: html/pte.php:160
+msgid "C"
+msgstr "C"
+
+#: html/pte.php:166
+msgid "Save all"
+msgstr "Alle speichern"
+
+#: html/pte.php:171
+msgid "Reset all"
+msgstr "Alle zurücksetzen"
+
+#: html/pte.php:175
+msgid "View all/modified"
+msgstr "Alle (geänderten) anzeigen"
+
+#: html/pte.php:204
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: html/pte.php:207
+msgid "Compare/View"
+msgstr "Ansehen/Vergleichen"
+
+#: html/pte.php:214
+msgid "These thumbnails have an aspect ratio set:"
+msgstr "Diese Vorschaubilder haben einen festgelegtes Seitenverhältnis:"
+
+#: html/pte.php:223
+msgid "Current Thumbnails"
+msgstr "Aktuelle Vorschaubilder"
+
+#: html/pte.php:253
+msgid "Original"
+msgstr "Original"
+
+#: html/pte.php:260
+msgid "No image has been generated yet for image: "
+msgstr "Es wurde noch kein Vorschaubild erstellt für das Bild:"
+
+#: html/pte.php:267
+msgid "Proposed"
+msgstr "Vorgeschlagen"
+
+#: php/class-pte-image-editor-gd.php:65
+#: php/class-pte-image-editor-imagick.php:61
+msgid "Image crop failed."
+msgstr "Zuschneiden des Bildes fehlgeschlagen."
+
+#: php/functions.php:110
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#: php/functions.php:111
+msgid "Medium"
+msgstr "Mittel"
+
+#: php/functions.php:112
+msgid "Large"
+msgstr "Groß"
+
+#: php/functions.php:113
+msgid "Full Size"
+msgstr "Vollständige Größe"
+
+#: php/functions.php:241
+msgid "Invalid meta data for POST #%d: %s"
+msgstr "Ungültige Metadaten für den Beitrag #%d: %s"
+
+#: php/functions.php:246
+msgid "Please contact support"
+msgstr "Bitte kontaktiere den Support"
+
+#: php/log.php:16
+msgid "ERROR"
+msgstr "FEHLER"
+
+#: php/log.php:19
+msgid "WARNING"
+msgstr "WARNUNG"
+
+#: php/log.php:22
+msgid "INFO"
+msgstr "INFO"
+
+#: php/log.php:25
+msgid "DEBUG"
+msgstr "DEBUG"
+
+#: php/log.php:222
+msgid "ERROR Logging Message: %s"
+msgstr "FEHLERMELDUNG: %s"
+
+#: php/options.php:11
+msgid "User Options"
+msgstr "Benutzereinstellungen"
+
+#: php/options.php:16
+msgid "Debug"
+msgstr "Debug"
+
+#: php/options.php:28
+msgid "Crop Picture Size"
+msgstr "Auf Seitenverhältnis zuschneiden"
+
+#: php/options.php:34
+msgid "Reset to defaults"
+msgstr "Auf Standardeinstellungen zurücksetzen"
+
+#: php/options.php:45
+msgid "Site Options"
+msgstr "Seiteneinstellungen"
+
+#: php/options.php:59
+msgid "Cache Buster"
+msgstr "Cache Buster"
+
+#: php/options.php:87
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: php/options.php:101
+msgid "Only users with the 'manage_options' capability may make changes to these settings."
+msgstr "Nur Benutzer mit dem Recht 'manage_options' (Einstellungen bearbeiten) können diese Optionen ändern."
+
+#: php/options.php:127
+msgid "JPEG Compression needs to be set from 0 to 100."
+msgstr "JPEG Kompressionsrate muss zwischen 0 und 100 sein"
+
+#: php/options.php:165
+msgid "Crop Size must be between 0 and 10000."
+msgstr "Zuschnittgröße muss zwischen 0 und 10000 sein"
+
+#: php/options.php:184
+msgid "Enable debugging"
+msgstr "Debugging aktivieren"
+
+#: php/options.php:187
+msgid "WP_DEBUG is currently set to true and will override this setting. (debug is enabled)"
+msgstr "WP_DEBUG ist zur Zeit aktiv und wird diese Einstellung überschreiben. (debug ist aktiviert)"
+
+#: php/options.php:194
+msgid "Use <a href=\"%s\">ChromePhp</a> for log output"
+msgstr "Nutze<a href=\"%s\">ChromePhp</a> für Protokoll Ausgabe"
+
+#: php/options.php:202
+msgid "Write log output to a <a href=\"%s\">file</a>"
+msgstr "Schreibe Protokoll Ausgabe in <a href=\"%s\">file</a>"
+
+#: php/options.php:217
+msgid "I know what I'm doing, bypass the image verification."
+msgstr "Ich weiß was ich tue, überspringe den seperaten Speichervorgang"
+
+#: php/options.php:230
+msgid "Set the max size for the crop image."
+msgstr "Setzte eine maximale Zuschnittsgröße fest"
+
+#: php/options.php:231
+msgid "No entry defaults to 600"
+msgstr "Kein Eintrag setzt den Standartwert auf 600"
+
+#: php/options.php:238
+msgid "Check this to save the generated working image to disk instead of creating on the fly (experimental)"
+msgstr "Anhaken zum speichern des aktuellen Bild auf der Festplatte statt temporär (experimentell)"
+
+#: php/options.php:249
+msgid "Reset User Options"
+msgstr "Benutzereinstellungen zurücksetzen"
+
+#: php/options.php:275
+msgid "Post Thumbnail"
+msgstr "Artikel Vorschaubild"
+
+#: php/options.php:276
+msgid "Hidden"
+msgstr "Versteckt"
+
+#: php/options.php:306
+msgid "Set the compression level for resizing jpeg images (0 to 100)."
+msgstr "Lege die Kompressionsrate fü neu formatierte JPEGs fest (0 bis 100)"
+
+#: php/options.php:307
+msgid "No entry defaults to using the 'jpeg_quality' filter or 90"
+msgstr "Kein Eintrag hat \"jpeg_quality\" Filter oder 90 als Folge"
+
+#: php/options.php:319
+msgid "Append timestamp to filename. Useful for solving caching problems."
+msgstr "Fügt dem Dateinamen Zeitstempel an. Nützlich zum beheben von caching Problemen."
+
+#: php/options.php:330
+msgid "These site-wide settings can only be changed by an administrator"
+msgstr "Diese seitenweite Einstellung kann nur durch einen Administrator geändert werden"
+
+#: post-thumbnail-editor.php:360
+msgid "Edit Thumbnails"
+msgstr "Vorschaubilder bearbeiten"
+
+#. #-#-#-#-#  tmp-post-thumbnail-editor.pot (Post Thumbnail Editor 2.4.6) 
+#. #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-post-thumbnail-editor.pot (Post Thumbnail Editor 2.4.6) 
+#. #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://sewpafly.github.io/post-thumbnail-editor/"
+msgstr "http://sewpafly.github.io/post-thumbnail-editor/"
+
+#. Description of the plugin/theme
+msgid "Individually manage your post thumbnails"
+msgstr "Verändern Sie die  Vorschaubilder individuell nach Ihren Vorstellungen"
+
+#. Author of the plugin/theme
+msgid "sewpafly"
+msgstr "sewpafly"
+
+#: html/pte.php:23
+msgid "No thumbnails selected"
+msgstr "Kein Vorschaubild ausgewählt"
+
+#: html/pte.php:24
+msgid "No crop selected"
+msgstr "Kein Bildausschnitt ausgewählt"
+
+#: html/pte.php:25
+msgid "Cropping will likely result in skewed imagery"
+msgstr "Zuschnitt wird vermutlich ein verzerrtes Bild erzeugen"
+
+#: html/pte.php:26
+msgid "There was a problem saving the crop..."
+msgstr "Es gab ein Problem beim speichern des Zuschnitts..."
+
+#: html/pte.php:27 php/options.php:22
+msgid "Crop and Save"
+msgstr "Zuschneiden und Speichern"
+
+#: html/pte.php:28 html/pte.php:52
+msgid "Crop"
+msgstr "Zuschneiden"
+
+#: html/pte.php:29 html/pte.php:201
+msgid "Save"
+msgstr "Speichern"
+
+#: html/pte.php:30
+msgid "Set transparent"
+msgstr "transparent machen"
+
+#: html/pte.php:31
+msgid "transparent/white"
+msgstr "Transparent/weiß"
+
+#. #-#-#-#-#  tmp-post-thumbnail-editor.pot (Post Thumbnail Editor 2.4.6) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: html/pte.php:46 php/options.php:79 post-thumbnail-editor.php:211
+#: post-thumbnail-editor.php:251 post-thumbnail-editor.php:340
+#: post-thumbnail-editor.php:393 post-thumbnail-editor.php:394
+#: post-thumbnail-editor.php:400 post-thumbnail-editor.php:401
+#: post-thumbnail-editor.php:444
+msgid "Post Thumbnail Editor"
+msgstr "Post Thumbnail Editor"
+
+#: html/pte.php:47
+msgid "crop and resize"
+msgstr "Zuschneiden und neu formatieren"
+
+#: html/pte.php:53
+msgid "View"
+msgstr "Ansehen"
+
+#: html/pte.php:85
+msgid "Options"
+msgstr "Einstellungen"
+
+#: html/pte.php:101
+msgid "Aspect Ratio"
+msgstr "Seitenverhältnis"

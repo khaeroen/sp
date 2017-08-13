@@ -1,0 +1,23 @@
+.nm-filemanager-form input[type="text"], .nm-filemanager-form textarea{
+	background-color: #fff;
+border: 1px solid #ddd;
+font-size: 16px;
+font-size: 1.6rem;
+padding: 16px;
+padding: 1.6rem;
+width: 100%;
+-webkit-box-shadow: 5px 5px 5px 5px #888888;
+}
+
+/* for submit button */
+.nm-filemanager-form input[type="submit"]{
+background: #9bc23c;
+border: 2px solid #fff !important;
+width: 80%;
+cursor: pointer
+}
+
+.nm-filemanager-form input[type="submit"]:hover{
+	color: #fff;
+
+	}

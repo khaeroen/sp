@@ -1,0 +1,212 @@
+/*  
+    Copyright 2009-2015 ABS-Hosting.nl (email: cees@abs-hosting.nl)
+
+    This file is part of oMailCient, a plugin for WordPress.
+
+    MailCient is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 2 of the License, or
+    (at your option) any later version.
+
+    MailCient is distributed in the hope that it is useful,
+    but WITHOUT ANY WARRANTY; Without even the implied WARRANTY of
+    MERCHANTABILITY, ERRORS or FITNESS FOR A PARTICULAR PURPOS.  
+    See the GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+    Or look at   License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+/* 
+    Created on : 1-apr-2015, 12:02:34
+    Author     : cs
+*/
+.header {
+    background-color: #ccc;
+    font-size: larger;
+    min-height: 20px;
+    margin-bottom: 5px;
+}
+.bhr {
+    border-bottom: 1px #EFEFEF solid;
+    padding: 0.3em 0.3em;
+    text-align: left;
+}
+.float_left {
+    float:left;
+}
+.text_center {
+    text-align: center;
+}
+.text_bold {
+    font-weight: bold;
+}
+.feature_select {
+    text-align: center;
+    font-size: large; 
+}
+.container {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    //background-color: #009;
+}
+.bxleft {
+    float: left;
+    width: 15%;
+}
+
+//some simple styling,include as stylesheet file
+.tblInit {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.tableCol1 {
+    width: 25%;
+}
+.imgwidth100 {
+    width: 100%;
+}
+.imgwidth50 {
+    width: 50%;
+}
+.password {
+    min-width: fit-content;
+    color: red;
+    font-weight: bold;
+}
+.mess {
+    background-color: #e3e3e3;
+}
+.borderred {
+    margin-top: 1em;
+    border-radius: 15px 50px;
+    padding: 15px 15px 15px 15px;
+    width: 95%;
+    border: solid 1px red;
+}
+.whitebox {
+    background-color: #ffffff;
+    border: solid #5A5A5A thin;
+}
+.rcorners0 {
+    background-image: url('e-mail-small.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #FBFBFB;
+    border-radius: 10px;
+    border: 1px solid #7E9BAF;
+    padding: 5px 0px 5px 0px;
+    width: 99.6%;
+    margin-bottom: 5px;
+}
+.rcorners1 {
+    border-radius: 25px;
+    background: #F0F0F0;
+    padding: 20px;
+    width: 99.6%;
+    margin-bottom: 5px;
+}
+.rcorners2 {
+    border-radius: 25px;
+    border: 1px solid #7E9BAF;
+    padding-top: 10px;
+    padding-left: 10px;
+    min-height: 150px;
+    background-color: #FCFBFB;// #cbdacc;
+}
+
+.rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+.rcorners4 {
+    border-radius: 15px 50px 30px 5px;
+    background: #F0F0F0;
+    padding: 20px;
+    width: 99.6%;
+    min-height: 150px;
+}
+
+.rcorners5 {
+    border-radius: 15px 50px 30px;
+    background: #F0F0F0;
+    padding: 20px ;
+    width: 99.6%;
+    min-height: 150px;
+}
+
+.rcorners6 {
+    border-radius: 15px 50px;
+    background: #F5F5F5;//#F0F0F0;
+    padding: 20px 10px 20px 10px;
+    margin: 10px;
+    border : solid 1px #DEDEDE;
+    //width: 30%;
+    //min-height: 150px;
+} 
+
+.rcorners9 {
+    //text-align: center;
+    border-radius: 50%;
+    background-color: #e8be74;
+    padding: 20px;
+} 
+#mailHeaders {
+    border-radius: 25px;
+    border: 1px solid #7E9BAF;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: white;
+    width: 98%;
+}
+.maileven {
+    background-color: #ffffff;
+}
+.mailodd {
+    background-color: #F5F5F5;
+}
+.bhr {
+    border-bottom: 1px #EFEFEF solid;
+    padding: 0.3em 0.3em;
+}
+.hr {
+    //display: block;
+    height: 0.1em;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+.alert {
+    color: red;
+    font-weight: bold;
+}
+.mailNew {
+    color: #003399;
+    font-weight: bold;
+}
+#parent {
+    display: table;
+}
+
+#child {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: red;
+    color: #ffffff;
+}
+#div_row {
+    display: block;
+}
+.clear_all {
+    clear: both;
+}

@@ -1,0 +1,3353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Made 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-14 12:57-0500\n"
+"PO-Revision-Date: 2012-06-14 12:57-0500\n"
+"Last-Translator: Brian McCulloh <brianmcculloh@gmail.com>\n"
+"Language-Team: Industrial Themes <support@industrialthemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:27
+msgid "404 - Page Not Found"
+msgstr ""
+
+#: ../404.php:37
+msgid "That just happened."
+msgstr ""
+
+#: ../404.php:40
+msgid "We could not find the page that you requested. It is possible that it was deleted since the last time you viewed it, or that you typed in the wrong URL. In any case, we want you to find what you are looking for, so we offer you the following options:"
+msgstr ""
+
+#: ../404.php:45
+msgid "1. Go back to the"
+msgstr ""
+
+#: ../404.php:45
+msgid "home page"
+msgstr ""
+
+#: ../404.php:45
+msgid "and start your journey over."
+msgstr ""
+
+#: ../404.php:47
+msgid "2. Use the menu above to locate the section you wish to view."
+msgstr ""
+
+#: ../404.php:49
+msgid "3. Search our site:"
+msgstr ""
+
+#: ../404.php:57
+#: ../header.php:416
+#: ../search.php:169
+msgid "search"
+msgstr ""
+
+#: ../404.php:64
+#: ../search.php:176
+msgid "Enter keyword(s) and press enter"
+msgstr ""
+
+#: ../404.php:90
+#: ../archive.php:369
+#: ../footer.php:68
+#: ../footer.php:83
+#: ../footer.php:98
+#: ../footer.php:115
+#: ../index.php:177
+#: ../page.php:114
+#: ../search.php:214
+#: ../taxonomy.php:358
+#: ../template-authors.php:173
+#: ../template-review-directory-a.php:128
+#: ../template-review-directory-b.php:127
+#: ../template-reviews.php:136
+#: ../template-reviews.php:444
+msgid " Made Magazine "
+msgstr ""
+
+#: ../404.php:96
+#: ../archive.php:375
+#: ../index.php:63
+#: ../index.php:183
+#: ../page.php:120
+#: ../search.php:220
+#: ../taxonomy.php:364
+#: ../template-authors.php:179
+#: ../template-review-directory-a.php:134
+#: ../template-review-directory-b.php:133
+#: ../template-reviews.php:142
+#: ../template-reviews.php:450
+msgid "This is a widget panel. To remove this text, login to your WordPress admin panel and go to Appearance >> Widgets, and drag &amp; drop a widget into the corresponding widget panel."
+msgstr ""
+
+#: ../archive.php:67
+msgid "Posts Tagged &#8216;"
+msgstr ""
+
+#: ../archive.php:69
+#: ../archive.php:71
+#: ../archive.php:73
+msgid "Archive for "
+msgstr ""
+
+#: ../archive.php:75
+msgid "Author Archive"
+msgstr ""
+
+#: ../archive.php:77
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:222
+#: ../taxonomy.php:201
+#: ../template-reviews.php:276
+msgid "Tags:"
+msgstr ""
+
+#: ../archive.php:230
+#: ../archive.php:326
+#: ../search.php:138
+#: ../taxonomy.php:209
+#: ../taxonomy.php:305
+#: ../template-review-directory-a.php:69
+#: ../template-review-directory-b.php:69
+#: ../template-reviews.php:284
+#: ../template-reviews.php:381
+msgid "More"
+msgstr ""
+
+#: ../comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:23
+msgid "Leave a comment"
+msgstr ""
+
+#: ../comments.php:42
+#: ../comments.php:71
+msgid "&laquo;"
+msgstr ""
+
+#: ../comments.php:43
+#: ../comments.php:72
+msgid "&raquo;"
+msgstr ""
+
+#: ../comments.php:94
+msgid "Be the first to comment!"
+msgstr ""
+
+#: ../comments.php:97
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:108
+msgid "You must be logged in to post a comment."
+msgstr ""
+
+#: ../comments.php:113
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:113
+#: ../comments.php:115
+msgid "required"
+msgstr ""
+
+#: ../comments.php:115
+#: ../template-authors.php:120
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:117
+#: ../template-authors.php:123
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:125
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:127
+msgid "Leave a Response"
+msgstr ""
+
+#: ../comments.php:128
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../footer.php:69
+#: ../footer.php:84
+#: ../footer.php:99
+#: ../footer.php:116
+msgid "This is a widget panel. To remove this text, login to your WordPress admin panel and go to Appearance >> Widgets, and drag &amp; drop a widget into this widget panel."
+msgstr ""
+
+#: ../footer.php:136
+msgid "Copyright"
+msgstr ""
+
+#: ../footer.php:136
+msgid "All Rights Reserved."
+msgstr ""
+
+#: ../header.php:164
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../header.php:348
+msgid "Page Navigation"
+msgstr ""
+
+#: ../header.php:493
+msgid "Category Navigation"
+msgstr ""
+
+#: ../header.php:537
+msgid "Random Article"
+msgstr ""
+
+#: ../index.php:57
+msgid "Made Magazine"
+msgstr ""
+
+#: ../search.php:49
+msgid "Search Results"
+msgstr ""
+
+#: ../search.php:161
+msgid "No search results found. Please try your search again."
+msgstr ""
+
+#: ../taxonomy.php:328
+msgid "There are no posts in the selected taxonomy."
+msgstr ""
+
+#: ../template-authors.php:99
+msgid "Twitter"
+msgstr ""
+
+#: ../template-authors.php:102
+msgid "Facebook"
+msgstr ""
+
+#: ../template-authors.php:105
+msgid "LinkedIn"
+msgstr ""
+
+#: ../template-authors.php:108
+msgid "Google+"
+msgstr ""
+
+#: ../template-authors.php:111
+msgid "YouTube"
+msgstr ""
+
+#: ../template-authors.php:114
+msgid "Flickr"
+msgstr ""
+
+#: ../template-authors.php:117
+msgid "Digg"
+msgstr ""
+
+#: ../template-authors.php:136
+msgid "Latest: "
+msgstr ""
+
+#: ../template-review-directory-a.php:40
+#: ../template-review-directory-b.php:40
+msgid "Review Directory"
+msgstr ""
+
+#: ../template-reviews.php:43
+msgid "The specified review type "
+msgstr ""
+
+#: ../template-reviews.php:179
+msgid " Reviews"
+msgstr ""
+
+#: ../template-reviews.php:467
+msgid "Please enable "
+msgstr ""
+
+#: ../functions/custom.php:103
+msgid "Top Menu"
+msgstr ""
+
+#: ../functions/custom.php:103
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions/custom.php:103
+msgid "Sub Menu"
+msgstr ""
+
+#: ../functions/custom.php:103
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions/custom.php:447
+msgid "Connect Information"
+msgstr ""
+
+#: ../functions/custom.php:455
+msgid "Enter your Twitter username."
+msgstr ""
+
+#: ../functions/custom.php:463
+msgid "Enter your Facebook username/alias."
+msgstr ""
+
+#: ../functions/custom.php:467
+msgid "Google Plus"
+msgstr ""
+
+#: ../functions/custom.php:471
+msgid "Enter your Google Plus account ID."
+msgstr ""
+
+#: ../functions/custom.php:479
+msgid "Enter your LinkedIn username."
+msgstr ""
+
+#: ../functions/custom.php:487
+msgid "Enter your Digg username."
+msgstr ""
+
+#: ../functions/custom.php:495
+msgid "Enter your flickr username."
+msgstr ""
+
+#: ../functions/custom.php:503
+msgid "Enter your YouTube username."
+msgstr ""
+
+#: ../functions/custom.php:530
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../functions/custom.php:536
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions/custom.php:536
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions/custom.php:545
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions/meta-boxes.php:13
+#: ../functions/meta-boxes.php:21
+#: ../functions/meta-boxes.php:30
+msgid "Featured Image Size"
+msgstr ""
+
+#: ../functions/meta-boxes.php:15
+#: ../functions/meta-boxes.php:23
+#: ../functions/meta-boxes.php:32
+msgid "Featured Video"
+msgstr ""
+
+#: ../functions/meta-boxes.php:17
+#: ../functions/meta-boxes.php:25
+#: ../functions/meta-boxes.php:36
+#: ../functions/review-options.php:730
+#: ../functions/review-options.php:858
+msgid "Layout"
+msgstr ""
+
+#: ../functions/meta-boxes.php:34
+msgid "Rating Info"
+msgstr ""
+
+#: ../functions/meta-boxes.php:53
+msgid "Medium"
+msgstr ""
+
+#: ../functions/meta-boxes.php:54
+#: ../functions/review-options.php:783
+#: ../functions/theme-options.php:415
+#: ../functions/widgets.php:791
+#: ../functions/widgets.php:1412
+#: ../functions/widgets.php:1817
+msgid "Small"
+msgstr ""
+
+#: ../functions/meta-boxes.php:55
+msgid "Full"
+msgstr ""
+
+#: ../functions/meta-boxes.php:56
+msgid "Hidden"
+msgstr ""
+
+#: ../functions/meta-boxes.php:62
+msgid "These settings overwrite the site-wide settings in the theme options pages."
+msgstr ""
+
+#: ../functions/meta-boxes.php:82
+msgid "Copy + Paste video embed code here. If you use this feature, the single post view will display the video instead of the featured image, and the rest of the site will use the featured image when displaying this post (e.g. home page and archive pages)."
+msgstr ""
+
+#: ../functions/meta-boxes.php:112
+msgid "These settings overwrite the global settings in the theme options pages. Select 'Null' or leave blank to defer to the global setting. Note: not all settings will apply to all post types. For instance, Review Ad will only apply to review pages, not regular blog posts (so selecting it would be a moo point. You know, like a cow's opinion - it doesn't matter)."
+msgstr ""
+
+#: ../functions/meta-boxes.php:123
+#: ../functions/meta-boxes.php:337
+msgid "Don't Miss:"
+msgstr ""
+
+#: ../functions/meta-boxes.php:127
+#: ../functions/meta-boxes.php:140
+#: ../functions/meta-boxes.php:153
+#: ../functions/meta-boxes.php:166
+#: ../functions/meta-boxes.php:179
+#: ../functions/meta-boxes.php:192
+#: ../functions/meta-boxes.php:211
+#: ../functions/meta-boxes.php:224
+#: ../functions/meta-boxes.php:237
+#: ../functions/meta-boxes.php:250
+#: ../functions/meta-boxes.php:264
+#: ../functions/meta-boxes.php:278
+#: ../functions/meta-boxes.php:292
+#: ../functions/meta-boxes.php:341
+#: ../functions/meta-boxes.php:354
+#: ../functions/meta-boxes.php:367
+#: ../functions/meta-boxes.php:380
+#: ../functions/meta-boxes.php:393
+#: ../functions/meta-boxes.php:406
+#: ../functions/meta-boxes.php:419
+#: ../functions/meta-boxes.php:616
+#: ../functions/meta-boxes.php:625
+#: ../functions/meta-boxes.php:634
+#: ../functions/meta-boxes.php:643
+msgid "Show"
+msgstr ""
+
+#: ../functions/meta-boxes.php:129
+#: ../functions/meta-boxes.php:142
+#: ../functions/meta-boxes.php:155
+#: ../functions/meta-boxes.php:168
+#: ../functions/meta-boxes.php:181
+#: ../functions/meta-boxes.php:194
+#: ../functions/meta-boxes.php:213
+#: ../functions/meta-boxes.php:226
+#: ../functions/meta-boxes.php:239
+#: ../functions/meta-boxes.php:252
+#: ../functions/meta-boxes.php:266
+#: ../functions/meta-boxes.php:280
+#: ../functions/meta-boxes.php:294
+#: ../functions/meta-boxes.php:343
+#: ../functions/meta-boxes.php:356
+#: ../functions/meta-boxes.php:369
+#: ../functions/meta-boxes.php:382
+#: ../functions/meta-boxes.php:395
+#: ../functions/meta-boxes.php:408
+#: ../functions/meta-boxes.php:421
+#: ../functions/meta-boxes.php:618
+#: ../functions/meta-boxes.php:627
+#: ../functions/meta-boxes.php:636
+#: ../functions/meta-boxes.php:645
+#: ../functions/theme-options.php:1944
+#: ../functions/theme-options.php:2019
+msgid "Hide"
+msgstr ""
+
+#: ../functions/meta-boxes.php:131
+#: ../functions/meta-boxes.php:144
+#: ../functions/meta-boxes.php:157
+#: ../functions/meta-boxes.php:170
+#: ../functions/meta-boxes.php:183
+#: ../functions/meta-boxes.php:196
+#: ../functions/meta-boxes.php:215
+#: ../functions/meta-boxes.php:228
+#: ../functions/meta-boxes.php:241
+#: ../functions/meta-boxes.php:254
+#: ../functions/meta-boxes.php:268
+#: ../functions/meta-boxes.php:282
+#: ../functions/meta-boxes.php:296
+#: ../functions/meta-boxes.php:345
+#: ../functions/meta-boxes.php:358
+#: ../functions/meta-boxes.php:371
+#: ../functions/meta-boxes.php:384
+#: ../functions/meta-boxes.php:397
+#: ../functions/meta-boxes.php:410
+#: ../functions/meta-boxes.php:423
+msgid "Null"
+msgstr ""
+
+#: ../functions/meta-boxes.php:136
+#: ../functions/meta-boxes.php:350
+msgid "Latest:"
+msgstr ""
+
+#: ../functions/meta-boxes.php:149
+#: ../functions/meta-boxes.php:363
+msgid "Sharebox:"
+msgstr ""
+
+#: ../functions/meta-boxes.php:162
+msgid "Related:"
+msgstr ""
+
+#: ../functions/meta-boxes.php:175
+msgid "Authorbox:"
+msgstr ""
+
+#: ../functions/meta-boxes.php:188
+#: ../functions/meta-boxes.php:376
+msgid "Trending:"
+msgstr ""
+
+#: ../functions/meta-boxes.php:207
+#: ../functions/meta-boxes.php:389
+msgid "Header Ad:"
+msgstr ""
+
+#: ../functions/meta-boxes.php:220
+#: ../functions/meta-boxes.php:402
+msgid "Menu Ad:"
+msgstr ""
+
+#: ../functions/meta-boxes.php:233
+#: ../functions/meta-boxes.php:415
+msgid "Latest Ad:"
+msgstr ""
+
+#: ../functions/meta-boxes.php:246
+msgid "Overview Ad:"
+msgstr ""
+
+#: ../functions/meta-boxes.php:260
+msgid "Review Ad:"
+msgstr ""
+
+#: ../functions/meta-boxes.php:274
+msgid "Content Ad:"
+msgstr ""
+
+#: ../functions/meta-boxes.php:288
+msgid "Comments Ad:"
+msgstr ""
+
+#: ../functions/meta-boxes.php:326
+msgid "These settings overwrite the global settings in the theme options pages. Select \"Null\" or leave blank to defer to the global setting."
+msgstr ""
+
+#: ../functions/meta-boxes.php:445
+msgid "Positives"
+msgstr ""
+
+#: ../functions/meta-boxes.php:449
+msgid "Negatives"
+msgstr ""
+
+#: ../functions/meta-boxes.php:486
+#: ../functions/meta-boxes.php:523
+#: ../functions/meta-boxes.php:546
+#: ../functions/meta-boxes.php:570
+msgid "Rating"
+msgstr ""
+
+#: ../functions/meta-boxes.php:487
+msgid "Select number of stars"
+msgstr ""
+
+#: ../functions/meta-boxes.php:524
+msgid "Enter whole numbers from 0 to 100"
+msgstr ""
+
+#: ../functions/meta-boxes.php:547
+msgid "Enter decimals from 0 to 10"
+msgstr ""
+
+#: ../functions/meta-boxes.php:571
+msgid "Select letter grades"
+msgstr ""
+
+#: ../functions/meta-boxes.php:613
+msgid "Hide Rating"
+msgstr ""
+
+#: ../functions/meta-boxes.php:614
+msgid "You can post reviews that do not have ratings. If you select Hide, there will be no rating assigned to this post."
+msgstr ""
+
+#: ../functions/meta-boxes.php:622
+msgid "Hide Overview"
+msgstr ""
+
+#: ../functions/meta-boxes.php:623
+msgid "You can post reviews that do not have the overview section. If you select Hide, the entire overview section will not be displayed on this single review page."
+msgstr ""
+
+#: ../functions/meta-boxes.php:631
+msgid "Hide Bottom Line"
+msgstr ""
+
+#: ../functions/meta-boxes.php:632
+msgid "The Bottom Line just grabs your post excerpt and displays it as the bottom line text. If you select Hide, the bottom line area will not be displayed on this single review page."
+msgstr ""
+
+#: ../functions/meta-boxes.php:640
+msgid "Hide \"Full Article\" Bar"
+msgstr ""
+
+#: ../functions/meta-boxes.php:641
+msgid "You can post reviews that do not have the full article bar. If you select Hide, the info bar with the \"Full Article\" text and the author will not be displayed on this single review page."
+msgstr ""
+
+#: ../functions/oswc-post-types.php:107
+msgid " Articles"
+msgstr ""
+
+#: ../functions/oswc-post-types.php:108
+msgid " Article"
+msgstr ""
+
+#: ../functions/oswc-post-types.php:109
+msgid "Add new article"
+msgstr ""
+
+#: ../functions/oswc-post-types.php:110
+msgid "Edit article"
+msgstr ""
+
+#: ../functions/oswc-post-types.php:111
+msgid "New article"
+msgstr ""
+
+#: ../functions/oswc-post-types.php:112
+msgid "View article"
+msgstr ""
+
+#: ../functions/oswc-post-types.php:113
+msgid "Search articles"
+msgstr ""
+
+#: ../functions/oswc-post-types.php:114
+msgid "No articles found"
+msgstr ""
+
+#: ../functions/oswc-post-types.php:115
+msgid "No articles found in Trash"
+msgstr ""
+
+#: ../functions/oswc-post-types.php:167
+msgid "Search "
+msgstr ""
+
+#: ../functions/oswc-post-types.php:168
+msgid "All "
+msgstr ""
+
+#: ../functions/oswc-post-types.php:169
+#: ../functions/oswc-post-types.php:170
+msgid "Parent "
+msgstr ""
+
+#: ../functions/oswc-post-types.php:171
+msgid "Edit "
+msgstr ""
+
+#: ../functions/oswc-post-types.php:172
+msgid "Update "
+msgstr ""
+
+#: ../functions/oswc-post-types.php:173
+msgid "Add New "
+msgstr ""
+
+#: ../functions/oswc-post-types.php:174
+msgid "New "
+msgstr ""
+
+#: ../functions/oswc-post-types.php:385
+msgid "These widgets appear in the right sidebar of the "
+msgstr ""
+
+#: ../functions/oswc-post-types.php:395
+msgid "These widgets appear to the right of the featured slider on the "
+msgstr ""
+
+#: ../functions/oswc-post-types.php:736
+#: ../functions/oswc-post-types.php:812
+msgid "Total Score"
+msgstr ""
+
+#: ../functions/review-options.php:41
+#: ../functions/theme-options.php:365
+#: ../functions/theme-options.php:782
+#: ../functions/theme-options.php:983
+#: ../functions/theme-options.php:1354
+#: ../functions/theme-options.php:1765
+msgid "Options saved"
+msgstr ""
+
+#: ../functions/review-options.php:59
+msgid "Review Options"
+msgstr ""
+
+#: ../functions/review-options.php:79
+#: ../functions/theme-options.php:548
+#: ../functions/theme-options.php:671
+msgid "Review Types"
+msgstr ""
+
+#: ../functions/review-options.php:82
+msgid "separated by commas"
+msgstr ""
+
+#: ../functions/review-options.php:86
+msgid "Easy as 1, 2, 3..."
+msgstr ""
+
+#: ../functions/review-options.php:87
+msgid "1. Enter Types"
+msgstr ""
+
+#: ../functions/review-options.php:88
+msgid "2. Click Update"
+msgstr ""
+
+#: ../functions/review-options.php:89
+msgid "3. Adjust Settings"
+msgstr ""
+
+#: ../functions/review-options.php:95
+msgid "Example: Laptop, Tablet, Smart Phone"
+msgstr ""
+
+#: ../functions/review-options.php:96
+msgid "WARNING: Removing or renaming a review type will cause you to lose all settings. Instead, disable it below. If you need to rename a review type, see the FAQ in the theme item description for instructions on how to do so."
+msgstr ""
+
+#: ../functions/review-options.php:98
+msgid "Click \"Update Review Types\" after you enter your review types to refresh the settings panels below."
+msgstr ""
+
+#: ../functions/review-options.php:99
+msgid "Tip: it is recommended (but not required) to use the singular instead of plural version of the review type name (\"Movie\" instead of \"Movies\") for aesthetic purposes. You can name the review page in your menu whatever you want independant of the official review type name entered above."
+msgstr ""
+
+#: ../functions/review-options.php:100
+msgid "Make sure you capitalize the names of your review types and separate each one with a comma!"
+msgstr ""
+
+#: ../functions/review-options.php:101
+msgid "Also any time you modify your list of review types you should go to Settings >> Permalinks and click Save."
+msgstr ""
+
+#: ../functions/review-options.php:237
+msgid " Settings"
+msgstr ""
+
+#: ../functions/review-options.php:247
+msgid "Review Type Status"
+msgstr ""
+
+#: ../functions/review-options.php:250
+#: ../functions/review-options.php:493
+#: ../functions/review-options.php:765
+#: ../functions/review-options.php:774
+#: ../functions/review-options.php:793
+#: ../functions/review-options.php:802
+#: ../functions/review-options.php:811
+#: ../functions/review-options.php:820
+#: ../functions/review-options.php:829
+#: ../functions/review-options.php:893
+#: ../functions/review-options.php:902
+#: ../functions/review-options.php:911
+#: ../functions/review-options.php:920
+#: ../functions/review-options.php:929
+#: ../functions/review-options.php:938
+#: ../functions/review-options.php:970
+#: ../functions/review-options.php:979
+#: ../functions/review-options.php:988
+msgid "Enabled"
+msgstr ""
+
+#: ../functions/review-options.php:252
+#: ../functions/review-options.php:495
+#: ../functions/review-options.php:767
+#: ../functions/review-options.php:776
+#: ../functions/review-options.php:795
+#: ../functions/review-options.php:804
+#: ../functions/review-options.php:813
+#: ../functions/review-options.php:822
+#: ../functions/review-options.php:831
+#: ../functions/review-options.php:895
+#: ../functions/review-options.php:904
+#: ../functions/review-options.php:913
+#: ../functions/review-options.php:922
+#: ../functions/review-options.php:931
+#: ../functions/review-options.php:940
+#: ../functions/review-options.php:972
+#: ../functions/review-options.php:981
+#: ../functions/review-options.php:990
+msgid "Disabled"
+msgstr ""
+
+#: ../functions/review-options.php:253
+msgid "Disabling this review type will retain all the settings and reviews."
+msgstr ""
+
+#: ../functions/review-options.php:260
+msgid "Global Settings"
+msgstr ""
+
+#: ../functions/review-options.php:272
+msgid "These settings apply to all the pages in this review type, including the front page, taxonomy pages, and single review pages."
+msgstr ""
+
+#: ../functions/review-options.php:280
+msgid "Number of Taxonomies"
+msgstr ""
+
+#: ../functions/review-options.php:289
+#: ../functions/review-options.php:603
+#: ../functions/review-options.php:1015
+msgid "If you change this number you must click Save Changes to update the number of textboxes below."
+msgstr ""
+
+#: ../functions/review-options.php:293
+msgid "Taxonomies"
+msgstr ""
+
+#: ../functions/review-options.php:324
+msgid "Primary:"
+msgstr ""
+
+#: ../functions/review-options.php:326
+msgid "Secondary:"
+msgstr ""
+
+#: ../functions/review-options.php:334
+msgid "Each value entered will be added as a new custom taxonomy for this review type. Think of taxonomies as a way of grouping and organizing the posts in this review type. Taxonomies are just like regular WordPress categories that you assign to standard posts, except they are tailored to this specific review type. For instance, for a Movie review type, the taxonomies could be Genre, Director, MPAA Rating, and Main Actor. The primary taxonomy is what is used to create the taxonomy submenu."
+msgstr ""
+
+#: ../functions/review-options.php:342
+msgid "Display Header Ad"
+msgstr ""
+
+#: ../functions/review-options.php:345
+msgid "Show the header ad for this review type"
+msgstr ""
+
+#: ../functions/review-options.php:349
+#: ../functions/theme-options.php:1389
+msgid "Header Ad HTML"
+msgstr ""
+
+#: ../functions/review-options.php:352
+msgid "This will override the value specified in the standard Theme Options for this review type (optional)"
+msgstr ""
+
+#: ../functions/review-options.php:356
+msgid "Review-Specific Latest Slider"
+msgstr ""
+
+#: ../functions/review-options.php:359
+msgid "The latest slider should only show posts from the current review type"
+msgstr ""
+
+#: ../functions/review-options.php:363
+msgid "Hide \"Review\" Verbiage"
+msgstr ""
+
+#: ../functions/review-options.php:366
+msgid "Hide the word \"Review\" or \"Reviews\" wherever it is appended to a label or header."
+msgstr ""
+
+#: ../functions/review-options.php:377
+msgid "Ratings, Colors, and Styles"
+msgstr ""
+
+#: ../functions/review-options.php:387
+#: ../functions/theme-options.php:1899
+msgid "Skin"
+msgstr ""
+
+#: ../functions/review-options.php:390
+#: ../functions/theme-options.php:1902
+msgid "Light"
+msgstr ""
+
+#: ../functions/review-options.php:392
+#: ../functions/theme-options.php:1904
+msgid "Dark"
+msgstr ""
+
+#: ../functions/review-options.php:396
+msgid "Main Color"
+msgstr ""
+
+#: ../functions/review-options.php:407
+msgid "The main review color that applies to the menu backgrounds and widget icon backgrounds"
+msgstr ""
+
+#: ../functions/review-options.php:411
+msgid "Link Color"
+msgstr ""
+
+#: ../functions/review-options.php:422
+msgid "The color of hyperlinks (leave blank to use default color)"
+msgstr ""
+
+#: ../functions/review-options.php:426
+msgid "Background Color"
+msgstr ""
+
+#: ../functions/review-options.php:437
+msgid "The page background color (leave blank to use default color)"
+msgstr ""
+
+#: ../functions/review-options.php:441
+msgid "Rating Type"
+msgstr ""
+
+#: ../functions/review-options.php:490
+msgid "Rating Color Ranges"
+msgstr ""
+
+#: ../functions/review-options.php:496
+msgid "Use rating background colors based on rating color ranges specified below (does not apply to star ratings). Note: the rating background color will still display behind the Total Score on single reviews."
+msgstr ""
+
+#: ../functions/review-options.php:502
+msgid "The following four values will split the ratings into five possible color ranges, from least to greatest: red, orange, yellow, light green, and dark green. Use whole numbers between 0 and 100 for percentage ratings or decimals between 0 and 10 for number ratings. The five possible colors are hard-coded into style.css lines 142 - 146, so if you want to override the standard colors you will need to add style to your custom.css file (recommended) or edit those lines in style.css (will be overwritten if you update the theme)"
+msgstr ""
+
+#: ../functions/review-options.php:509
+msgid "Color Ranges"
+msgstr ""
+
+#: ../functions/review-options.php:524
+msgid "Recommended values: 20, 40, 60, 80 (percentages) and 2, 4, 6, 8 (numbers)."
+msgstr ""
+
+#: ../functions/review-options.php:528
+msgid "Star Color"
+msgstr ""
+
+#: ../functions/review-options.php:594
+msgid "Number of Rating Criteria"
+msgstr ""
+
+#: ../functions/review-options.php:607
+msgid "Rating Criteria"
+msgstr ""
+
+#: ../functions/review-options.php:632
+msgid "Each value entered will be added in the \"Review Info\" box under the post content when editing a review, and will be averaged into the total score for the review. If you only specify one rating criteria it will be used as the total score."
+msgstr ""
+
+#: ../functions/review-options.php:642
+msgid "For the following image URL options you can use the Media >> Add New screen to upload your image. Copy + Paste the URL of your uploaded image into the appropriate box below"
+msgstr ""
+
+#: ../functions/review-options.php:646
+#: ../functions/theme-options.php:1892
+msgid "Logo URL"
+msgstr ""
+
+#: ../functions/review-options.php:649
+msgid "The URL of the review type logo (leave blank to use main site logo specified in Theme Options >> Miscellaneous)"
+msgstr ""
+
+#: ../functions/review-options.php:653
+msgid "Icon Image URL (Dark on Light)"
+msgstr ""
+
+#: ../functions/review-options.php:656
+msgid "The URL of the review icon for use on light backgrounds. The icon itself should be dark."
+msgstr ""
+
+#: ../functions/review-options.php:660
+msgid "Icon Image URL (Light on Dark)"
+msgstr ""
+
+#: ../functions/review-options.php:663
+msgid "The URL of the review icon for use on dark backgrounds. The icon itself should be light. Please note, you should specify both a light and a dark icon since, even if you are not using the dark color scheme anywhere on your site, there are still a few places where a dark on light icon is needed. The exception to this would be if the icon you are using looks good on light and dark backgrounds, in which case you can leave this box blank."
+msgstr ""
+
+#: ../functions/review-options.php:667
+msgid "Icon Image URL (Admin)"
+msgstr ""
+
+#: ../functions/review-options.php:670
+msgid "The URL of the review icon that displays in your WordPress dashboard"
+msgstr ""
+
+#: ../functions/review-options.php:674
+msgid "Background Image URL"
+msgstr ""
+
+#: ../functions/review-options.php:677
+msgid "The URL of the background image (leave blank to use the main site background image specified in Theme Options >> Miscellaneous)"
+msgstr ""
+
+#: ../functions/review-options.php:681
+msgid "Background Attachment"
+msgstr ""
+
+#: ../functions/review-options.php:684
+msgid "Fixed"
+msgstr ""
+
+#: ../functions/review-options.php:687
+#: ../functions/theme-options.php:1957
+msgid "Scroll"
+msgstr ""
+
+#: ../functions/review-options.php:689
+msgid "The CSS positioning of the background image"
+msgstr ""
+
+#: ../functions/review-options.php:693
+#: ../functions/theme-options.php:1924
+msgid "Logo Bar BG Image URL"
+msgstr ""
+
+#: ../functions/review-options.php:696
+msgid "The URL of the logo bar background image (leave blank to use the review color specified above as the background color)"
+msgstr ""
+
+#: ../functions/review-options.php:700
+#: ../functions/theme-options.php:1931
+msgid "Hide Logo Bar Background"
+msgstr ""
+
+#: ../functions/review-options.php:703
+msgid "Do not display anything for the background of the logo bar, regardless of what is specified above for the review color and logo bar bg image url. This is handy if you want to let your main background image show through in the logo bar area."
+msgstr ""
+
+#: ../functions/review-options.php:714
+#: ../functions/theme-options.php:222
+msgid "Front Page"
+msgstr ""
+
+#: ../functions/review-options.php:726
+msgid "This is the front page of this specific review type. Each review type you create has its own front page, which can be thought of as a minisite homepage. These settings all work independently of each other review type and the main site front page (Theme Options >> Front Page)."
+msgstr ""
+
+#: ../functions/review-options.php:762
+#: ../functions/theme-options.php:401
+msgid "Featured Slider"
+msgstr ""
+
+#: ../functions/review-options.php:771
+#: ../functions/review-options.php:890
+#: ../functions/review-options.php:985
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions/review-options.php:780
+#: ../functions/theme-options.php:412
+msgid "Featured Slider Size"
+msgstr ""
+
+#: ../functions/review-options.php:786
+#: ../functions/theme-options.php:418
+#: ../functions/widgets.php:789
+#: ../functions/widgets.php:1410
+#: ../functions/widgets.php:1815
+msgid "Large"
+msgstr ""
+
+#: ../functions/review-options.php:790
+#: ../functions/review-options.php:899
+#: ../functions/review-options.php:967
+msgid "Dont-Miss Bar"
+msgstr ""
+
+#: ../functions/review-options.php:799
+#: ../functions/review-options.php:908
+#: ../functions/review-options.php:976
+#: ../functions/theme-options.php:2015
+msgid "Latest Slider"
+msgstr ""
+
+#: ../functions/review-options.php:808
+#: ../functions/review-options.php:917
+msgid "Review Excerpts"
+msgstr ""
+
+#: ../functions/review-options.php:817
+#: ../functions/review-options.php:926
+msgid "Review Meta"
+msgstr ""
+
+#: ../functions/review-options.php:822
+#: ../functions/review-options.php:931
+msgid "The rating, number of comments, date, comments, tags, etc."
+msgstr ""
+
+#: ../functions/review-options.php:826
+#: ../functions/review-options.php:935
+#: ../functions/theme-options.php:576
+msgid "Trending Slider"
+msgstr ""
+
+#: ../functions/review-options.php:842
+msgid "Taxonomy Pages"
+msgstr ""
+
+#: ../functions/review-options.php:854
+msgid "These are pages that list articles from your taxonomies within the review type. Any time you click on a taxonomy link (for instance \"Genre\" in a \"Movie\" review type), you are viewing a taxonomy page. It is the same as a standard WordPress category archive page, except it lists posts from the custom taxonomies that you have specified for this review type."
+msgstr ""
+
+#: ../functions/review-options.php:951
+msgid "Single Review Pages"
+msgstr ""
+
+#: ../functions/review-options.php:963
+msgid "These are the full review details page, and they work just like regular WordPress post single pages, except all of these settings only apply to a single review page for this review type. There are several options that can be overwritten on a per-post basis (see the Layout meta panel below the post when editing the review for more information)."
+msgstr ""
+
+#: ../functions/review-options.php:991
+msgid "This enables the Sidebar next to the post content. If disabled, the post content will expand to fulll-width automatically, but the sidebar will still display next to the review overview panel at the top."
+msgstr ""
+
+#: ../functions/review-options.php:995
+msgid "Summary Header Text"
+msgstr ""
+
+#: ../functions/review-options.php:998
+msgid "The header text for the summary box that houses all of the post meta information (leave blank for default value of \"Summary\")"
+msgstr ""
+
+#: ../functions/review-options.php:1006
+msgid "Number of Meta Fields"
+msgstr ""
+
+#: ../functions/review-options.php:1019
+msgid "Meta Fields"
+msgstr ""
+
+#: ../functions/review-options.php:1038
+msgid "Each value entered will be added in the \"Review Info\" box under the post content when editing a review, and will be displayed in the review summary box on single review pages. Meta fields should be used for identifying information that is not easily grouped into a list of taxonomies (categories). For instance, for a Movie review type, this could include such information as Length, Synopsis, Release Date, and Producers."
+msgstr ""
+
+#: ../functions/review-options.php:1046
+msgid "Positives Label"
+msgstr ""
+
+#: ../functions/review-options.php:1052
+msgid "Negatives Label"
+msgstr ""
+
+#: ../functions/review-options.php:1058
+msgid "Bottom Line Label"
+msgstr ""
+
+#: ../functions/review-options.php:1064
+msgid "Position of Taxonomies"
+msgstr ""
+
+#: ../functions/review-options.php:1067
+msgid "Above Meta Fields"
+msgstr ""
+
+#: ../functions/review-options.php:1069
+msgid "Below Meta Fields"
+msgstr ""
+
+#: ../functions/review-options.php:1070
+msgid "On single review pages in the overview panel, you can list taxonomies above or below the review meta fields."
+msgstr ""
+
+#: ../functions/review-options.php:1074
+msgid "Full Article Header Text"
+msgstr ""
+
+#: ../functions/review-options.php:1077
+msgid "The header text for the Full Article Header bar that appears below the review overview area and above the full review content (leave blank for default value of \"Full Article\")"
+msgstr ""
+
+#: ../functions/review-options.php:1081
+msgid "Number of Related Posts"
+msgstr ""
+
+#: ../functions/review-options.php:1090
+msgid "Maximum number of articles to display in each of the tabbed related posts boxes"
+msgstr ""
+
+#: ../functions/review-options.php:1091
+msgid "(may be less depending on how many related posts there are)"
+msgstr ""
+
+#: ../functions/theme-options.php:220
+msgid "Theme Options"
+msgstr ""
+
+#: ../functions/theme-options.php:222
+msgid "Getting Started"
+msgstr ""
+
+#: ../functions/theme-options.php:222
+#: ../functions/theme-options.php:1664
+msgid "Single Posts"
+msgstr ""
+
+#: ../functions/theme-options.php:222
+msgid "Other Pages"
+msgstr ""
+
+#: ../functions/theme-options.php:222
+msgid "Ads"
+msgstr ""
+
+#: ../functions/theme-options.php:222
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../functions/theme-options.php:279
+msgid "Introduction &amp; How To Get Help"
+msgstr ""
+
+#: ../functions/theme-options.php:282
+msgid "The Theme Options page is separated into tabs to make it easier to manage the abundance of options. If you want to skip all this and just get your site working, you should be able to get by with changing a couple of the options on the Miscellaneous tab, and you are in business. The rest of these settings exist to give you the option of customizing your website to whatever level you want. Some of the tabs are further categorized by toggle bars for your convenience. Just click the toggle bar title to expand the section and manage the options, and click it again to collapse it. The options are layed out in an intuitive, easy-to-use format that makes it easy for you to find the setting you want to adjust. There is a short description next to each option, so if something seems confusing at first, just look at the description and you will probably figure it out. If at any time you do get stuck and cannot figure out how to make the theme do what you want it to do, you have four options at your disposal:"
+msgstr ""
+
+#: ../functions/theme-options.php:285
+msgid "Refer to the"
+msgstr ""
+
+#: ../functions/theme-options.php:285
+msgid "help documentation"
+msgstr ""
+
+#: ../functions/theme-options.php:285
+msgid "that is inside of the theme folder folder, as it contains further detailed information on using the theme."
+msgstr ""
+
+#: ../functions/theme-options.php:286
+msgid "Refer to the FAQ found in the Live Demo."
+msgstr ""
+
+#: ../functions/theme-options.php:287
+msgid "Search for help on the support forum, or post a new topic with your question:"
+msgstr ""
+
+#: ../functions/theme-options.php:287
+msgid "Support Forum"
+msgstr ""
+
+#: ../functions/theme-options.php:288
+msgid "Contact the author of the theme via a "
+msgstr ""
+
+#: ../functions/theme-options.php:288
+msgid "Theme Forest message"
+msgstr ""
+
+#: ../functions/theme-options.php:291
+msgid "We know what it is like to be frustrated while trying to use a theme, and we want you to know that we are here to help. We want you to fully enjoy all the benefits of this theme that we took months to build!"
+msgstr ""
+
+#: ../functions/theme-options.php:294
+msgid "Explanation of the Theme Options Tabs"
+msgstr ""
+
+#: ../functions/theme-options.php:298
+msgid "FRONT PAGE tab"
+msgstr ""
+
+#: ../functions/theme-options.php:298
+msgid "these settings let you adjust the layout and style of the front page of your site. This tab is split into the main components that make up the front page, including the Featured Slider, the Spotlight Slider, the Trending Slider, the Category panels, and the Sidebar. Whether you are using \"Your latest posts\" as the \"Front page displays\" option on the Settings >> Reading Settings page, or you have selected a specific page as your front page, this is where you manage the settings. Keep in mind, this tab deals with the layout of the elements specific to the front page. If you are wondering about things like the Latest slider, the background, logo, colors, ad placement, etc., you will find those on other tabs, such as the Ads tab or the Miscellaneous tab, since they are elements that appear on more than just the front page."
+msgstr ""
+
+#: ../functions/theme-options.php:304
+msgid "SINGLE POSTS tab"
+msgstr ""
+
+#: ../functions/theme-options.php:304
+msgid "these settings apply to all single post views, including regular posts and reviews. This tab contains settings organized by single post options (regular WordPress posts), single review options (your custom created post types), and post + review options (settings that apply to both regular post and review pages)."
+msgstr ""
+
+#: ../functions/theme-options.php:310
+msgid "OTHER PAGES tab"
+msgstr ""
+
+#: ../functions/theme-options.php:310
+msgid "these settings apply to all pages except the front page and single post/review pages, including such pages as Archives, Search Results, and the Author listing page, among others. This tab is split into the following four sub-sections:"
+msgstr ""
+
+#: ../functions/theme-options.php:313
+msgid "Archive Pages - when you click a link in your sidebar calendar widget, or you are viewing all of the posts from a specific tag/category/author, for instance, you are viewing an \"archive page\""
+msgstr ""
+
+#: ../functions/theme-options.php:314
+msgid "Search Results - when you enter keywords in the search box and hit enter, the resulting page is the \"search results\" page."
+msgstr ""
+
+#: ../functions/theme-options.php:315
+msgid "Authors Page - this is setup by creating a page and assigning the Authors Page template."
+msgstr ""
+
+#: ../functions/theme-options.php:316
+msgid "More Page Options - this includes the rest of the pages, including 404 pages, WordPress created pages, the full-width page template, etc."
+msgstr ""
+
+#: ../functions/theme-options.php:323
+msgid "ADS tab"
+msgstr ""
+
+#: ../functions/theme-options.php:323
+msgid "This theme has a built-in advertising framework that lets you specify the ads that display throughout your pages. You can display different ads on different types of pages, which are divided out between the various toggle panels on the Ads tab. This theme is even able to inject ads into the various posts loops and lets you specify the frequency, amount, off-sets, and whether or not to shuffle the ads that are within the post loops. This tab is split into the following three sub-sections:"
+msgstr ""
+
+#: ../functions/theme-options.php:326
+msgid "Ads that appear on all pages - this includes ads such as header, menu, and footer ads, which will be seen on all pages regardless of post type."
+msgstr ""
+
+#: ../functions/theme-options.php:327
+msgid "Ads that appear in the loop - this includes all ads that appear within the post loops, regardless of post type. "
+msgstr ""
+
+#: ../functions/theme-options.php:328
+msgid "Ads that appear on single pages - split into three groups (front page, single posts, and single reviews), this includes ads that appear only when viewing the front page or a single post/review."
+msgstr ""
+
+#: ../functions/theme-options.php:335
+msgid "MISCELLANEOUS tab"
+msgstr ""
+
+#: ../functions/theme-options.php:335
+msgid "there are some elements that apply to all of your pages (or multiple pages), such as the site background, logo, Latest Slider, Google Analytics code, and more. All of these global settings are found on the Miscellanous tab."
+msgstr ""
+
+#: ../functions/theme-options.php:341
+msgid "*You can override settings denoted in blue on individual posts &amp; pages using custom fields."
+msgstr ""
+
+#: ../functions/theme-options.php:343
+msgid "What About Reviews?"
+msgstr ""
+
+#: ../functions/theme-options.php:347
+msgid "The control panel for creating and managing your custom review types is separated into a different settings page. It is located at Appearance >> Review Options in the menu to the left. Note that there are a few general review settings within these Theme Options tabs, but all of the information specific to your review types is managed in the Review Options control panel."
+msgstr ""
+
+#: ../functions/theme-options.php:381
+#: ../functions/theme-options.php:1065
+msgid "Display Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:385
+msgid "Display Page Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:388
+msgid "Display the page sidebar. If this option is enabled, the Frontpage Sidebar widget panel will extent all the way down the page. If this option is disabled, the Frontpage Sidebar widget panel will only display next to the featured slider and the rest of the page will be full-width."
+msgstr ""
+
+#: ../functions/theme-options.php:392
+#: ../functions/theme-options.php:811
+#: ../functions/theme-options.php:879
+#: ../functions/theme-options.php:1058
+#: ../functions/theme-options.php:1134
+#: ../functions/theme-options.php:1203
+msgid "Unique Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:395
+msgid "Display widgets from the Frontpage Sidebar widget panel instead of the Default Sidebar widget panel."
+msgstr ""
+
+#: ../functions/theme-options.php:405
+msgid "Display Featured Slider"
+msgstr ""
+
+#: ../functions/theme-options.php:408
+msgid "Display the Featured slider area (Nivo slider)"
+msgstr ""
+
+#: ../functions/theme-options.php:420
+msgid "The size of the featured slider"
+msgstr ""
+
+#: ../functions/theme-options.php:424
+#: ../functions/theme-options.php:477
+msgid "Slide Duration"
+msgstr ""
+
+#: ../functions/theme-options.php:433
+#: ../functions/theme-options.php:486
+msgid "Number of seconds each slide will display before rotating"
+msgstr ""
+
+#: ../functions/theme-options.php:437
+#: ../functions/theme-options.php:490
+#: ../functions/theme-options.php:587
+#: ../functions/theme-options.php:1963
+#: ../functions/theme-options.php:2025
+msgid "Number of Slides"
+msgstr ""
+
+#: ../functions/theme-options.php:446
+msgid "Number of slides to rotate through"
+msgstr ""
+
+#: ../functions/theme-options.php:450
+msgid "Featured Tag"
+msgstr ""
+
+#: ../functions/theme-options.php:453
+msgid "Name of the tag that you want to use to mark posts as Featured"
+msgstr ""
+
+#: ../functions/theme-options.php:459
+msgid "Spotlight Slider"
+msgstr ""
+
+#: ../functions/theme-options.php:463
+#: ../functions/theme-options.php:580
+msgid "Display Slider"
+msgstr ""
+
+#: ../functions/theme-options.php:466
+msgid "Display the Spotlight slider area below the Featured slider"
+msgstr ""
+
+#: ../functions/theme-options.php:470
+msgid "Scroll Slider"
+msgstr ""
+
+#: ../functions/theme-options.php:473
+msgid "Should the Spotlight slider having scrolling functionality or be static?"
+msgstr ""
+
+#: ../functions/theme-options.php:500
+#: ../functions/theme-options.php:596
+#: ../functions/theme-options.php:1972
+#: ../functions/theme-options.php:2034
+msgid "Number of slides to rotate through. Make sure you actually have this many posts tagged (or in the assigned category or review) or else the style will not display correctly."
+msgstr ""
+
+#: ../functions/theme-options.php:504
+#: ../functions/theme-options.php:600
+#: ../functions/theme-options.php:652
+#: ../functions/theme-options.php:710
+#: ../functions/theme-options.php:1072
+#: ../functions/theme-options.php:1210
+#: ../functions/theme-options.php:1950
+msgid "Header Text"
+msgstr ""
+
+#: ../functions/theme-options.php:507
+msgid "Text to use for the Spotlight header"
+msgstr ""
+
+#: ../functions/theme-options.php:511
+#: ../functions/theme-options.php:543
+#: ../functions/theme-options.php:607
+#: ../functions/theme-options.php:666
+#: ../functions/theme-options.php:1976
+#: ../functions/theme-options.php:2038
+msgid "Type of Posts"
+msgstr ""
+
+#: ../functions/theme-options.php:514
+#: ../functions/theme-options.php:610
+#: ../functions/theme-options.php:1979
+#: ../functions/theme-options.php:2041
+msgid "Tag"
+msgstr ""
+
+#: ../functions/theme-options.php:515
+#: ../functions/theme-options.php:611
+#: ../functions/theme-options.php:1980
+#: ../functions/theme-options.php:2042
+msgid "Category"
+msgstr ""
+
+#: ../functions/theme-options.php:516
+#: ../functions/theme-options.php:612
+#: ../functions/theme-options.php:1981
+#: ../functions/theme-options.php:2043
+msgid "Review Type"
+msgstr ""
+
+#: ../functions/theme-options.php:517
+#: ../functions/theme-options.php:613
+#: ../functions/theme-options.php:1982
+#: ../functions/theme-options.php:2044
+msgid "Latest Articles"
+msgstr ""
+
+#: ../functions/theme-options.php:519
+#: ../functions/theme-options.php:615
+#: ../functions/theme-options.php:1984
+#: ../functions/theme-options.php:2046
+msgid "The type of posts to look for to populate the slider"
+msgstr ""
+
+#: ../functions/theme-options.php:523
+#: ../functions/theme-options.php:619
+msgid "Type Name"
+msgstr ""
+
+#: ../functions/theme-options.php:526
+msgid "Name of the tag, category, or review type that you want to use to mark posts as Spotlight. This setting does not apply if you have selected \"Latest\" as the type in the setting above."
+msgstr ""
+
+#: ../functions/theme-options.php:532
+msgid "Tabbed Posts"
+msgstr ""
+
+#: ../functions/theme-options.php:536
+msgid "Display Tabbed Posts"
+msgstr ""
+
+#: ../functions/theme-options.php:539
+msgid "Display the Tabbed Posts area below the Spotlight slider"
+msgstr ""
+
+#: ../functions/theme-options.php:546
+#: ../functions/theme-options.php:669
+#: ../functions/widgets.php:539
+msgid "Tags"
+msgstr ""
+
+#: ../functions/theme-options.php:547
+#: ../functions/theme-options.php:670
+#: ../functions/widgets.php:862
+msgid "Categories"
+msgstr ""
+
+#: ../functions/theme-options.php:550
+msgid "The type of posts to look for to populate the tabs"
+msgstr ""
+
+#: ../functions/theme-options.php:554
+msgid "Type Names"
+msgstr ""
+
+#: ../functions/theme-options.php:557
+msgid "Names of the tags, categories, or review types that you want to use for the tabs. Separate tags, categories, or review types by a comma, and one tab will be created for each term. You cannot mix and match tags, categories, and review types. Depending on the length of your names, the tabs could expand to a second line which will break the functionality of the tabs. If this happens, remove an item from the list until the tabs go back to only one line."
+msgstr ""
+
+#: ../functions/theme-options.php:561
+msgid "Number of posts per tab"
+msgstr ""
+
+#: ../functions/theme-options.php:570
+msgid "Number of posts to display within each of the tabs."
+msgstr ""
+
+#: ../functions/theme-options.php:583
+msgid "Display the Trending Slider below the Spotlight slider"
+msgstr ""
+
+#: ../functions/theme-options.php:603
+msgid "Text to use for the Trending Slider header"
+msgstr ""
+
+#: ../functions/theme-options.php:622
+msgid "Name of the tag, category, or review type that you want to use to mark posts as Trending posts. This setting does not apply if you have selected \"Latest\" as the type in the setting above."
+msgstr ""
+
+#: ../functions/theme-options.php:628
+msgid "Category Panels"
+msgstr ""
+
+#: ../functions/theme-options.php:632
+msgid "Display Category Panels"
+msgstr ""
+
+#: ../functions/theme-options.php:635
+msgid "Display the Category Panels below the Trending Slider"
+msgstr ""
+
+#: ../functions/theme-options.php:639
+msgid "Number of posts per panel"
+msgstr ""
+
+#: ../functions/theme-options.php:648
+msgid "Number of articles to be displayed within each category panel, including the first, larger post in the list."
+msgstr ""
+
+#: ../functions/theme-options.php:655
+msgid "Text to use as a prefix for the name of the category"
+msgstr ""
+
+#: ../functions/theme-options.php:659
+msgid "Large First Post"
+msgstr ""
+
+#: ../functions/theme-options.php:662
+msgid "The first post in the list should be larger with the thumbnail above the title and excerpt."
+msgstr ""
+
+#: ../functions/theme-options.php:673
+msgid "The type of posts to look for to populate the category panels"
+msgstr ""
+
+#: ../functions/theme-options.php:677
+msgid "Type Name(s)"
+msgstr ""
+
+#: ../functions/theme-options.php:680
+msgid "Names of the tags, categories, or review types that you want to use to mark posts as Category Panel posts. Separate tags, categories, or review types by a comma, and one Category Panel will be created for each term. You cannot mix and match tags, categories, and review types. You can specify as many terms as you want and that number of category panels will be created (they can stack on top of each other)."
+msgstr ""
+
+#: ../functions/theme-options.php:686
+msgid "Latest Posts"
+msgstr ""
+
+#: ../functions/theme-options.php:690
+msgid "Display Latest Posts"
+msgstr ""
+
+#: ../functions/theme-options.php:693
+msgid "Display your latest posts in a regular blog format on your front page"
+msgstr ""
+
+#: ../functions/theme-options.php:697
+msgid "Number of latest posts"
+msgstr ""
+
+#: ../functions/theme-options.php:706
+msgid "Number of latest posts to display per page"
+msgstr ""
+
+#: ../functions/theme-options.php:713
+msgid "Text to use for the Latest Posts header"
+msgstr ""
+
+#: ../functions/theme-options.php:717
+msgid "Latest Layout"
+msgstr ""
+
+#: ../functions/theme-options.php:749
+msgid "Show Excerpt"
+msgstr ""
+
+#: ../functions/theme-options.php:752
+msgid "Show the excerpt for the latest posts on the front page"
+msgstr ""
+
+#: ../functions/theme-options.php:756
+msgid "Show More"
+msgstr ""
+
+#: ../functions/theme-options.php:759
+msgid "Show the more area for the latest posts on the front page. This is the meta area that houses things like rating, comments, date, tags, etc."
+msgstr ""
+
+#: ../functions/theme-options.php:800
+msgid "Single Post Options"
+msgstr ""
+
+#: ../functions/theme-options.php:804
+msgid "Hide Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:807
+msgid "Hide sidebar on single posts"
+msgstr ""
+
+#: ../functions/theme-options.php:814
+msgid "Display widgets from the Single Post Sidebar widget panel instead of the Default Sidebar widget panel"
+msgstr ""
+
+#: ../functions/theme-options.php:818
+#: ../functions/theme-options.php:886
+msgid "Featured Image + Video"
+msgstr ""
+
+#: ../functions/theme-options.php:821
+msgid "For posts that have both a featured image and a featured video, show both the image and the video on the single post page instead of just the video"
+msgstr ""
+
+#: ../functions/theme-options.php:825
+msgid "Hide Featured Images"
+msgstr ""
+
+#: ../functions/theme-options.php:828
+msgid "Hide featured images on all single posts."
+msgstr ""
+
+#: ../functions/theme-options.php:832
+#: ../functions/theme-options.php:893
+msgid "Hide Tags"
+msgstr ""
+
+#: ../functions/theme-options.php:835
+msgid "Hide the tag list underneath the post content"
+msgstr ""
+
+#: ../functions/theme-options.php:839
+#: ../functions/theme-options.php:900
+msgid "Hide Related"
+msgstr ""
+
+#: ../functions/theme-options.php:842
+msgid "Hide the Related panel underneath the post content"
+msgstr ""
+
+#: ../functions/theme-options.php:846
+msgid "Related Number of Posts"
+msgstr ""
+
+#: ../functions/theme-options.php:855
+msgid "Number of articles to be displayed inside each related tab"
+msgstr ""
+
+#: ../functions/theme-options.php:859
+#: ../functions/theme-options.php:907
+msgid "Related Header Text"
+msgstr ""
+
+#: ../functions/theme-options.php:862
+#: ../functions/theme-options.php:910
+msgid "Text to use for the Related panel header"
+msgstr ""
+
+#: ../functions/theme-options.php:866
+#: ../functions/theme-options.php:914
+msgid "Hide Trending"
+msgstr ""
+
+#: ../functions/theme-options.php:869
+msgid "Hide the trending slider that appears at the bottom of the single posts above the footer"
+msgstr ""
+
+#: ../functions/theme-options.php:875
+msgid "Single Review Options"
+msgstr ""
+
+#: ../functions/theme-options.php:882
+msgid "Display widgets from the designated specific review sidebar widget panel instead of the Default Sidebar widget panel"
+msgstr ""
+
+#: ../functions/theme-options.php:889
+msgid "For reviews that have both a featured image and a featured video, show both the image and the video on the single review page instead of just the video"
+msgstr ""
+
+#: ../functions/theme-options.php:896
+msgid "Hide the tag list underneath the review content"
+msgstr ""
+
+#: ../functions/theme-options.php:903
+msgid "Hide the Related panel underneath the review content"
+msgstr ""
+
+#: ../functions/theme-options.php:917
+msgid "Hide the trending slider that appears at the bottom of the single reviews above the footer"
+msgstr ""
+
+#: ../functions/theme-options.php:923
+msgid "Post + Review Options"
+msgstr ""
+
+#: ../functions/theme-options.php:927
+msgid "Hide Sharebox"
+msgstr ""
+
+#: ../functions/theme-options.php:930
+msgid "Hide the sharebox on all single posts and reviews"
+msgstr ""
+
+#: ../functions/theme-options.php:934
+msgid "Sharebox Buttons"
+msgstr ""
+
+#: ../functions/theme-options.php:937
+msgid "Tweet"
+msgstr ""
+
+#: ../functions/theme-options.php:939
+msgid "Facebook Like"
+msgstr ""
+
+#: ../functions/theme-options.php:941
+msgid "Google +1"
+msgstr ""
+
+#: ../functions/theme-options.php:943
+msgid "Yahoo Messenger"
+msgstr ""
+
+#: ../functions/theme-options.php:945
+msgid "Pinterest"
+msgstr ""
+
+#: ../functions/theme-options.php:949
+msgid "StumbleUpon"
+msgstr ""
+
+#: ../functions/theme-options.php:951
+msgid "Tumblr"
+msgstr ""
+
+#: ../functions/theme-options.php:957
+msgid "Hide Authorbox"
+msgstr ""
+
+#: ../functions/theme-options.php:960
+msgid "Hide the authorbox on all single posts and reviews"
+msgstr ""
+
+#: ../functions/theme-options.php:1001
+msgid "Archive Pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1012
+msgid "Archive Layout"
+msgstr ""
+
+#: ../functions/theme-options.php:1044
+#: ../functions/theme-options.php:1120
+#: ../functions/theme-options.php:1189
+msgid "Hide Don't Miss"
+msgstr ""
+
+#: ../functions/theme-options.php:1047
+#: ../functions/theme-options.php:1123
+#: ../functions/theme-options.php:1192
+msgid "Hide the Don't Miss Bar"
+msgstr ""
+
+#: ../functions/theme-options.php:1051
+#: ../functions/theme-options.php:1127
+#: ../functions/theme-options.php:1196
+msgid "Hide Latest"
+msgstr ""
+
+#: ../functions/theme-options.php:1054
+#: ../functions/theme-options.php:1130
+#: ../functions/theme-options.php:1199
+msgid "Hide the latest slider"
+msgstr ""
+
+#: ../functions/theme-options.php:1061
+#: ../functions/theme-options.php:1137
+#: ../functions/theme-options.php:1275
+msgid "Display widgets from the Archive Sidebar widget panel instead of the Default Sidebar widget panel"
+msgstr ""
+
+#: ../functions/theme-options.php:1068
+msgid "Display the sidebar on archive listing pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1075
+msgid "Text to use as the header text instead of the default archive text headers"
+msgstr ""
+
+#: ../functions/theme-options.php:1079
+#: ../functions/theme-options.php:1141
+msgid "Display Meta"
+msgstr ""
+
+#: ../functions/theme-options.php:1082
+msgid "Display the meta info for each post listed in the archives"
+msgstr ""
+
+#: ../functions/theme-options.php:1086
+#: ../functions/theme-options.php:1148
+msgid "Display Excerpt"
+msgstr ""
+
+#: ../functions/theme-options.php:1089
+msgid "Display the excerpt for each post listed in the archives"
+msgstr ""
+
+#: ../functions/theme-options.php:1093
+#: ../functions/theme-options.php:1162
+#: ../functions/theme-options.php:1224
+msgid "Display Trending"
+msgstr ""
+
+#: ../functions/theme-options.php:1096
+msgid "Display the trending slider at the bottom of the archive page above the footer"
+msgstr ""
+
+#: ../functions/theme-options.php:1144
+msgid "Display the meta info for each post listed in the search results"
+msgstr ""
+
+#: ../functions/theme-options.php:1151
+msgid "Display the excerpt for each post listed in the search results"
+msgstr ""
+
+#: ../functions/theme-options.php:1155
+msgid "Display More Button"
+msgstr ""
+
+#: ../functions/theme-options.php:1158
+msgid "Display the more button for each post listed in the search results"
+msgstr ""
+
+#: ../functions/theme-options.php:1165
+msgid "Display the trending slider at the bottom of the search results page above the footer"
+msgstr ""
+
+#: ../functions/theme-options.php:1178
+msgid "Authors Page"
+msgstr ""
+
+#: ../functions/theme-options.php:1206
+msgid "Display widgets from the Author Sidebar widget panel instead of the Default Sidebar widget panel"
+msgstr ""
+
+#: ../functions/theme-options.php:1213
+msgid "Text to use as the header text of the author page"
+msgstr ""
+
+#: ../functions/theme-options.php:1217
+msgid "Exclude Authors"
+msgstr ""
+
+#: ../functions/theme-options.php:1220
+msgid "Comma-separated list of usernames to exclude from the author list (e.g. jdoe, bmcculloh, admin)"
+msgstr ""
+
+#: ../functions/theme-options.php:1227
+msgid "Display the trending slider at the bottom of the author page above the footer"
+msgstr ""
+
+#: ../functions/theme-options.php:1240
+msgid "More Page Options"
+msgstr ""
+
+#: ../functions/theme-options.php:1251
+msgid "Review Directory Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:1254
+msgid "Show the sidebar on the review directory listing page"
+msgstr ""
+
+#: ../functions/theme-options.php:1258
+msgid "404 Hide Don't Miss"
+msgstr ""
+
+#: ../functions/theme-options.php:1261
+msgid "Hide the Don't Miss Bar on 404 pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1265
+msgid "404 Hide Latest"
+msgstr ""
+
+#: ../functions/theme-options.php:1268
+msgid "Hide the latest slider on 404 pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1272
+msgid "404 Unique Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:1279
+msgid "404 Display Trending"
+msgstr ""
+
+#: ../functions/theme-options.php:1282
+msgid "Display the trending slider at the bottom of 404 pages above the footer"
+msgstr ""
+
+#: ../functions/theme-options.php:1286
+msgid "Page Unique Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:1289
+msgid "Display widgets from the Page Sidebar widget panel instead of the Default Sidebar widget panel on pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1293
+msgid "Page Hide Trending"
+msgstr ""
+
+#: ../functions/theme-options.php:1296
+msgid "Hide the trending slider at the bottom of pages above the footer"
+msgstr ""
+
+#: ../functions/theme-options.php:1300
+msgid "Full-Width Hide Trending"
+msgstr ""
+
+#: ../functions/theme-options.php:1303
+msgid "Hide the trending slider at the bottom of full-width pages above the footer"
+msgstr ""
+
+#: ../functions/theme-options.php:1307
+msgid "Reviews Unique Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:1310
+msgid "Display widgets from a review-specific sidebar widget panel instead of the Default Sidebar widget panel on review pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1314
+msgid "Reviews Per Page"
+msgstr ""
+
+#: ../functions/theme-options.php:1323
+msgid "Number of reviews to display per page. This refers to the review mini-site front pages as well as the taxonomy (review category) pages."
+msgstr ""
+
+#: ../functions/theme-options.php:1372
+msgid "Ads that appear on all pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1383
+msgid "Hide Header Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1385
+msgid "Hide the ad that appears to the right of the logo in the header area"
+msgstr ""
+
+#: ../functions/theme-options.php:1392
+#: ../functions/theme-options.php:1405
+#: ../functions/theme-options.php:1418
+#: ../functions/theme-options.php:1431
+#: ../functions/theme-options.php:1503
+#: ../functions/theme-options.php:1510
+#: ../functions/theme-options.php:1517
+#: ../functions/theme-options.php:1524
+#: ../functions/theme-options.php:1531
+#: ../functions/theme-options.php:1538
+#: ../functions/theme-options.php:1545
+#: ../functions/theme-options.php:1552
+#: ../functions/theme-options.php:1559
+#: ../functions/theme-options.php:1566
+#: ../functions/theme-options.php:1606
+#: ../functions/theme-options.php:1619
+#: ../functions/theme-options.php:1632
+#: ../functions/theme-options.php:1645
+#: ../functions/theme-options.php:1658
+#: ../functions/theme-options.php:1677
+#: ../functions/theme-options.php:1690
+#: ../functions/theme-options.php:1709
+#: ../functions/theme-options.php:1722
+#: ../functions/theme-options.php:1735
+msgid "The HTML for the advertisment"
+msgstr ""
+
+#: ../functions/theme-options.php:1396
+msgid "Hide Menu Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1398
+msgid "Hide the ad that appears below the category menu"
+msgstr ""
+
+#: ../functions/theme-options.php:1402
+msgid "Menu Ad HTML"
+msgstr ""
+
+#: ../functions/theme-options.php:1409
+msgid "Hide Latest Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1411
+msgid "Hide the ad that appears below the latest slider"
+msgstr ""
+
+#: ../functions/theme-options.php:1415
+msgid "Latest Ad HTML"
+msgstr ""
+
+#: ../functions/theme-options.php:1422
+msgid "Hide Footer Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1424
+msgid "Hide the ad that appears above the footer"
+msgstr ""
+
+#: ../functions/theme-options.php:1428
+msgid "Footer Ad HTML"
+msgstr ""
+
+#: ../functions/theme-options.php:1444
+msgid "Ads that appear in the loop"
+msgstr ""
+
+#: ../functions/theme-options.php:1455
+msgid "Number of Ads"
+msgstr ""
+
+#: ../functions/theme-options.php:1464
+msgid "Number of ads to display throughout the loop. Select \"0\" to hide these ads."
+msgstr ""
+
+#: ../functions/theme-options.php:1468
+msgid "Increment"
+msgstr ""
+
+#: ../functions/theme-options.php:1477
+msgid "Display an ad every Nth post. For instance, if \"3\" is selected, every 3rd post will be an ad."
+msgstr ""
+
+#: ../functions/theme-options.php:1481
+msgid "Off-set"
+msgstr ""
+
+#: ../functions/theme-options.php:1490
+msgid "Number of posts to display before the first ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1494
+msgid "Shuffle"
+msgstr ""
+
+#: ../functions/theme-options.php:1496
+msgid "Shuffle the ads to display in random order instead of the order you enter them"
+msgstr ""
+
+#: ../functions/theme-options.php:1500
+msgid "Ad 1"
+msgstr ""
+
+#: ../functions/theme-options.php:1507
+msgid "Ad 2"
+msgstr ""
+
+#: ../functions/theme-options.php:1514
+msgid "Ad 3"
+msgstr ""
+
+#: ../functions/theme-options.php:1521
+msgid "Ad 4"
+msgstr ""
+
+#: ../functions/theme-options.php:1528
+msgid "Ad 5"
+msgstr ""
+
+#: ../functions/theme-options.php:1535
+msgid "Ad 6"
+msgstr ""
+
+#: ../functions/theme-options.php:1542
+msgid "Ad 7"
+msgstr ""
+
+#: ../functions/theme-options.php:1549
+msgid "Ad 8"
+msgstr ""
+
+#: ../functions/theme-options.php:1556
+msgid "Ad 9"
+msgstr ""
+
+#: ../functions/theme-options.php:1563
+msgid "Ad 10"
+msgstr ""
+
+#: ../functions/theme-options.php:1580
+msgid "Ads that appear on single pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1593
+msgid "Front Page (includes review minisite front pages)"
+msgstr ""
+
+#: ../functions/theme-options.php:1597
+msgid "Hide Featured Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1599
+msgid "Hide the ad that appears below the featured slider"
+msgstr ""
+
+#: ../functions/theme-options.php:1603
+msgid "Featured Ad HTML"
+msgstr ""
+
+#: ../functions/theme-options.php:1610
+msgid "Hide Spotlight Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1612
+msgid "Hide the ad that appears below the spotlight slider"
+msgstr ""
+
+#: ../functions/theme-options.php:1616
+msgid "Spotlight Ad HTML"
+msgstr ""
+
+#: ../functions/theme-options.php:1623
+msgid "Hide Tabs Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1625
+msgid "Hide the ad that appears below the tabbed posts container"
+msgstr ""
+
+#: ../functions/theme-options.php:1629
+msgid "Tabs Ad HTML"
+msgstr ""
+
+#: ../functions/theme-options.php:1636
+msgid "Hide Trending Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1638
+msgid "Hide the ad that appears below the trending slider"
+msgstr ""
+
+#: ../functions/theme-options.php:1642
+msgid "Trending Ad HTML"
+msgstr ""
+
+#: ../functions/theme-options.php:1649
+msgid "Hide Category Panels Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1651
+msgid "Hide the ad that appears below the category panels"
+msgstr ""
+
+#: ../functions/theme-options.php:1655
+msgid "Category Panels Ad HTML"
+msgstr ""
+
+#: ../functions/theme-options.php:1668
+#: ../functions/theme-options.php:1713
+msgid "Hide Content Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1670
+msgid "Hide the ad that appears below the post content"
+msgstr ""
+
+#: ../functions/theme-options.php:1674
+#: ../functions/theme-options.php:1719
+msgid "Content Ad HTML"
+msgstr ""
+
+#: ../functions/theme-options.php:1681
+#: ../functions/theme-options.php:1726
+msgid "Hide Comments Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1683
+#: ../functions/theme-options.php:1728
+msgid "Hide the ad that appears above the comments"
+msgstr ""
+
+#: ../functions/theme-options.php:1687
+#: ../functions/theme-options.php:1732
+msgid "Comments Ad HTML"
+msgstr ""
+
+#: ../functions/theme-options.php:1696
+msgid "Single Reviews"
+msgstr ""
+
+#: ../functions/theme-options.php:1700
+msgid "Hide Overview Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1702
+msgid "Hide the ad that appears below the review overview"
+msgstr ""
+
+#: ../functions/theme-options.php:1706
+msgid "Overview Ad HTML"
+msgstr ""
+
+#: ../functions/theme-options.php:1715
+msgid "Hide the ad that appears below the review content"
+msgstr ""
+
+#: ../functions/theme-options.php:1781
+msgid "Site Background"
+msgstr ""
+
+#: ../functions/theme-options.php:1784
+msgid "None"
+msgstr ""
+
+#: ../functions/theme-options.php:1785
+msgid "Texture Brick 1"
+msgstr ""
+
+#: ../functions/theme-options.php:1786
+msgid "Texture Brick 2"
+msgstr ""
+
+#: ../functions/theme-options.php:1787
+msgid "Texture Brick 3"
+msgstr ""
+
+#: ../functions/theme-options.php:1788
+msgid "Texture Brick 4"
+msgstr ""
+
+#: ../functions/theme-options.php:1790
+msgid "Texture Wood 1"
+msgstr ""
+
+#: ../functions/theme-options.php:1791
+msgid "Texture Wood 2"
+msgstr ""
+
+#: ../functions/theme-options.php:1792
+msgid "Texture Wood 3"
+msgstr ""
+
+#: ../functions/theme-options.php:1793
+msgid "Texture Wood 4"
+msgstr ""
+
+#: ../functions/theme-options.php:1795
+msgid "Texture Metal 1"
+msgstr ""
+
+#: ../functions/theme-options.php:1796
+msgid "Texture Metal 2"
+msgstr ""
+
+#: ../functions/theme-options.php:1797
+msgid "Texture Metal 3"
+msgstr ""
+
+#: ../functions/theme-options.php:1798
+msgid "Texture Leaf"
+msgstr ""
+
+#: ../functions/theme-options.php:1800
+msgid "Texture Pave 1"
+msgstr ""
+
+#: ../functions/theme-options.php:1801
+msgid "Texture Pave 2"
+msgstr ""
+
+#: ../functions/theme-options.php:1802
+msgid "Texture Pave 3"
+msgstr ""
+
+#: ../functions/theme-options.php:1803
+msgid "Texture Pave 4"
+msgstr ""
+
+#: ../functions/theme-options.php:1804
+msgid "Texture Pave 5"
+msgstr ""
+
+#: ../functions/theme-options.php:1806
+msgid "Texture Rock 1"
+msgstr ""
+
+#: ../functions/theme-options.php:1807
+msgid "Texture Rock 2"
+msgstr ""
+
+#: ../functions/theme-options.php:1808
+msgid "Texture Rock 3"
+msgstr ""
+
+#: ../functions/theme-options.php:1809
+msgid "Texture Surface"
+msgstr ""
+
+#: ../functions/theme-options.php:1811
+msgid "Texture Wallpaper 1"
+msgstr ""
+
+#: ../functions/theme-options.php:1812
+msgid "Texture Wallpaper 2"
+msgstr ""
+
+#: ../functions/theme-options.php:1814
+msgid "Texture Textile 1"
+msgstr ""
+
+#: ../functions/theme-options.php:1815
+msgid "Texture Textile 2"
+msgstr ""
+
+#: ../functions/theme-options.php:1816
+msgid "Texture Textile 3"
+msgstr ""
+
+#: ../functions/theme-options.php:1817
+msgid "Texture Textile 4"
+msgstr ""
+
+#: ../functions/theme-options.php:1818
+msgid "Texture Textile 5"
+msgstr ""
+
+#: ../functions/theme-options.php:1820
+msgid "Blur 1"
+msgstr ""
+
+#: ../functions/theme-options.php:1821
+msgid "Blur 2"
+msgstr ""
+
+#: ../functions/theme-options.php:1822
+msgid "Blur 3"
+msgstr ""
+
+#: ../functions/theme-options.php:1823
+msgid "Blur 4"
+msgstr ""
+
+#: ../functions/theme-options.php:1824
+msgid "Blur 5"
+msgstr ""
+
+#: ../functions/theme-options.php:1825
+msgid "Blur 6"
+msgstr ""
+
+#: ../functions/theme-options.php:1826
+msgid "Blur 7"
+msgstr ""
+
+#: ../functions/theme-options.php:1827
+msgid "Blur 8"
+msgstr ""
+
+#: ../functions/theme-options.php:1828
+msgid "Blur 9"
+msgstr ""
+
+#: ../functions/theme-options.php:1829
+msgid "Blur 10"
+msgstr ""
+
+#: ../functions/theme-options.php:1830
+msgid "Blur 11"
+msgstr ""
+
+#: ../functions/theme-options.php:1831
+msgid "Blur 12"
+msgstr ""
+
+#: ../functions/theme-options.php:1832
+msgid "Blur 13"
+msgstr ""
+
+#: ../functions/theme-options.php:1833
+msgid "Blur 14"
+msgstr ""
+
+#: ../functions/theme-options.php:1834
+msgid "Blur 15"
+msgstr ""
+
+#: ../functions/theme-options.php:1835
+msgid "Blur 16"
+msgstr ""
+
+#: ../functions/theme-options.php:1836
+msgid "Blur 17"
+msgstr ""
+
+#: ../functions/theme-options.php:1837
+msgid "Blur 18"
+msgstr ""
+
+#: ../functions/theme-options.php:1838
+msgid "Blur 19"
+msgstr ""
+
+#: ../functions/theme-options.php:1839
+msgid "Blur 20"
+msgstr ""
+
+#: ../functions/theme-options.php:1840
+msgid "Blur 21"
+msgstr ""
+
+#: ../functions/theme-options.php:1841
+msgid "Blur 22"
+msgstr ""
+
+#: ../functions/theme-options.php:1842
+msgid "Blur 23"
+msgstr ""
+
+#: ../functions/theme-options.php:1843
+msgid "Blur 24"
+msgstr ""
+
+#: ../functions/theme-options.php:1844
+msgid "Blur 25"
+msgstr ""
+
+#: ../functions/theme-options.php:1845
+msgid "Blur 26"
+msgstr ""
+
+#: ../functions/theme-options.php:1846
+msgid "Blur 27"
+msgstr ""
+
+#: ../functions/theme-options.php:1847
+msgid "Blur 28"
+msgstr ""
+
+#: ../functions/theme-options.php:1848
+msgid "Blur 29"
+msgstr ""
+
+#: ../functions/theme-options.php:1849
+msgid "Blur 30"
+msgstr ""
+
+#: ../functions/theme-options.php:1850
+msgid "Blur 31"
+msgstr ""
+
+#: ../functions/theme-options.php:1852
+msgid "Grunge 1"
+msgstr ""
+
+#: ../functions/theme-options.php:1853
+msgid "Grunge 2"
+msgstr ""
+
+#: ../functions/theme-options.php:1854
+msgid "Grunge 3"
+msgstr ""
+
+#: ../functions/theme-options.php:1855
+msgid "Grunge 4"
+msgstr ""
+
+#: ../functions/theme-options.php:1856
+msgid "Vintage Wallpaper Black"
+msgstr ""
+
+#: ../functions/theme-options.php:1857
+msgid "Vintage Wallpaper Blue"
+msgstr ""
+
+#: ../functions/theme-options.php:1858
+msgid "Vintage Wallpaper Brown"
+msgstr ""
+
+#: ../functions/theme-options.php:1859
+msgid "Vintage Wallpaper Green"
+msgstr ""
+
+#: ../functions/theme-options.php:1860
+msgid "Vintage Wallpaper Red"
+msgstr ""
+
+#: ../functions/theme-options.php:1861
+msgid "Vintage Wallpaper Purple"
+msgstr ""
+
+#: ../functions/theme-options.php:1862
+msgid "Vintage Wallpaper Gold"
+msgstr ""
+
+#: ../functions/theme-options.php:1863
+msgid "Vintage Wallpaper Light"
+msgstr ""
+
+#: ../functions/theme-options.php:1864
+msgid "Wave Blue"
+msgstr ""
+
+#: ../functions/theme-options.php:1865
+msgid "Wave Blue/Grey"
+msgstr ""
+
+#: ../functions/theme-options.php:1866
+msgid "Wave Green"
+msgstr ""
+
+#: ../functions/theme-options.php:1867
+msgid "Wave Green/Yellow"
+msgstr ""
+
+#: ../functions/theme-options.php:1868
+msgid "Wave Orange/Green"
+msgstr ""
+
+#: ../functions/theme-options.php:1869
+msgid "Wave Purple"
+msgstr ""
+
+#: ../functions/theme-options.php:1870
+msgid "Wave Purple/Orange"
+msgstr ""
+
+#: ../functions/theme-options.php:1871
+msgid "Wave Purple/Red"
+msgstr ""
+
+#: ../functions/theme-options.php:1872
+msgid "Wave Pink"
+msgstr ""
+
+#: ../functions/theme-options.php:1873
+msgid "Wave Blue (Grunge)"
+msgstr ""
+
+#: ../functions/theme-options.php:1874
+msgid "Wave Blue/Grey (Grunge)"
+msgstr ""
+
+#: ../functions/theme-options.php:1875
+msgid "Wave Green (Grunge)"
+msgstr ""
+
+#: ../functions/theme-options.php:1876
+msgid "Wave Green/Yellow (Grunge)"
+msgstr ""
+
+#: ../functions/theme-options.php:1877
+msgid "Wave Orange/Green (Grunge)"
+msgstr ""
+
+#: ../functions/theme-options.php:1878
+msgid "Wave Purple (Grunge)"
+msgstr ""
+
+#: ../functions/theme-options.php:1879
+msgid "Wave Purple/Orange (Grunge)"
+msgstr ""
+
+#: ../functions/theme-options.php:1880
+msgid "Wave Purple/Red (Grunge)"
+msgstr ""
+
+#: ../functions/theme-options.php:1881
+msgid "Wave Pink (Grunge)"
+msgstr ""
+
+#: ../functions/theme-options.php:1882
+msgid "Note: textures are transparent so that you can combine them with any background color (Appearance >> Background)"
+msgstr ""
+
+#: ../functions/theme-options.php:1886
+msgid "Fixed Background Image"
+msgstr ""
+
+#: ../functions/theme-options.php:1888
+msgid "Fix the background image so that it does not move when you scroll the page"
+msgstr ""
+
+#: ../functions/theme-options.php:1895
+msgid "The URL of your logo image. You can use the Media >> Add New screen to upload your logo. Copy + Paste the URL of your uploaded logo here."
+msgstr ""
+
+#: ../functions/theme-options.php:1905
+msgid "The skin can be light or dark, and affects all pages but can be overwritten on a review type basis."
+msgstr ""
+
+#: ../functions/theme-options.php:1909
+msgid "Main Color Scheme"
+msgstr ""
+
+#: ../functions/theme-options.php:1920
+msgid "The main color scheme that applies mainly to the logo bar background."
+msgstr ""
+
+#: ../functions/theme-options.php:1927
+msgid "The URL of the logo bar background image (leave blank to use the color scheme as the background for the logo bar)"
+msgstr ""
+
+#: ../functions/theme-options.php:1934
+msgid "Do not display anything for the background of the logo bar, regardless of what is specified above for the color scheme and logo bar bg image url. This is handy if you want to let your main background image show through in the logo bar area."
+msgstr ""
+
+#: ../functions/theme-options.php:1940
+msgid "Don't Miss Bar"
+msgstr ""
+
+#: ../functions/theme-options.php:1946
+msgid "Hide the Don't Miss Bar at the top of all pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1953
+msgid "The header text that displays to at the very left of the Don't Miss bar."
+msgstr ""
+
+#: ../functions/theme-options.php:1959
+msgid "The Don't Miss slider should scroll from right to left. If this is disabled, the Don't Miss bar will display only two articles."
+msgstr ""
+
+#: ../functions/theme-options.php:1988
+msgid "Don't Miss Term"
+msgstr ""
+
+#: ../functions/theme-options.php:1991
+msgid "Name of the term to use to find articles for the Don't Miss slider. If the type is Tag, enter the tag name. If the type is Category, enter the category name. And if the type is Review, enter the name of the review type."
+msgstr ""
+
+#: ../functions/theme-options.php:1995
+msgid "Signup Header Text"
+msgstr ""
+
+#: ../functions/theme-options.php:1998
+msgid "The header text that displays above the Signup form on the right of the Don't Miss bar."
+msgstr ""
+
+#: ../functions/theme-options.php:2002
+msgid "Signup Widget Type"
+msgstr ""
+
+#: ../functions/theme-options.php:2005
+msgid "Signup Form"
+msgstr ""
+
+#: ../functions/theme-options.php:2006
+msgid "Social Media Buttons"
+msgstr ""
+
+#: ../functions/theme-options.php:2007
+msgid "Widget"
+msgstr ""
+
+#: ../functions/theme-options.php:2009
+msgid "Type of content to display in the signup area on the right. If Widget is selected, put a widget into the Signup Widget widget panel in Appearance >> Widgets"
+msgstr ""
+
+#: ../functions/theme-options.php:2021
+msgid "Hide the Latest Slider at the top of all pages"
+msgstr ""
+
+#: ../functions/theme-options.php:2050
+msgid "Latest Term"
+msgstr ""
+
+#: ../functions/theme-options.php:2053
+msgid "Name of the term to use to find articles for the Latest slider. If the type is Tag, enter the tag name. If the type is Category, enter the category name. And if the type is Review, enter the name of the review type."
+msgstr ""
+
+#: ../functions/theme-options.php:2059
+msgid "More Options"
+msgstr ""
+
+#: ../functions/theme-options.php:2063
+msgid "Show Top Widget"
+msgstr ""
+
+#: ../functions/theme-options.php:2065
+msgid "Show the top widget area that appears left of the search box which displays social media buttons by default"
+msgstr ""
+
+#: ../functions/theme-options.php:2069
+msgid "Show Search Form"
+msgstr ""
+
+#: ../functions/theme-options.php:2071
+msgid "Show the search form in the top menu bar"
+msgstr ""
+
+#: ../functions/theme-options.php:2075
+msgid "Show Random Button"
+msgstr ""
+
+#: ../functions/theme-options.php:2077
+msgid "Show the random button to the right of the category menu"
+msgstr ""
+
+#: ../functions/theme-options.php:2081
+msgid "Hide Footer Menu"
+msgstr ""
+
+#: ../functions/theme-options.php:2083
+msgid "Hide the footer menu which appears directly above the footer below the page content"
+msgstr ""
+
+#: ../functions/theme-options.php:2087
+msgid "Colorbox Enabled"
+msgstr ""
+
+#: ../functions/theme-options.php:2089
+msgid "Enable the colorbox jQuery plugin"
+msgstr ""
+
+#: ../functions/theme-options.php:2093
+msgid "Show Demo Panel"
+msgstr ""
+
+#: ../functions/theme-options.php:2095
+msgid "Show the demo settings panel"
+msgstr ""
+
+#: ../functions/theme-options.php:2099
+msgid "Signoff Text 1"
+msgstr ""
+
+#: ../functions/theme-options.php:2102
+msgid "When you use the Signoff1 shortcode this is the text that will display"
+msgstr ""
+
+#: ../functions/theme-options.php:2106
+msgid "Signoff Text 2"
+msgstr ""
+
+#: ../functions/theme-options.php:2109
+msgid "When you use the Signoff2 shortcode this is the text that will display"
+msgstr ""
+
+#: ../functions/theme-options.php:2113
+msgid "Signoff Text 3"
+msgstr ""
+
+#: ../functions/theme-options.php:2116
+msgid "When you use the Signoff3 shortcode this is the text that will display"
+msgstr ""
+
+#: ../functions/theme-options.php:2122
+msgid "Social Media"
+msgstr ""
+
+#: ../functions/theme-options.php:2126
+msgid "Twitter Username"
+msgstr ""
+
+#: ../functions/theme-options.php:2129
+msgid "Your Twitter Username"
+msgstr ""
+
+#: ../functions/theme-options.php:2133
+msgid "Facebook URL"
+msgstr ""
+
+#: ../functions/theme-options.php:2136
+msgid "Your Facebook URL"
+msgstr ""
+
+#: ../functions/theme-options.php:2140
+msgid "Flickr Account ID"
+msgstr ""
+
+#: ../functions/theme-options.php:2143
+msgid "Your Flickr Account ID. Use this service to find it: http://idgettr.com/"
+msgstr ""
+
+#: ../functions/theme-options.php:2147
+msgid "RSS Feed URL"
+msgstr ""
+
+#: ../functions/theme-options.php:2150
+msgid "Your RSS Feed URL"
+msgstr ""
+
+#: ../functions/theme-options.php:2154
+msgid "Google Analytics"
+msgstr ""
+
+#: ../functions/theme-options.php:2157
+msgid "Copy &amp; paste your Google Analytics code"
+msgstr ""
+
+#: ../functions/widgets.php:18
+msgid "These widgets appear in the sidebar of only the front page (if you set this option in the theme options)"
+msgstr ""
+
+#: ../functions/widgets.php:29
+msgid "These widgets appear in the main content area of the front page"
+msgstr ""
+
+#: ../functions/widgets.php:40
+msgid "These widgets replace the three social links to the left of the search bar in the top menu area."
+msgstr ""
+
+#: ../functions/widgets.php:51
+msgid "These widgets replace the Get Our Newsletter signup form in the Dont Miss bar."
+msgstr ""
+
+#: ../functions/widgets.php:62
+msgid "These widgets appear in the slide-out \"Demo\" panel and replace all the demo content. There is no styling here, just an area for you to put in your custom HTML via a text widget."
+msgstr ""
+
+#: ../functions/widgets.php:73
+msgid "These widgets appear in the sidebar of all regular single posts (depending on settings in the theme options)"
+msgstr ""
+
+#: ../functions/widgets.php:84
+msgid "These widgets appear in the sidebar of all pages (depending on settings in the theme options)"
+msgstr ""
+
+#: ../functions/widgets.php:95
+msgid "These widgets appear in the sidebar of all regular pages (depending on settings in the theme options)"
+msgstr ""
+
+#: ../functions/widgets.php:106
+msgid "These widgets appear in the sidebar of all category/archive/tag listing pages (but not review listings)"
+msgstr ""
+
+#: ../functions/widgets.php:117
+msgid "These widgets appear in the sidebar of all search listing pages"
+msgstr ""
+
+#: ../functions/widgets.php:128
+msgid "These widgets appear in the sidebar of the author listing template page"
+msgstr ""
+
+#: ../functions/widgets.php:139
+msgid "These widgets appear in the first footer panel"
+msgstr ""
+
+#: ../functions/widgets.php:150
+msgid "These widgets appear in the second footer panel"
+msgstr ""
+
+#: ../functions/widgets.php:161
+msgid "These widgets appear in the third footer panel"
+msgstr ""
+
+#: ../functions/widgets.php:172
+msgid "These widgets appear in the fourth footer panel"
+msgstr ""
+
+#: ../functions/widgets.php:183
+msgid "The small credit text area at the very bottom right-hand side of the footer"
+msgstr ""
+
+#: ../functions/widgets.php:224
+msgid "Displays your latest Tweets"
+msgstr ""
+
+#: ../functions/widgets.php:310
+#: ../functions/widgets.php:451
+#: ../functions/widgets.php:1794
+#: ../functions/widgets.php:1935
+#: ../functions/widgets.php:2036
+msgid "Title:"
+msgstr ""
+
+#: ../functions/widgets.php:315
+msgid "Number of Tweets:"
+msgstr ""
+
+#: ../functions/widgets.php:320
+msgid "Refresh every"
+msgstr ""
+
+#: ../functions/widgets.php:322
+msgid "seconds"
+msgstr ""
+
+#: ../functions/widgets.php:323
+msgid "Only refreshes your tweets, not the page."
+msgstr ""
+
+#: ../functions/widgets.php:327
+msgid "Regular Tweet Prefix:"
+msgstr ""
+
+#: ../functions/widgets.php:329
+#: ../functions/widgets.php:347
+msgid "Example: about 2 hours ago"
+msgstr ""
+
+#: ../functions/widgets.php:329
+msgid "we said,"
+msgstr ""
+
+#: ../functions/widgets.php:329
+msgid "what is your favorite comedy duo on Youtube?"
+msgstr ""
+
+#: ../functions/widgets.php:333
+msgid "Past Tense Prefix:"
+msgstr ""
+
+#: ../functions/widgets.php:335
+msgid "Example: about 4 hours ago"
+msgstr ""
+
+#: ../functions/widgets.php:335
+msgid "we"
+msgstr ""
+
+#: ../functions/widgets.php:335
+msgid "bought Modern Warfare 3 at the nearest Best Buy."
+msgstr ""
+
+#: ../functions/widgets.php:339
+msgid "Present Tense Prefix:"
+msgstr ""
+
+#: ../functions/widgets.php:341
+msgid "Example: about 7 minutes ago"
+msgstr ""
+
+#: ../functions/widgets.php:341
+msgid "we were"
+msgstr ""
+
+#: ../functions/widgets.php:341
+msgid "drinking a pint of Bells Consecrator Doppelbock."
+msgstr ""
+
+#: ../functions/widgets.php:345
+msgid "Reply Prefix:"
+msgstr ""
+
+#: ../functions/widgets.php:347
+msgid "we replied"
+msgstr ""
+
+#: ../functions/widgets.php:347
+msgid "@wordpress thank you for your magnanimosity."
+msgstr ""
+
+#: ../functions/widgets.php:351
+msgid "URL Prefix:"
+msgstr ""
+
+#: ../functions/widgets.php:353
+msgid "Example: about 45 minutes ago"
+msgstr ""
+
+#: ../functions/widgets.php:353
+msgid "we were checking out"
+msgstr ""
+
+#: ../functions/widgets.php:353
+msgid "Dubstep meets guns: http://youtu.be/hDlif8Km4S4"
+msgstr ""
+
+#: ../functions/widgets.php:356
+msgid "See the Made documentation for further information."
+msgstr ""
+
+#: ../functions/widgets.php:366
+msgid "Displays your Flickr feed"
+msgstr ""
+
+#: ../functions/widgets.php:427
+msgid "View more photos"
+msgstr ""
+
+#: ../functions/widgets.php:456
+msgid "Number of photos:"
+msgstr ""
+
+#: ../functions/widgets.php:467
+msgid "Displays posts, comments, and tags in a jQuery tabbed format"
+msgstr ""
+
+#: ../functions/widgets.php:536
+msgid "Popular"
+msgstr ""
+
+#: ../functions/widgets.php:537
+msgid "Recent"
+msgstr ""
+
+#: ../functions/widgets.php:538
+msgid "Comments"
+msgstr ""
+
+#: ../functions/widgets.php:787
+#: ../functions/widgets.php:1408
+#: ../functions/widgets.php:1813
+msgid "Thumbnail Size:"
+msgstr ""
+
+#: ../functions/widgets.php:796
+#: ../functions/widgets.php:803
+#: ../functions/widgets.php:810
+#: ../functions/widgets.php:817
+#: ../functions/widgets.php:959
+#: ../functions/widgets.php:1177
+#: ../functions/widgets.php:1186
+#: ../functions/widgets.php:1195
+#: ../functions/widgets.php:1204
+#: ../functions/widgets.php:1420
+#: ../functions/widgets.php:1573
+#: ../functions/widgets.php:1821
+msgid "Display"
+msgstr ""
+
+#: ../functions/widgets.php:798
+msgid "popular posts"
+msgstr ""
+
+#: ../functions/widgets.php:805
+msgid "recent posts"
+msgstr ""
+
+#: ../functions/widgets.php:812
+msgid "comments"
+msgstr ""
+
+#: ../functions/widgets.php:819
+msgid "tags"
+msgstr ""
+
+#: ../functions/widgets.php:824
+msgid "Order tags by name"
+msgstr ""
+
+#: ../functions/widgets.php:826
+msgid "Order tags by post count"
+msgstr ""
+
+#: ../functions/widgets.php:836
+msgid "Displays pages, categories, and archives in a jQuery tabbed format"
+msgstr ""
+
+#: ../functions/widgets.php:863
+msgid "Pages"
+msgstr ""
+
+#: ../functions/widgets.php:864
+msgid "Archives"
+msgstr ""
+
+#: ../functions/widgets.php:945
+msgid "Display categories"
+msgstr ""
+
+#: ../functions/widgets.php:947
+#: ../functions/widgets.php:954
+#: ../functions/widgets.php:1181
+#: ../functions/widgets.php:1190
+#: ../functions/widgets.php:1199
+#: ../functions/widgets.php:1208
+msgid "levels deep"
+msgstr ""
+
+#: ../functions/widgets.php:952
+msgid "Display pages"
+msgstr ""
+
+#: ../functions/widgets.php:961
+msgid "archives in"
+msgstr ""
+
+#: ../functions/widgets.php:968
+msgid "format"
+msgstr ""
+
+#: ../functions/widgets.php:971
+msgid "Note: category and page lists are only styled up to 3 levels deep. You can display more than 3 levels of categories and pages if you want to, but anything deeper than the 3rd level will look as though it's part of the 3rd level itself. If you really do have more than 3 levels of categories, I salute you!"
+msgstr ""
+
+#: ../functions/widgets.php:981
+msgid "Displays review categories in a jQuery tabbed format"
+msgstr ""
+
+#: ../functions/widgets.php:1032
+msgid " by category"
+msgstr ""
+
+#: ../functions/widgets.php:1165
+#: ../functions/widgets.php:1799
+msgid "Review Type:"
+msgstr ""
+
+#: ../functions/widgets.php:1179
+msgid "tab 1 items"
+msgstr ""
+
+#: ../functions/widgets.php:1188
+msgid "tab 2 items"
+msgstr ""
+
+#: ../functions/widgets.php:1197
+msgid "tab 3 items"
+msgstr ""
+
+#: ../functions/widgets.php:1206
+msgid "tab 4 items"
+msgstr ""
+
+#: ../functions/widgets.php:1220
+msgid "Displays recent reviews in a jQuery tabbed format with either large or small thumbnails"
+msgstr ""
+
+#: ../functions/widgets.php:1422
+#: ../functions/widgets.php:1575
+#: ../functions/widgets.php:1823
+msgid "reviews"
+msgstr ""
+
+#: ../functions/widgets.php:1439
+msgid "Displays recent reviews in a jQuery tabbed format without thumbnails in a more compact fashion so you can fit more on the page at once."
+msgstr ""
+
+#: ../functions/widgets.php:1592
+msgid "Displays recent reviews from a single review type. Add multiple widgets for each review type"
+msgstr ""
+
+#: ../functions/widgets.php:1662
+msgid "View all "
+msgstr ""
+
+#: ../functions/widgets.php:1662
+msgid " reviews"
+msgstr ""
+
+#: ../functions/widgets.php:1801
+msgid "All Reviews"
+msgstr ""
+
+#: ../functions/widgets.php:1834
+msgid "Displays arbritrary text of HTML just like the standard Text widget, but this one does not include the header bar and wrapper style - just a blank canvas for content"
+msgstr ""
+
+#: ../functions/widgets.php:1866
+msgid "Text/HTML"
+msgstr ""
+
+#: ../functions/widgets.php:1878
+msgid "Insert your adsense or HTML code for four 125px-wide ads that will display in a 2 x 2 panel (if this widget is put into a footer panel, the maximum width of the ads is 90px instead of 125px)"
+msgstr ""
+
+#: ../functions/widgets.php:1937
+msgid "Leave the title blank to hide the entire title bar."
+msgstr ""
+
+#: ../functions/widgets.php:1941
+msgid "Ad 1 HTML:"
+msgstr ""
+
+#: ../functions/widgets.php:1946
+msgid "Ad 2 HTML:"
+msgstr ""
+
+#: ../functions/widgets.php:1951
+msgid "Ad 3 HTML:"
+msgstr ""
+
+#: ../functions/widgets.php:1956
+msgid "Ad 4 HTML:"
+msgstr ""
+
+#: ../functions/widgets.php:1960
+msgid "Tip: you can add as many of these widgets as you want in order to create multiple ad panels on top of each other. Also, the width crops at 125px but the height does not crop, so you can use images of any height."
+msgstr ""
+
+#: ../functions/widgets.php:1969
+msgid "Displays a form for users to subscribe to your Feedburner feed via email"
+msgstr ""
+
+#: ../functions/widgets.php:2008
+#: ../inc/dont-miss.php:113
+#: ../inc/dont-miss.php:145
+msgid "You will receive a daily email with new content from our website."
+msgstr ""
+
+#: ../functions/widgets.php:2041
+msgid "Textbox Label:"
+msgstr ""
+
+#: ../functions/widgets.php:2046
+msgid "Feedburner Feed Name:"
+msgstr ""
+
+#: ../functions/widgets.php:2050
+msgid "How to find your Feed Name"
+msgstr ""
+
+#: ../inc/authorbox.php:78
+msgid "More articles by"
+msgstr ""
+
+#: ../inc/demo-panel.php:20
+msgid "Demo Settings"
+msgstr ""
+
+#: ../inc/dont-miss.php:21
+msgid "The tag you specified in the theme options for the Don't Miss Slider does not match a tag slug in your database."
+msgstr ""
+
+#: ../inc/dont-miss.php:28
+msgid "The category you specified in the theme options for the Don't Miss Slider does not match a category slug in your database."
+msgstr ""
+
+#: ../inc/dont-miss.php:37
+msgid "The review type you specified in the theme options for the Don't Miss Slider does not match a review type in your database."
+msgstr ""
+
+#: ../inc/featured.php:70
+msgid " Review"
+msgstr ""
+
+#: ../inc/featured.php:133
+msgid "Could not find any featured posts. Make sure the value in Appearance >> Theme Options >> Front Page >> Featured Tag matches the slug for that tag in Posts >> Tags (must use the slug if it is different than the name of the tag). Also make sure you have assigned this tag to your posts, and that your posts have been given featured images"
+msgstr ""
+
+#: ../inc/latest.php:54
+msgid "The tag you specified in the theme options for the Latest Slider does not match a tag slug in your database."
+msgstr ""
+
+#: ../inc/latest.php:61
+msgid "The category you specified in the theme options for the Latest Slider does not match a category slug in your database."
+msgstr ""
+
+#: ../inc/latest.php:66
+msgid "The review type you specified in the theme options for one of the review types in your Front Page Tabs doesn't match a review type in your database."
+msgstr ""
+
+#: ../inc/single-normal.php:135
+#: ../inc/single-review.php:413
+msgid "0"
+msgstr ""
+
+#: ../inc/single-normal.php:135
+#: ../inc/single-review.php:413
+msgid "1"
+msgstr ""
+
+#: ../inc/single-normal.php:135
+#: ../inc/single-review.php:413
+msgid "%"
+msgstr ""
+
+#: ../inc/single-normal.php:139
+#: ../inc/single-review.php:419
+msgid "Posted"
+msgstr ""
+
+#: ../inc/single-normal.php:141
+#: ../inc/single-review.php:421
+msgid "by"
+msgstr ""
+
+#: ../inc/single-normal.php:143
+msgid "in"
+msgstr ""
+
+#: ../inc/spotlight.php:19
+msgid "The tag name you specified in the theme options for the Spotlight Slider does not match a tag name in your database."
+msgstr ""
+
+#: ../inc/spotlight.php:27
+msgid "The category name you specified in the theme options for the Spotlight Slider does not match a category name in your database."
+msgstr ""
+
+#: ../inc/trending.php:18
+msgid "The tag you specified in the theme options for the Trending Slider does not match a tag in your database."
+msgstr ""
+
+#: ../inc/trending.php:27
+msgid "The category you specified in the theme options for the Trending Slider does not match a category in your database."
+msgstr ""
+

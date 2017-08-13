@@ -1,0 +1,161 @@
+/* GLOBALS */
+.clear{clear:both}
+
+/* save new file area */
+#form-save-new-file{
+    background-color:#ccc;
+     text-align:center;
+    padding: 20px 0;
+}
+/* file uploader area */
+#nm-uploadfile{
+   width:100%;
+}
+#select-button{
+    background-color:#ffe;
+    display:block;
+    padding: 5px 0;
+}
+
+#select_button:hover{
+    background-color:#999;
+    color:#fff;
+}
+
+.nm-file-thumb{
+    float:left;
+    text-align:center;
+    width:25%;
+}
+
+.nm-file-title-description{
+    width:75%;
+    float:left;
+    text-align:left;
+}
+
+.nm-file-title-description input[type="text"], .nm-file-title-description textarea{
+    width:96%;
+}
+#filelist-uploadfile{
+    margin:25px 0px;
+}
+
+#container_buttons{
+    max-width:25%;
+    margin:0 auto;
+}
+
+#fileupload-button-bar{
+	text-align:center;
+	display:none;
+}
+#fileupload-button{
+	background-color: #cd472a;
+	color: #fff;
+	padding: 19px 23px 19px 23px;
+	width: 120px;
+	text-align: center;
+	margin: 0 20px 0 0;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.progress_bar {
+	width: 77%;
+	margin: 0 auto;
+	background: #ffc;
+	display: inline-block;
+	border: 1px solid;
+	background-color: #E0DFDF;
+}
+.progress_bar_runner{
+	background-color: #1B4EEE;
+	height: 25px;
+	display: none;
+}
+
+.file-thumb-title-description{
+	width: 75%;
+	margin: 0 auto;
+	background-color: #999;
+	padding: 10px;
+}
+/* ENDS: file uploader area */
+
+/* file list area */
+#nm-uploaded-files{
+    
+}
+#nm-uploaded-files .file-list-container{
+    border:1px #999 solid;
+    min-height: 75px;
+}
+#nm-uploaded-files .nm-file-thumb{
+    min-width:50px;
+    float:left;
+}
+#nm-uploaded-files .nm-file-title{
+    float:left;
+    padding: 5px 0px 0px 5px;
+    width:75%;
+}
+#nm-uploaded-files .nm-file-tools{
+    float:right;
+    width:15%;
+}
+
+/* ENDS: file list area */
+
+
+
+/* ENDS: file list area */
+/* pagination css starts*/
+.pagination {
+clear:both;
+padding:20px 0;
+position:relative;
+font-size:11px;
+line-height:13px;
+}
+
+.pagination span, .pagination a {
+display:block;
+float:left;
+margin: 2px 2px 2px 0;
+padding:6px 9px 5px 9px;
+text-decoration:none;
+width:auto;
+color:#fff;
+background: #555;
+}
+
+.pagination a:hover{
+color:#fff;
+background: #3279BB;
+}
+
+.pagination .current{
+padding:6px 9px 5px 9px;
+background: #3279BB;
+color:#fff;
+}
+/* pagination css starts*/
+
+.no-ie-support-message{
+    color: red;
+    background: #ccf;
+}
+
+.filemanager-notice{
+    padding: 15px 5px;
+    background-color: #d6f7d6;
+    margin: 5px 0;
+}
