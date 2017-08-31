@@ -1,0 +1,127 @@
+{
+    "fields": [
+        {
+            "name": "title",
+            "type": "string"
+        },
+        {
+            "name": "author",
+            "type": "string"
+        },
+        {
+            "name": "supervisor",
+            "type": "string"
+        },
+        {
+            "name": "email",
+            "type": "email"
+        },
+        {
+            "name": "abstrack_en",
+            "type": "text"
+        },
+        {
+            "name": "abstrack_id",
+            "type": "text"
+        },
+        {
+            "name": "keyword",
+            "type": "string"
+        },
+        {
+            "name": "cover",
+            "type": "file"
+        },
+        {
+            "name": "bab_1",
+            "type": "file" 
+        },
+        {
+            "name": "bab_2",
+            "type": "file" 
+        },
+        {
+            "name": "bab_3",
+            "type": "file" 
+        },
+        {
+            "name": "bab_4",
+            "type": "file" 
+        },
+        {
+            "name": "bab_5",
+            "type": "file" 
+        },
+        {
+            "name": "bab_6",
+            "type": "file" 
+        },
+        {
+            "name": "lampiran",
+            "type": "file"
+        }
+    ],
+    "validations": [
+        {
+            "field": "title",
+            "rules": "required"
+        },
+        {
+            "field": "author",
+            "rules": "required"
+        },
+        {
+            "field": "supervisor",
+            "rules": "required"
+        },
+        {
+            "field": "email",
+            "rules": "required"
+        },
+        {
+            "field": "abstrack_en",
+            "rules": "required"
+        },
+        {
+            "field": "abstrack_id",
+            "rules": "required"
+        },
+        {
+            "field": "keyword",
+            "rules": "required"
+        },
+        {
+            "field": "cover",
+            "rules": "required"
+        },
+        {
+            "field": "bab_1",
+            "rules": "required" 
+        },
+        {
+            "field": "bab_2",
+            "rules": "required" 
+        },
+        {
+            "field": "bab_3",
+            "rules": "required" 
+        },
+        {
+            "field": "bab_4",
+            "rules": "required" 
+        },
+        {
+            "field": "bab_5",
+            "rules": "required" 
+        },
+        {
+            "field": "bab_6",
+            "rules": "required" 
+        },
+        {
+            "field": "lampiran",
+            "rules": "required"
+        }
+
+    ]
+}

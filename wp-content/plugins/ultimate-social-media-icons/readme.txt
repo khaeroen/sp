@@ -2,12 +2,12 @@
 Contributors: socialdude
 Tags: social media, share, buttons, social, icons, share icons, share buttons, sharing icons, sharing buttons, social share, sharing, social sharing
 Requires at least: 2.8
-Tested up to: 4.8
-Stable tag: 1.7.5
+Tested up to: 4.8.1
+Stable tag: 1.7.6
 License: GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Easy-to-use share buttons plugin which adds social media icons to your site to enable sharing - with tons of customization features!    
+Share buttons plugin which adds social media icons to your site to enable sharing.  
 
 == Description ==
 
@@ -266,6 +266,9 @@ You cannot use the same plugin twice, however you can install both the USM as we
 
 
 == Changelog ==
+
+= 1.7.6 =
+* Comment to selecting of specific text and picture per page/post added
 
 = 1.7.5 =
 * Link to more premium icons added
@@ -627,5 +630,5 @@ You cannot use the same plugin twice, however you can install both the USM as we
 
 == Upgrade Notice ==
 
-= 1.7.5 =
+= 1.7.6 =
 Please upgrade

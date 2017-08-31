@@ -1,0 +1,1266 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"Project-Id-Version: USP\n"
+"Language: tr-TR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-03 19:18+0000\n"
+"PO-Revision-Date: 2017-08-03 19:18+0000\n"
+"Last-Translator: Jeff Starr <help@monzillamedia.com>\n"
+"Language-Team: Turkish\n"
+"Plural-Forms: nplurals=2; plural=n != 1"
+
+#. Name of the plugin
+#: user-submitted-posts.php:43
+msgid "User Submitted Posts"
+msgstr "Kullanıcı Gönderilen Gönderi"
+
+#: user-submitted-posts.php:75
+msgid "requires WordPress "
+msgstr "WordPress gerektiriyor"
+
+#: user-submitted-posts.php:76
+msgid " or higher, and has been deactivated! "
+msgstr " Veya daha yüksek ve devre dışı bırakılmıştır!"
+
+#: user-submitted-posts.php:77
+msgid "Please return to the"
+msgstr "Lütfen adresine dönün"
+
+#: user-submitted-posts.php:78
+msgid "WordPress Admin Area"
+msgstr "WordPress Yönetici Alanı"
+
+#: user-submitted-posts.php:79
+msgid "to upgrade WordPress and try again."
+msgstr "WordPress'i yükseltmek ve tekrar deneyin."
+
+#: user-submitted-posts.php:121
+msgid "User Submitted Post"
+msgstr "Kullanıcı Gönderen Gönderi"
+
+#: user-submitted-posts.php:384
+msgid "User Submitted Post Info"
+msgstr "Kullanıcı Gönderildi"
+
+#: user-submitted-posts.php:414
+msgid "Submitter Name: "
+msgstr "Gönderen Adı:"
+
+#: user-submitted-posts.php:415
+msgid "Submitter Email: "
+msgstr "Gönderen E-postası:"
+
+#: user-submitted-posts.php:416
+msgid "Submitter URL: "
+msgstr "Gönderen URL'si:"
+
+#: user-submitted-posts.php:417
+msgid "Submitter IP: "
+msgstr "Gönderen IP:"
+
+#: user-submitted-posts.php:468
+msgid "Show USP Posts"
+msgstr "USP Mesajları Göstermek"
+
+#: user-submitted-posts.php:469
+msgid "USP"
+msgstr "USP"
+
+#: user-submitted-posts.php:1103
+msgid " files required"
+msgstr " Gerekli dosyalar"
+
+#: user-submitted-posts.php:1104
+msgid " file required"
+msgstr " Dosya gerekli"
+
+#: user-submitted-posts.php:1106
+msgid " files"
+msgstr " dosyalar"
+
+#: user-submitted-posts.php:1107
+msgid " file"
+msgstr " dosya"
+
+#: user-submitted-posts.php:1109 user-submitted-posts.php:1110 
+#: user-submitted-posts.php:1111 user-submitted-posts.php:1112
+msgid " pixels"
+msgstr " piksel"
+
+#: user-submitted-posts.php:1115
+msgid "An error occurred. Please go back and try again."
+msgstr "Bir hata oluştu. Lütfen geri dönün ve tekrar deneyin."
+
+#: user-submitted-posts.php:1125
+msgid "User login required"
+msgstr "Kullanıcı girişi gerekli"
+
+#: user-submitted-posts.php:1126
+msgid "User name required"
+msgstr "Kullanıcı adı gerekli"
+
+#: user-submitted-posts.php:1127
+msgid "Post title required"
+msgstr "İlan başlığı gerekli"
+
+#: user-submitted-posts.php:1128
+msgid "User URL required"
+msgstr "Kullanıcı URL'si gerekli"
+
+#: user-submitted-posts.php:1129
+msgid "Post tags required"
+msgstr "Post etiketleri gerekli"
+
+#: user-submitted-posts.php:1130
+msgid "Post category required"
+msgstr "Yayın kategorisi gerekli"
+
+#: user-submitted-posts.php:1131
+msgid "Post content required"
+msgstr "İlan içeriği gerekli"
+
+#: user-submitted-posts.php:1132 user-submitted-posts.php:1133
+msgid "Correct captcha required"
+msgstr "Doğru captcha gerekli"
+
+#: user-submitted-posts.php:1134
+msgid "User email required"
+msgstr "Kullanıcı e-postası gerekiyor"
+
+#: user-submitted-posts.php:1135
+msgid "Please check your email and try again"
+msgstr "Lütfen e-postanızı kontrol edin ve tekrar deneyin"
+
+#: user-submitted-posts.php:1136
+msgid "Non-empty value for hidden field"
+msgstr "Gizli alan için boş olmayan değer"
+
+#: user-submitted-posts.php:1137
+msgid "Minimum number of images not met"
+msgstr "Karşılaşılmamış minimum görüntü sayısı"
+
+#: user-submitted-posts.php:1138
+msgid "Maximum number of images exceeded "
+msgstr "Maksimum görüntü sayısı aşıldı"
+
+#: user-submitted-posts.php:1139
+msgid "Minimum image width not met"
+msgstr "Minimum görüntü genişliği karşılanmadı"
+
+#: user-submitted-posts.php:1140
+msgid "Image width exceeds maximum"
+msgstr "Görüntü genişliği maksimumu aşıyor"
+
+#: user-submitted-posts.php:1141
+msgid "Minimum image height not met"
+msgstr "Minimum görüntü yüksekliği karşılanmadı"
+
+#: user-submitted-posts.php:1142
+msgid "Image height exceeds maximum"
+msgstr "Görüntü yüksekliği maksimumu aşıyor"
+
+#: user-submitted-posts.php:1143
+msgid "File type not allowed (please upload images only)"
+msgstr "Dosya türü izin verilmedi (lütfen yalnızca resim yükleyin)"
+
+#: user-submitted-posts.php:1147
+msgid "Error uploading file. Please check the file size and try again."
+msgstr ""
+"Dosya yüklenirken hata oluştu. Lütfen dosya boyutunu kontrol edin ve tekrar "
+"deneyin."
+
+#: user-submitted-posts.php:1151
+msgid "The file(s) could not be uploaded"
+msgstr "Dosya (lar) yüklenemedi"
+
+#: user-submitted-posts.php:1153
+msgid "Post not created. Please contact the site administrator for help."
+msgstr "Yazı oluşturulmadı. Lütfen yardım için site yöneticisine başvurun."
+
+#: user-submitted-posts.php:1154
+msgid "Duplicate post title. Please try again."
+msgstr "Yayın başlığını çoğaltın. Lütfen tekrar deneyin."
+
+#: user-submitted-posts.php:1164
+msgid "Error: "
+msgstr "Hata:"
+
+#: user-submitted-posts.php:1190
+msgid "Return to form"
+msgstr "Forma dön"
+
+#: user-submitted-posts.php:1218 library/plugin-settings.php:658
+msgid "Please"
+msgstr "Lütfen"
+
+#: user-submitted-posts.php:1219
+msgid "log in"
+msgstr "oturum aç"
+
+#: user-submitted-posts.php:1220
+msgid "to submit content!"
+msgstr "Içerik göndermek!"
+
+#: views/submission-form.php:45 views/submission-form-alt.php:54
+msgid "Please complete the required fields."
+msgstr "Lütfen gerekli alanları doldurun."
+
+#: views/submission-form.php:55 views/submission-form.php:56 
+#: views/submission-form-alt.php:60 views/submission-form-alt.php:61
+msgid "Your Name"
+msgstr "Adınız"
+
+#: views/submission-form.php:61 views/submission-form.php:62 
+#: views/submission-form-alt.php:66 views/submission-form-alt.php:67
+msgid "Your URL"
+msgstr "URL'niz"
+
+#: views/submission-form.php:67 views/submission-form.php:68 
+#: views/submission-form-alt.php:72 views/submission-form-alt.php:73
+msgid "Your Email"
+msgstr "E-posta adresiniz"
+
+#: views/submission-form.php:73 views/submission-form.php:74 
+#: views/submission-form-alt.php:78 views/submission-form-alt.php:79 
+#: library/plugin-settings.php:747
+msgid "Post Title"
+msgstr "Yazı başlığı"
+
+#: views/submission-form.php:79 views/submission-form.php:80 
+#: views/submission-form-alt.php:84 views/submission-form-alt.php:85 
+#: library/plugin-settings.php:757
+msgid "Post Tags"
+msgstr "Etiketleri Gönder"
+
+#: views/submission-form.php:86 views/submission-form-alt.php:91
+msgid "Antispam Question"
+msgstr "İstenmeyen Posta Sorunu Sorunu"
+
+#: views/submission-form.php:91 views/submission-form-alt.php:96 
+#: library/plugin-settings.php:767
+msgid "Post Category"
+msgstr "Gönderi Kategorisi"
+
+#: views/submission-form.php:93 views/submission-form-alt.php:98
+msgid "Please select a category.."
+msgstr "Lütfen bir kategori seçin .."
+
+#: views/submission-form.php:128 views/submission-form.php:129 
+#: views/submission-form-alt.php:133 views/submission-form-alt.php:134 
+#: library/plugin-settings.php:777
+msgid "Post Content"
+msgstr "İçerik Gönderme"
+
+#: views/submission-form.php:135 views/submission-form-alt.php:140
+msgid "Verification"
+msgstr "Doğrulama"
+
+#: views/submission-form.php:142 views/submission-form-alt.php:147
+msgid "Upload an Image"
+msgstr "Resim Yükle"
+
+#: views/submission-form.php:151 views/submission-form-alt.php:156
+msgid "Add another image"
+msgstr "Başka bir resim ekle"
+
+#: views/submission-form.php:173 views/submission-form-alt.php:178
+msgid "Human verification: leave this field empty."
+msgstr "İnsan doğrulaması: bu alanı boş bırakın."
+
+#: views/submission-form.php:195 views/submission-form-alt.php:200
+msgid "Submit Post"
+msgstr "Gönder"
+
+#: library/plugin-settings.php:32
+msgid "Get USP Pro for unlimited forms!"
+msgstr "Sınırsız formlar için USP Pro'yu edinin!"
+
+#: library/plugin-settings.php:33
+msgid "Go Pro"
+msgstr "Git Pro"
+
+#: library/plugin-settings.php:37
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: library/plugin-settings.php:55
+msgid "Give USP a 5-star rating at WordPress.org"
+msgstr "USP'ye WordPress.org'da 5 yıldızlı bir puan verin"
+
+#: library/plugin-settings.php:56
+msgid "Rate this plugin&nbsp;&raquo;"
+msgstr "Bu eklentiyi oyla&nbsp;&raquo;"
+
+#: library/plugin-settings.php:115
+msgid "WP Post (recommended)"
+msgstr "WP Post (önerilir)"
+
+#: library/plugin-settings.php:119
+msgid "WP Page"
+msgstr "WP Sayfa"
+
+#: library/plugin-settings.php:135
+msgid "HTML5 Form + Default CSS"
+msgstr "HTML5 Formu + Varsayılan CSS"
+
+#: library/plugin-settings.php:135
+msgid "(Recommended)"
+msgstr "(Tavsiye edilen)"
+
+#: library/plugin-settings.php:139
+msgid "HTML5 Form + Disable CSS"
+msgstr "HTML5 Formu + CSS'yi Devre Dışı Bırak"
+
+#: library/plugin-settings.php:139
+msgid "(Provide your own styles)"
+msgstr "(Kendi stillerinizi sunun)"
+
+#: library/plugin-settings.php:143
+msgid "Custom Form + Custom CSS"
+msgstr "Özel Form + Özel CSS"
+
+#: library/plugin-settings.php:143
+msgid "(Provide your own form template &amp; styles)"
+msgstr "(Kendi form şablonunu ve stillerini sağla)"
+
+#: library/plugin-settings.php:159 library/plugin-settings.php:183 
+#: library/plugin-settings.php:206
+msgid "Auto-display before post content"
+msgstr "İçerik yayınlamadan önce otomatik görüntüleme"
+
+#: library/plugin-settings.php:163 library/plugin-settings.php:187 
+#: library/plugin-settings.php:210
+msgid "Auto-display after post content"
+msgstr "İçerik sonrası otomatik görüntü"
+
+#: library/plugin-settings.php:167
+msgid "Do not auto-display submitted images"
+msgstr "Gönderilen resimleri otomatik olarak gösterme"
+
+#: library/plugin-settings.php:191
+msgid "Do not auto-display submitted email"
+msgstr "Gönderilen e-postayı otomatik olarak gösterme"
+
+#: library/plugin-settings.php:214
+msgid "Do not auto-display submitted URL"
+msgstr "Gönderilen URL'yi otomatik olarak gösterme"
+
+#: library/plugin-settings.php:367
+msgid ""
+"There was an error. Please ensure that you have added a title, some content, "
+"and that you have uploaded only images."
+msgstr ""
+"Bir hata oluştu. Lütfen bir başlık, bazı içerik eklediğinizden ve yalnızca "
+"resim yüklediğinizden emin olun."
+
+#: library/plugin-settings.php:381
+msgid "Please select your image(s) to upload."
+msgstr "Lütfen yüklemek için resim (lerinizi) seçin."
+
+#: library/plugin-settings.php:387
+msgid "Success! Thank you for your submission."
+msgstr "Başarı! Göndermeniz için teşekkür ederiz."
+
+#: library/plugin-settings.php:413
+msgid "Email"
+msgstr "E-posta"
+
+#: library/plugin-settings.php:414
+msgid "URL"
+msgstr "URL"
+
+#: library/plugin-settings.php:645
+msgid "Toggle all panels"
+msgstr "Tüm panelleri aç / kapat"
+
+#: library/plugin-settings.php:654
+msgid "We need your support!"
+msgstr "Desteğinize ihtiyacımız var!"
+
+#: library/plugin-settings.php:658
+msgid "Make a donation via PayPal"
+msgstr "PayPal ile bağış yapın"
+
+#: library/plugin-settings.php:658
+msgid "make a donation"
+msgstr "Bağış yap"
+
+#: library/plugin-settings.php:658
+msgid "and/or"
+msgstr "ve / veya"
+
+#: library/plugin-settings.php:659
+msgid "Rate and review at the Plugin Directory"
+msgstr "Eklenti Dizini'nde puanlama ve gözden geçirme"
+
+#: library/plugin-settings.php:660
+msgid "give this plugin a 5-star rating"
+msgstr "Bu eklentiye 5 yıldızlı rating ver"
+
+#: library/plugin-settings.php:664
+msgid ""
+"Your generous support enables continued development of this free plugin. "
+"Thank you!"
+msgstr ""
+"Cömert desteğiniz bu ücretsiz eklentinin geliştirilmesini sağlar. Teşekkür "
+"ederim!"
+
+#: library/plugin-settings.php:669
+msgid "Check this box if you have shown support"
+msgstr "Desteği gösterdiyseniz bu kutuyu işaretleyin"
+
+#: library/plugin-settings.php:678
+msgid "Overview"
+msgstr "genel bakış"
+
+#: library/plugin-settings.php:682
+msgid ""
+"enables your visitors to submit posts and upload images from the front-end "
+"of your site. "
+msgstr ""
+"Ziyaretçilerinizin sitenizin ön ucundan mesajlar göndermesine ve resim "
+"yüklemesine olanak tanır."
+
+#: library/plugin-settings.php:683
+msgid "For advanced functionality and unlimited forms, check out"
+msgstr "Gelişmiş işlevler ve sınırsız formlar için check out"
+
+#: library/plugin-settings.php:684
+msgid "&mdash; the ultimate solution for user-generated content."
+msgstr "- kullanıcı tarafından oluşturulan içerik için en iyi çözüm."
+
+#: library/plugin-settings.php:688 library/plugin-settings.php:706
+msgid "Plugin Settings"
+msgstr "Eklenti Ayarları"
+
+#: library/plugin-settings.php:689
+msgid "Display the form"
+msgstr "Formu görüntüleme"
+
+#: library/plugin-settings.php:690 library/plugin-settings.php:1243
+msgid "Plugin Homepage"
+msgstr "Eklenti Anasayfası"
+
+#: library/plugin-settings.php:693
+msgid "If you like this plugin, please"
+msgstr "Bu eklentiyi beğendiyseniz lütfen"
+
+#: library/plugin-settings.php:694
+msgid "THANK YOU for your support!"
+msgstr "Desteğin için teşekkürler!"
+
+#: library/plugin-settings.php:694
+msgid "give it a 5-star rating"
+msgstr "Ona 5 yıldızlı derecelendirme ver"
+
+#: library/plugin-settings.php:698
+msgid "Unlimited front-end forms"
+msgstr "Sınırsız ön uç formları"
+
+#: library/plugin-settings.php:698
+msgid "Get USP Pro"
+msgstr "USP Pro'yu edinin"
+
+#: library/plugin-settings.php:710
+msgid "Configure your settings for User Submitted Posts."
+msgstr "Kullanıcı Gönderilen Mesajlar için ayarlarınızı yapılandırın."
+
+#: library/plugin-settings.php:712
+msgid "Form Fields"
+msgstr "Form Alanları"
+
+#: library/plugin-settings.php:717
+msgid "User Name"
+msgstr "Kullanıcı adı"
+
+#: library/plugin-settings.php:720 library/plugin-settings.php:730 
+#: library/plugin-settings.php:740 library/plugin-settings.php:750 
+#: library/plugin-settings.php:760 library/plugin-settings.php:770 
+#: library/plugin-settings.php:780 library/plugin-settings.php:790 
+#: library/plugin-settings.php:800
+msgid "Display and require"
+msgstr "Görüntüle ve talep et"
+
+#: library/plugin-settings.php:721 library/plugin-settings.php:731 
+#: library/plugin-settings.php:741 library/plugin-settings.php:751 
+#: library/plugin-settings.php:761 library/plugin-settings.php:771 
+#: library/plugin-settings.php:781
+msgid "Display but do not require"
+msgstr "Görüntüleme, ancak gerektirmez"
+
+#: library/plugin-settings.php:722 library/plugin-settings.php:732 
+#: library/plugin-settings.php:742 library/plugin-settings.php:752 
+#: library/plugin-settings.php:762 library/plugin-settings.php:772 
+#: library/plugin-settings.php:782 library/plugin-settings.php:791 
+#: library/plugin-settings.php:801
+msgid "Disable this field"
+msgstr "Bu alanı devre dışı bırak"
+
+#: library/plugin-settings.php:727
+msgid "User Email"
+msgstr "Kullanıcı E-postası"
+
+#: library/plugin-settings.php:737
+msgid "User URL"
+msgstr "Kullanıcı URL'si"
+
+#: library/plugin-settings.php:787 library/plugin-settings.php:793 
+#: library/plugin-settings.php:999 library/plugin-settings.php:1004
+msgid "Challenge Question"
+msgstr "Yarışma sorusu"
+
+#: library/plugin-settings.php:793 library/plugin-settings.php:803 
+#: library/plugin-settings.php:813
+msgid "(Visit"
+msgstr "(Ziyaret etmek"
+
+#: library/plugin-settings.php:793 library/plugin-settings.php:803 
+#: library/plugin-settings.php:813
+msgid "to configure options)"
+msgstr "Seçenekleri yapılandırmak için)"
+
+#: library/plugin-settings.php:797 library/plugin-settings.php:803 
+#: library/plugin-settings.php:1021
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: library/plugin-settings.php:807
+msgid "Post Images"
+msgstr "Post Görüntüler"
+
+#: library/plugin-settings.php:810
+msgid "Display"
+msgstr "ekran"
+
+#: library/plugin-settings.php:811
+msgid "Disable"
+msgstr "Devre dışı"
+
+#: library/plugin-settings.php:813 library/plugin-settings.php:1080
+msgid "Image Uploads"
+msgstr "Resim Yüklemeleri"
+
+#: library/plugin-settings.php:819
+msgid "General Settings"
+msgstr "Genel Ayarlar"
+
+#: library/plugin-settings.php:824
+msgid "Form Style"
+msgstr "Form Stili"
+
+#: library/plugin-settings.php:829
+msgid "With this option, you can copy the plugin&rsquo;s default templates:"
+msgstr "Bu seçenekle, eklentinin varsayılan şablonlarını kopyalayabilirsiniz:"
+
+#: library/plugin-settings.php:834
+msgid "..and upload them into a directory named"
+msgstr "..ve bunları adlı bir dizine yükleyin"
+
+#: library/plugin-settings.php:834
+msgid "in your theme:"
+msgstr "Senin temanızda:"
+
+#: library/plugin-settings.php:840
+msgid ""
+"That will enable you to customize the form and styles as desired. For more "
+"info, check out the \"Custom Submission Form\" section in the"
+msgstr ""
+"Bu, formu ve stilleri istediğiniz gibi özelleştirebilmenizi sağlayacaktır. "
+"Daha fazla bilgi için, \"Özel Gönderi Formu\" bölümüne göz atın."
+
+#: library/plugin-settings.php:841
+msgid "Installation Docs"
+msgstr "Kurulum Dokümanları"
+
+#: library/plugin-settings.php:842
+msgid "FYI: here is a"
+msgstr "Bilgin: burada bir"
+
+#: library/plugin-settings.php:842
+msgid "list of USP CSS selectors"
+msgstr "USP CSS seçicilerinin listesi"
+
+#: library/plugin-settings.php:848
+msgid "Include JavaScript"
+msgstr "JavaScript'i ekle"
+
+#: library/plugin-settings.php:850
+msgid ""
+"Check this box if you want to include the external JavaScript files "
+"(recommended)."
+msgstr ""
+"Harici JavaScript dosyalarını eklemek istiyorsanız bu kutuyu işaretleyin "
+"(önerilir)."
+
+#: library/plugin-settings.php:853
+msgid "Targeted Loading"
+msgstr "Hedeflenen Yükleme"
+
+#: library/plugin-settings.php:855
+msgid ""
+"By default, external CSS &amp; JavaScript files are loaded on every page. "
+"Here you may specify the URL of the USP form to load resources only on that "
+"page. Note: leave blank to load on all pages."
+msgstr ""
+"Varsayılan olarak, harici CSS ve JavaScript dosyaları her sayfada yüklenir. "
+"Burada, kaynakları yalnızca o sayfaya yüklemek için USP formunun URL'sini "
+"belirtebilirsiniz. Not: tüm sayfalara yüklemek için boş bırakın."
+
+#: library/plugin-settings.php:858
+msgid "Post Type"
+msgstr "Yazı tipi"
+
+#: library/plugin-settings.php:861
+msgid "Submit posts as WP Posts or Pages"
+msgstr "Yazıları WP Mesajları veya Sayfaları gibi gönder"
+
+#: library/plugin-settings.php:865
+msgid "Auto Publish"
+msgstr "Otomatik Yayınla"
+
+#: library/plugin-settings.php:868
+msgid "Always moderate via Draft"
+msgstr "Taslakla her zaman denetle"
+
+#: library/plugin-settings.php:869
+msgid "Always moderate via Pending"
+msgstr "Beklemede olarak her zaman denetle"
+
+#: library/plugin-settings.php:870
+msgid "Always publish immediately"
+msgstr "Derhal yayınla"
+
+#: library/plugin-settings.php:875
+msgid ""
+"Post Status for submitted posts: moderate (recommended), publish immediately,"
+" or publish after any number of approved posts."
+msgstr ""
+"Gönderme Gönderme Durumları: ılımlı (önerilen), derhal yayınlayın veya "
+"herhangi bir sayıda onaylanmış postanın ardından yayınlayın."
+
+#: library/plugin-settings.php:879
+msgid "Redirect URL"
+msgstr "Yönlendirme URL'si"
+
+#: library/plugin-settings.php:881
+msgid ""
+"Specify a URL to redirect the user after post-submission. Leave blank to "
+"redirect back to current page."
+msgstr ""
+"Göndermeden sonra kullanıcıyı yeniden yönlendirecek bir URL belirtin. "
+"Geçerli sayfaya yönlendirmek için boş bırakın."
+
+#: library/plugin-settings.php:884
+msgid "Success Message"
+msgstr "Başarı Mesajı"
+
+#: library/plugin-settings.php:886
+msgid ""
+"Success message that is displayed if post-submission is successful. Basic "
+"markup is allowed."
+msgstr ""
+"Başvuru başarılı olduğunda görüntülenen başarı mesajı. Temel biçimlendirmeye "
+"izin verilir."
+
+#: library/plugin-settings.php:889
+msgid "Error Message"
+msgstr "Hata mesajı"
+
+#: library/plugin-settings.php:891
+msgid ""
+"General error message that is displayed if post-submission fails. Basic "
+"markup is allowed."
+msgstr ""
+"Gönderi sonrası başarısız olursa görüntülenen genel hata mesajı. Temel "
+"biçimlendirmeye izin verilir."
+
+#: library/plugin-settings.php:894
+msgid "Custom Content"
+msgstr "Özel içerik"
+
+#: library/plugin-settings.php:896
+msgid ""
+"Custom text/markup to be included before the submission form. Leave blank to "
+"disable."
+msgstr ""
+"Gönderi formundan önce eklenecek özel metin / işaretleme. Devre dışı "
+"bırakmak için boş bırakın."
+
+#: library/plugin-settings.php:899
+msgid "Rich Text Editor"
+msgstr "Zengin metin editörü"
+
+#: library/plugin-settings.php:901
+msgid ""
+"Check this box if you want to enable WP rich text editing for submitted "
+"posts."
+msgstr ""
+"Gönderilen gönderiler için WP zengin metin düzenlemesini etkinleştirmek "
+"istiyorsanız bu kutuyu işaretleyin."
+
+#: library/plugin-settings.php:904
+msgid "Unique Titles"
+msgstr "Benzersiz Başlıklar"
+
+#: library/plugin-settings.php:906
+msgid ""
+"Require submitted post titles to be unique (useful for preventing "
+"multiple/duplicate submitted posts)."
+msgstr ""
+"Gönderilen yayın başlıklarının benzersiz olmasını zorunlu kıl (gönderilen "
+"birden çok iletinin önlenmesi için kullanışlıdır)."
+
+#: library/plugin-settings.php:909
+msgid "Disable Required"
+msgstr "Devre Dışı Bırak"
+
+#: library/plugin-settings.php:911
+msgid ""
+"Disable all required attributes on default form fields (useful for "
+"troubleshooting error messages)."
+msgstr ""
+"Varsayılan form alanlarındaki tüm gerekli öznitelikleri devre dışı bırakın "
+"(hata mesajlarının giderilmesinde yararlıdır)."
+
+#: library/plugin-settings.php:914
+msgid "Disable IP Tracking"
+msgstr "IP İzlemeyi Devre Dışı Bırak"
+
+#: library/plugin-settings.php:916
+msgid ""
+"By default USP records the IP address with each submitted post. Check this "
+"box to disable all IP tracking."
+msgstr ""
+"Varsayılan olarak, USP, gönderilen her gönderiyle IP adresini kaydeder. Tüm "
+"IP izlemeyi devre dışı bırakmak için bu kutuyu işaretleyin."
+
+#: library/plugin-settings.php:919
+msgid "Enable Shortcodes"
+msgstr "Kısa Kodları Etkinleştir"
+
+#: library/plugin-settings.php:921
+msgid ""
+"Enable shortcodes in widgets. By default, WordPress does not enable "
+"shortcodes in widgets. "
+msgstr ""
+"Widget'lerdeki kısa kodları etkinleştirin. Varsayılan olarak, WordPress "
+"widget'teki kısa kodları etkinleştirmez."
+
+#: library/plugin-settings.php:922
+msgid ""
+"This setting enables any/all shortcodes in widgets (even shortcodes from "
+"other plugins)."
+msgstr ""
+"Bu ayar, widget'teki tüm / tüm kısa kodları (diğer eklentilerdeki kısa "
+"kodları bile) etkinleştirir."
+
+#: library/plugin-settings.php:927 library/plugin-settings.php:932
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: library/plugin-settings.php:935
+msgid ""
+"Select which categories may be assigned to submitted posts (click to toggle)"
+msgstr ""
+"Gönderilen yayınlara hangi kategorilerin atanabileceğini seçin (geçiş yapmak "
+"için tıklayın)"
+
+#: library/plugin-settings.php:952
+msgid "Hidden/Default Category"
+msgstr "Gizli / Varsayılan Kategori"
+
+#: library/plugin-settings.php:954
+msgid ""
+"Use a hidden field for the post category. This may be used to specify a "
+"default category when the category field is disabled."
+msgstr ""
+"Yayın kategorisi için gizli bir alan kullanın. Bu, kategori alanı devre dışı "
+"bırakıldığında bir varsayılan kategori belirtmek için kullanılabilir."
+
+#: library/plugin-settings.php:957
+msgid "Category ID for Hidden Field"
+msgstr "Gizli Alanın Kategori Kimliği"
+
+#: library/plugin-settings.php:959
+msgid ""
+"Specify the ID of the category to use for the &ldquo;Hidden/Default "
+"Category&rdquo; option."
+msgstr ""
+"\"Gizli / Varsayılan Kategori\" seçeneği için kullanılacak kategorinin "
+"kimliğini belirtin."
+
+#: library/plugin-settings.php:964
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#: library/plugin-settings.php:969
+msgid "Assigned Author"
+msgstr "Atanan Yazar"
+
+#: library/plugin-settings.php:978
+msgid ""
+"Specify the user that should be assigned as author for user-submitted posts."
+msgstr ""
+"Kullanıcı tarafından gönderilen yayınlar için yazar olarak atanacak "
+"kullanıcıyı belirtin."
+
+#: library/plugin-settings.php:982
+msgid "Registered Username"
+msgstr "Kayıtlı Kullanıcı Adı"
+
+#: library/plugin-settings.php:984
+msgid ""
+"Use registered username as post author. Valid when the person submitting the "
+"form is logged in to WordPress."
+msgstr ""
+"Yazar olarak kayıt olunan kullanıcı adını kullan. Form gönderen kişi "
+"WordPress'e giriş yaptığında geçerlidir."
+
+#: library/plugin-settings.php:987
+msgid "User Profile URL"
+msgstr "Kullanıcı Profili URL'si"
+
+#: library/plugin-settings.php:989
+msgid ""
+"Use registered user&rsquo;s Profile URL as the value of the URL field. Valid "
+"when the person submitting the form is logged in to WordPress."
+msgstr ""
+"Kayıtlı kullanıcının Profil URL'sini URL alanının değeri olarak kullanın. "
+"Form gönderen kişi WordPress'e giriş yaptığında geçerlidir."
+
+#: library/plugin-settings.php:992
+msgid "Require User Login"
+msgstr "Kullanıcı Girişini Gerektir"
+
+#: library/plugin-settings.php:994
+msgid "Require users to be logged in to WordPress to view/submit the form"
+msgstr ""
+"Kullanıcıların forumu görüntülemek / göndermek için WordPress'e giriş "
+"yapmasını sağlama"
+
+#: library/plugin-settings.php:1006
+msgid ""
+"To prevent spam, enter a question that users must answer before submitting "
+"the form."
+msgstr ""
+"İstenmeyen postalardan sakınmak için, kullanıcıların formu göndermeden önce "
+"cevaplamaları gereken bir soru girin."
+
+#: library/plugin-settings.php:1009
+msgid "Challenge Response"
+msgstr "Meydan Okuma Tepkisi"
+
+#: library/plugin-settings.php:1011
+msgid "Enter the *only* correct answer to the challenge question."
+msgstr "Meydan okuma sorusuna verilen tek doğru cevabı girin."
+
+#: library/plugin-settings.php:1014
+msgid "Case-sensitivity"
+msgstr "Vaka-duyarlılık"
+
+#: library/plugin-settings.php:1016
+msgid "Check this box if you want the challenge response to be case-sensitive."
+msgstr ""
+"Sorgu yanıtının büyük-küçük harfe duyarlı olmasını istiyorsanız bu kutuyu "
+"işaretleyin."
+
+#: library/plugin-settings.php:1022
+msgid "To enable Google reCAPTCHA, enter your public and private keys."
+msgstr ""
+"Google ReCAPTCHA'yı etkinleştirmek için genel ve gizli anahtarlarınızı girin."
+
+#: library/plugin-settings.php:1027
+msgid "Public Key"
+msgstr "Genel anahtar"
+
+#: library/plugin-settings.php:1029
+msgid "Enter your Public Key"
+msgstr "Genel Anahtarınızı Girin"
+
+#: library/plugin-settings.php:1032
+msgid "Private Key"
+msgstr "Özel Anahtar"
+
+#: library/plugin-settings.php:1034
+msgid "Enter your Private Key"
+msgstr "Özel Anahtarınızı Girin"
+
+#: library/plugin-settings.php:1039
+msgid "Email Alerts"
+msgstr "E-posta Uyarıları"
+
+#: library/plugin-settings.php:1044
+msgid "Receive Email Alert"
+msgstr "E-posta Uyarısı Al"
+
+#: library/plugin-settings.php:1046
+msgid ""
+"Check this box if you want to be notified via email for new post submissions."
+msgstr ""
+"Yeni posta gönderimleri için e-posta ile bilgilendirilmek istiyorsanız bu "
+"kutuyu işaretleyin."
+
+#: library/plugin-settings.php:1049
+msgid "Enable HTML Format"
+msgstr "HTML Formatını Etkinleştir"
+
+#: library/plugin-settings.php:1051
+msgid "Check this box to enable HTML format for email alerts."
+msgstr ""
+"E-posta uyarıları için HTML biçimini etkinleştirmek için bu kutuyu "
+"işaretleyin."
+
+#: library/plugin-settings.php:1054
+msgid "Email Address for Alerts"
+msgstr "Uyarılar İçin E-posta Adresi"
+
+#: library/plugin-settings.php:1056
+msgid ""
+"If you checked the box to receive email alerts, indicate here the address(es)"
+" to which the emails should be sent."
+msgstr ""
+"E-posta uyarılarını almak için kutuyu işaretlediyseniz, burada e-postaların "
+"gönderileceği adresleri belirtin."
+
+#: library/plugin-settings.php:1057
+msgid "Multiple recipients may be included using a comma, like so:"
+msgstr "Birden fazla alıcı, virgül kullanarak dahil edilebilir, örneğin:"
+
+#: library/plugin-settings.php:1060
+msgid "Email &ldquo;From&rdquo; Address"
+msgstr "\"Gönderen\" Adresinden Adres"
+
+#: library/plugin-settings.php:1062
+msgid ""
+"Here you may customize the address(es) used for the &ldquo;From&rdquo; "
+"header (see plugin FAQs for info). "
+msgstr ""
+"Burada \"Kimden\" başlığı için kullanılan adresleri özelleştirebilirsiniz "
+"(bilgi için eklenti SSSlerine bakın)."
+
+#: library/plugin-settings.php:1063
+msgid ""
+"If multiple addresses are specified in the previous setting, include an "
+"equal number of &ldquo;From&rdquo; addresses for this setting (in the same "
+"order)."
+msgstr ""
+"Önceki ayarda birden fazla adres belirtilmişse, bu ayara eşit sayıda "
+"\"Kimden\" adresi ekleyin (aynı sırayla)."
+
+#: library/plugin-settings.php:1066
+msgid "Email Alert Subject"
+msgstr "E-posta Uyarısı Konusu"
+
+#: library/plugin-settings.php:1068
+msgid ""
+"Subject line for email alerts. Leave blank to use the default subject line. "
+"Note: you can use the following variables: "
+msgstr ""
+"E-posta uyarıları için konu satırı. Varsayılan konu satırını kullanmak için "
+"boş bırakın. Not: Aşağıdaki değişkenleri kullanabilirsiniz:"
+
+#: library/plugin-settings.php:1072
+msgid "Email Alert Message"
+msgstr "E-posta Uyarı Mesajı"
+
+#: library/plugin-settings.php:1074
+msgid ""
+"Message for email alerts. Leave blank to use the default message. Note: you "
+"can use the following variables: "
+msgstr ""
+"E-posta uyarıları için mesaj. Varsayılan mesajı kullanmak için boş bırakın. "
+"Not: Aşağıdaki değişkenleri kullanabilirsiniz:"
+
+#: library/plugin-settings.php:1085
+msgid "Featured Image"
+msgstr "Özellikli resim"
+
+#: library/plugin-settings.php:1087
+msgid ""
+"Set submitted images as Featured Images. Requires theme support for Featured "
+"Images (aka Post Thumbnails)."
+msgstr ""
+"Gönderilen görüntüleri Öne Çıkanlar olarak ayarlayın. Öne Çıkan Resimler "
+"(diğer bir deyişle Post Thumbnails) için tema desteği gerektirir."
+
+#: library/plugin-settings.php:1090
+msgid "Upload Message"
+msgstr "İletiyi Yükle"
+
+#: library/plugin-settings.php:1092
+msgid ""
+"Message that appears next to the upload field. Useful for stating your "
+"upload guidelines/policy/etc. Basic markup allowed."
+msgstr ""
+"Yükleme alanının yanında görünen mesaj. Yükleme yönergelerinizi / "
+"politikanızı / diğerlerini belirlemede kullanışlıdır. Temel biçimlendirmeye "
+"izin verildi."
+
+#: library/plugin-settings.php:1095
+msgid "&ldquo;Add another image&rdquo; link"
+msgstr "\"Başka resim ekle\" bağlantısı"
+
+#: library/plugin-settings.php:1097
+msgid ""
+"Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to "
+"use the default markup (recommended)."
+msgstr ""
+"\"Başka resim ekle\" bağlantısı için özel biçimlendirme. Varsayılan "
+"biçimlendirmeyi kullanmak için boş bırakın (önerilir)."
+
+#: library/plugin-settings.php:1100
+msgid "Minimum number of images"
+msgstr "Minimum görüntü sayısı"
+
+#: library/plugin-settings.php:1103
+msgid "Specify the minimum number of images."
+msgstr "Minimum görüntü sayısını belirtin."
+
+#: library/plugin-settings.php:1107
+msgid "Maximum number of images"
+msgstr "Maksimum görüntü sayısı"
+
+#: library/plugin-settings.php:1110
+msgid "Specify the maximum number of images."
+msgstr "Maksimum resim sayısını belirtin."
+
+#: library/plugin-settings.php:1114
+msgid "Minimum image width"
+msgstr "Minimum görüntü genişliği"
+
+#: library/plugin-settings.php:1116
+msgid "Specify a minimum width (in pixels) for uploaded images."
+msgstr "Yüklenen resimler için minimum genişliği (piksel cinsinden) belirtin."
+
+#: library/plugin-settings.php:1119
+msgid "Minimum image height"
+msgstr "Minimum görüntü yüksekliği"
+
+#: library/plugin-settings.php:1121
+msgid "Specify a minimum height (in pixels) for uploaded images."
+msgstr "Yüklenen resimler için minimum yüksekliği (piksel cinsinden) belirtin."
+
+#: library/plugin-settings.php:1124
+msgid "Maximum image width"
+msgstr "Maksimum görüntü genişliği"
+
+#: library/plugin-settings.php:1126
+msgid "Specify a maximum width (in pixels) for uploaded images."
+msgstr "Yüklenen resimler için maksimum genişliği (piksel cinsinden) belirtin."
+
+#: library/plugin-settings.php:1129
+msgid "Maximum image height"
+msgstr "Maksimum görüntü yüksekliği"
+
+#: library/plugin-settings.php:1131
+msgid "Specify a maximum height (in pixels) for uploaded images."
+msgstr "Yüklenen resimler için maksimum yükseklik (piksel cinsinden) belirtin."
+
+#: library/plugin-settings.php:1134
+msgid "More Options"
+msgstr "Daha fazla seçenek"
+
+#: library/plugin-settings.php:1137
+msgid ""
+"For more options, like the ability to upload other file types (like PDF, "
+"Word, Zip, videos, and more), check out"
+msgstr ""
+"Diğer dosya türlerini (PDF, Word, Zip, videolar ve daha fazlası gibi) "
+"yükleme olanağı gibi daha fazla seçenek için check out"
+
+#: library/plugin-settings.php:1138
+msgid "Go Pro!"
+msgstr "Git Pro!"
+
+#: library/plugin-settings.php:1138
+msgid "USP Pro"
+msgstr "USP Pro"
+
+#: library/plugin-settings.php:1145
+msgid "Auto-Display Content"
+msgstr "Otomatik Görüntülenen İçerik"
+
+#: library/plugin-settings.php:1150
+msgid "Images Auto-Display"
+msgstr "Görüntüler Otomatik Ekran"
+
+#: library/plugin-settings.php:1152
+msgid "Auto-display user-submitted images:"
+msgstr "Kullanıcı tarafından gönderilen resimleri otomatik olarak görüntüle:"
+
+#: library/plugin-settings.php:1157
+msgid "Image Markup"
+msgstr "Resim İşaretleme"
+
+#: library/plugin-settings.php:1159
+msgid ""
+"Markup to use for each submitted image (when auto-display is enabled). Can "
+"use"
+msgstr ""
+"Gönderilen her resim için işaretleme (otomatik görüntü etkinleştirildiğinde)."
+" Kullanabilirsiniz"
+
+#: library/plugin-settings.php:1161 library/plugin-settings.php:1174 
+#: library/plugin-settings.php:1187
+msgid "and"
+msgstr "ve"
+
+#: library/plugin-settings.php:1164
+msgid "Email Auto-Display"
+msgstr "E-posta Otomatik Görüntülü Reklamcılık"
+
+#: library/plugin-settings.php:1166
+msgid "Auto-display user-submitted email:"
+msgstr "Kullanıcı tarafından gönderilen e-postayı otomatik olarak görüntüle:"
+
+#: library/plugin-settings.php:1171
+msgid "Email Markup"
+msgstr "E-posta İşaretleme"
+
+#: library/plugin-settings.php:1173
+msgid ""
+"Markup to use for the submitted email address (when auto-display is enabled)."
+" Can use"
+msgstr ""
+"Gönderilen e-posta adresi için işaretleme (otomatik görüntü etkin olduğunda)."
+" Kullanabilirsiniz"
+
+#: library/plugin-settings.php:1177
+msgid "URL Auto-Display"
+msgstr "URL Otomatik Görüntülü Reklam"
+
+#: library/plugin-settings.php:1179
+msgid "Auto-display user-submitted URL:"
+msgstr "Kullanıcı tarafından gönderilen URL'yi otomatik olarak görüntüle:"
+
+#: library/plugin-settings.php:1184
+msgid "URL Markup"
+msgstr "URL İşaretleme"
+
+#: library/plugin-settings.php:1186
+msgid ""
+"Markup to use for the submitted URL (when auto-display is enabled). Can use"
+msgstr ""
+"Gönderilen URL için işaretleme (otomatik görüntüleme etkinleştirildiğinde). "
+"Kullanabilirsiniz"
+
+#: library/plugin-settings.php:1192 library/plugin-settings.php:1210
+msgid "Save Settings"
+msgstr "Ayarları kaydet"
+
+#: library/plugin-settings.php:1197
+msgid "Restore Defaults"
+msgstr "Varsayılanları Geri Yükle"
+
+#: library/plugin-settings.php:1201
+msgid "Restore default options upon plugin deactivation/reactivation."
+msgstr ""
+"Eklenti devre dışı bırakma / yeniden etkinleştirme üzerine varsayılan "
+"seçenekleri geri yükleyin."
+
+#: library/plugin-settings.php:1205
+msgid "Tip:"
+msgstr "Bahşiş:"
+
+#: library/plugin-settings.php:1206
+msgid "leave this option unchecked to remember your settings."
+msgstr "Bu seçeneği ayarlarınızı hatırlamak için işaretli bırakın."
+
+#: library/plugin-settings.php:1207
+msgid ""
+"Or, to go ahead and restore all default options, check the box, save your "
+"settings, and then deactivate/reactivate the plugin."
+msgstr ""
+"Veya, devam etmek ve tüm varsayılan seçenekleri geri yüklemek için, kutuyu "
+"işaretleyin, ayarlarınızı kaydedin ve sonra eklentiyi devre dışı bırakın / "
+"yeniden etkinleştirin."
+
+#: library/plugin-settings.php:1215
+msgid "Shortcode &amp; Template Tag"
+msgstr "Kısa kod ve şablon etiketi"
+
+#: library/plugin-settings.php:1218
+msgid ""
+"To implement USP, first configure the plugin settings, then use the "
+"shortcode or template to display the form on the front-end as desired."
+msgstr ""
+"USP'yi uygulamak için, öncelikle eklenti ayarlarını yapılandırın, sonra "
+"formun ön ucuna istediğiniz gibi görüntülemek için kısa kodu veya şablonu "
+"kullanın."
+
+#: library/plugin-settings.php:1220
+msgid "Shortcode"
+msgstr "Kısa kod"
+
+#: library/plugin-settings.php:1221
+msgid "Use this shortcode to display the USP Form on any WP Post or Page:"
+msgstr ""
+"Herhangi bir WP Post veya Sayfasında USP Formunu görüntülemek için bu kısa "
+"kodu kullanın:"
+
+#: library/plugin-settings.php:1224
+msgid "Template tag"
+msgstr "Şablon etiketi"
+
+#: library/plugin-settings.php:1225
+msgid ""
+"Use this template tag to display the USP Form anywhere in your theme "
+"template:"
+msgstr ""
+"Tema şablonunuzun herhangi bir yerinde USP Formunu görüntülemek için bu "
+"şablon etiketini kullanın:"
+
+#: library/plugin-settings.php:1231
+msgid "Show Support"
+msgstr "Destek Göster"
+
+#: library/plugin-settings.php:1243
+msgid "by"
+msgstr "tarafından"
+
+#: library/plugin-settings.php:1244
+msgid "Jeff Starr on Twitter"
+msgstr "Jeff Starr Twitter'da"
+
+#: library/plugin-settings.php:1245
+msgid "Obsessive Web Design &amp; Development"
+msgstr "Obüssif Web Tasarımı ve Geliştirme"
+
+#: library/plugin-settings.php:1256
+msgid "Save Preference"
+msgstr "Tercihi Kaydet"
+
+#: library/plugin-settings.php:1263
+msgid ""
+"Are you sure you want to restore all default options? (this action cannot be "
+"undone)"
+msgstr ""
+"Tüm varsayılan seçenekleri geri yüklemek istediğinizden emin misiniz? (Bu "
+"işlem geri alınamaz)"
+
+#: library/template-tags.php:214
+msgid "View full post"
+msgstr "Yazının tamamını görüntüle"
+
+#. Description of the plugin
+msgid ""
+"Enables your visitors to submit posts and images from anywhere on your site."
+msgstr ""
+"Ziyaretçilerinizden sitenizin herhangi bir yerinden yayınlar ve resimler "
+"göndermenizi sağlar."
+
+#. URI of the plugin
+msgid "https://perishablepress.com/user-submitted-posts/"
+msgstr "https://perishablepress.com/user-submitted-posts/"
+
+#. Author of the plugin
+msgid "Jeff Starr"
+msgstr "Jeff Starr"
+
+#. Author URI of the plugin
+msgid "https://plugin-planet.com/"
+msgstr "https://plugin-planet.com/"

@@ -12,7 +12,7 @@ function sfsi_update_plugin()
     }
     
     //Install version
-    update_option("sfsi_pluginVersion", "1.75");
+    update_option("sfsi_pluginVersion", "1.76");
 
     if(!get_option('sfsi_serverphpVersionnotification'))
     {
@@ -130,6 +130,13 @@ function sfsi_update_plugin()
         $option4['sfsi_instagram_appurl']   = '';
         $option4['sfsi_instagram_token']    = '';
         update_option('sfsi_section4_options', serialize($option4));
+    }
+
+    $option5 = unserialize(get_option('sfsi_section5_options',false));
+    if(isset($option5) && !empty($option5) && !isset($option5['sfsi_custom_social_hide']))
+    {
+        $option5['sfsi_custom_social_hide']    = 'no';
+        update_option('sfsi_section5_options', serialize($option5));
     }
 }
 function sfsi_activate_plugin()
@@ -301,6 +308,7 @@ function sfsi_activate_plugin()
         'sfsi_youtube_MouseOverText'=>'YouTube',
         'sfsi_share_MouseOverText'=>'Share',
         'sfsi_custom_MouseOverTexts'=>'',
+        'sfsi_custom_social_hide' => 'no'
         );
     add_option('sfsi_section5_options',  serialize($options5));
     

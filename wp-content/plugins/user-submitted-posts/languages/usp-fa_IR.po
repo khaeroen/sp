@@ -1,721 +1,1249 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: User submitted Posts\n"
-"POT-Creation-Date: 2014-06-06 20:21+0330\n"
-"PO-Revision-Date: 2014-06-06 22:25+0330\n"
-"Last-Translator: \n"
-"Language-Team: Icomp <support@icomp.ir>\n"
-"Language: fa_IR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.5\n"
-"X-Poedit-Basepath: D:\\WEB\\New folder\\user-submitted-posts\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-SearchPath-0: D:\\WEB\\New folder\\user-submitted-posts\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"Project-Id-Version: USP\n"
+"Language: fa-IR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-03 19:21+0000\n"
+"PO-Revision-Date: 2017-08-03 19:21+0000\n"
+"Last-Translator: Jeff Starr <help@monzillamedia.com>\n"
+"Language-Team: Persian\n"
+"Plural-Forms: nplurals=1; plural=0"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:25
-#: folder\user-submitted-posts/user-submitted-posts.php:60
+#. Name of the plugin
+#: user-submitted-posts.php:43
 msgid "User Submitted Posts"
-msgstr "ارسال پست میهمان"
+msgstr "ارسال شده توسط کاربر"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:47
-msgid "requires WordPress 3.5 or higher, and has been deactivated!"
-msgstr ""
-"افزونه نیازمند وردپرس 3.5 یا بالاتر است که نسخه وردپرس شما اینگونه نیست. "
-"افزونه غیر فعال شد."
+#: user-submitted-posts.php:75
+msgid "requires WordPress "
+msgstr "نیاز به وردپرس"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:48
-msgid "Please return to the "
-msgstr "لطفا بازگردید به"
+#: user-submitted-posts.php:76
+msgid " or higher, and has been deactivated! "
+msgstr " یا بالاتر، و غیر فعال شده است!"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:48
-msgid "WordPress Admin area"
-msgstr "پیشخوان مدیریت وردپرس"
+#: user-submitted-posts.php:77
+msgid "Please return to the"
+msgstr "لطفا به"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:48
+#: user-submitted-posts.php:78
+msgid "WordPress Admin Area"
+msgstr "منطقه اداری وردپرس"
+
+#: user-submitted-posts.php:79
 msgid "to upgrade WordPress and try again."
-msgstr "برای به روز رسانی وردپرس و تلاش مجدد"
+msgstr "برای ارتقا وردپرس و دوباره امتحان کنید"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:60
-msgid "Submitted"
-msgstr "ثبت شد"
+#: user-submitted-posts.php:121
+msgid "User Submitted Post"
+msgstr "کاربر ارسال پست"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:119
-msgid "An error occurred. Please go back and try again."
-msgstr "خطایی رخ داده. لطفا بازگردید و مجددا تلاش کنید"
+#: user-submitted-posts.php:384
+msgid "User Submitted Post Info"
+msgstr "کاربر ارسال اطلاعات پست"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:256
+#: user-submitted-posts.php:414
+msgid "Submitter Name: "
+msgstr "نام فرستنده:"
+
+#: user-submitted-posts.php:415
+msgid "Submitter Email: "
+msgstr "فرستنده ایمیل:"
+
+#: user-submitted-posts.php:416
+msgid "Submitter URL: "
+msgstr "URL فرستنده:"
+
+#: user-submitted-posts.php:417
+msgid "Submitter IP: "
+msgstr "ثبت کننده IP:"
+
+#: user-submitted-posts.php:468
+msgid "Show USP Posts"
+msgstr "نمایش پست های USP"
+
+#: user-submitted-posts.php:469
 msgid "USP"
-msgstr "User Submitted Posts"
+msgstr "USP"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:433
+#: user-submitted-posts.php:1103
+msgid " files required"
+msgstr " فایل های مورد نیاز"
+
+#: user-submitted-posts.php:1104
+msgid " file required"
+msgstr " فایل مورد نیاز"
+
+#: user-submitted-posts.php:1106
+msgid " files"
+msgstr " فایل ها"
+
+#: user-submitted-posts.php:1107
+msgid " file"
+msgstr " پرونده"
+
+#: user-submitted-posts.php:1109 user-submitted-posts.php:1110 
+#: user-submitted-posts.php:1111 user-submitted-posts.php:1112
+msgid " pixels"
+msgstr " پیکسل"
+
+#: user-submitted-posts.php:1115
+msgid "An error occurred. Please go back and try again."
+msgstr "یک خطا رخ داده است لطفا برگردید و دوباره امتحان کنید."
+
+#: user-submitted-posts.php:1125
+msgid "User login required"
+msgstr "ورود به سیستم مورد نیاز"
+
+#: user-submitted-posts.php:1126
+msgid "User name required"
+msgstr "نام کاربری مورد نیاز"
+
+#: user-submitted-posts.php:1127
+msgid "Post title required"
+msgstr "عنوان پست مورد نیاز"
+
+#: user-submitted-posts.php:1128
+msgid "User URL required"
+msgstr "نشانی اینترنتی مورد نیاز"
+
+#: user-submitted-posts.php:1129
+msgid "Post tags required"
+msgstr "برچسبهای ارسال لازم است"
+
+#: user-submitted-posts.php:1130
+msgid "Post category required"
+msgstr "دسته پست مورد نیاز"
+
+#: user-submitted-posts.php:1131
+msgid "Post content required"
+msgstr "محتوای ارسالی مورد نیاز است"
+
+#: user-submitted-posts.php:1132 user-submitted-posts.php:1133
+msgid "Correct captcha required"
+msgstr "تصحیح کپچا لازم است"
+
+#: user-submitted-posts.php:1134
+msgid "User email required"
+msgstr "ایمیل مورد نیاز"
+
+#: user-submitted-posts.php:1135
+msgid "Please check your email and try again"
+msgstr "لطفا ایمیل خود را بررسی کنید و دوباره امتحان کنید"
+
+#: user-submitted-posts.php:1136
+msgid "Non-empty value for hidden field"
+msgstr "مقدار خالی برای فیلد پنهان"
+
+#: user-submitted-posts.php:1137
+msgid "Minimum number of images not met"
+msgstr "حداقل تعداد عکس ها ملاقات نشده است"
+
+#: user-submitted-posts.php:1138
+msgid "Maximum number of images exceeded "
+msgstr "حداکثر تعداد تصاویر بیش از حد است"
+
+#: user-submitted-posts.php:1139
+msgid "Minimum image width not met"
+msgstr "حداقل عرض تصویر ملاقات نکرد"
+
+#: user-submitted-posts.php:1140
+msgid "Image width exceeds maximum"
+msgstr "عرض تصویر بیش از حداکثر"
+
+#: user-submitted-posts.php:1141
+msgid "Minimum image height not met"
+msgstr "حداقل ارتفاع تصویر برآورده نشده است"
+
+#: user-submitted-posts.php:1142
+msgid "Image height exceeds maximum"
+msgstr "ارتفاع تصویر بیش از حداکثر"
+
+#: user-submitted-posts.php:1143
+msgid "File type not allowed (please upload images only)"
+msgstr "نوع فایل مجاز نیست (فقط تصاویر را آپلود کنید)"
+
+#: user-submitted-posts.php:1147
+msgid "Error uploading file. Please check the file size and try again."
+msgstr ""
+"خطا هنگام آپلود فایل لطفا اندازه فایل را بررسی کنید و دوباره امتحان کنید."
+
+#: user-submitted-posts.php:1151
+msgid "The file(s) could not be uploaded"
+msgstr "فایل (ها) قابل آپلود نیست"
+
+#: user-submitted-posts.php:1153
+msgid "Post not created. Please contact the site administrator for help."
+msgstr "پست ایجاد نشد لطفا برای کمک به مدیر سایت تماس بگیرید."
+
+#: user-submitted-posts.php:1154
+msgid "Duplicate post title. Please try again."
+msgstr "عنوان پست تکراری لطفا دوباره تلاش کنید."
+
+#: user-submitted-posts.php:1164
+msgid "Error: "
+msgstr "خطا:"
+
+#: user-submitted-posts.php:1190
+msgid "Return to form"
+msgstr "بازگشت به فرم"
+
+#: user-submitted-posts.php:1218 library/plugin-settings.php:658
+msgid "Please"
+msgstr "لطفا"
+
+#: user-submitted-posts.php:1219
+msgid "log in"
+msgstr "ورود"
+
+#: user-submitted-posts.php:1220
+msgid "to submit content!"
+msgstr "برای ارسال محتوا!"
+
+#: views/submission-form.php:45 views/submission-form-alt.php:54
+msgid "Please complete the required fields."
+msgstr "لطفا فیلدهای مورد نیاز را تکمیل کنید"
+
+#: views/submission-form.php:55 views/submission-form.php:56 
+#: views/submission-form-alt.php:60 views/submission-form-alt.php:61
+msgid "Your Name"
+msgstr "اسم شما"
+
+#: views/submission-form.php:61 views/submission-form.php:62 
+#: views/submission-form-alt.php:66 views/submission-form-alt.php:67
+msgid "Your URL"
+msgstr "URL شما"
+
+#: views/submission-form.php:67 views/submission-form.php:68 
+#: views/submission-form-alt.php:72 views/submission-form-alt.php:73
+msgid "Your Email"
+msgstr "ایمیل شما"
+
+#: views/submission-form.php:73 views/submission-form.php:74 
+#: views/submission-form-alt.php:78 views/submission-form-alt.php:79 
+#: library/plugin-settings.php:747
+msgid "Post Title"
+msgstr "عنوان پست"
+
+#: views/submission-form.php:79 views/submission-form.php:80 
+#: views/submission-form-alt.php:84 views/submission-form-alt.php:85 
+#: library/plugin-settings.php:757
+msgid "Post Tags"
+msgstr "برچسبهای ارسالی"
+
+#: views/submission-form.php:86 views/submission-form-alt.php:91
+msgid "Antispam Question"
+msgstr "سوال ضد اسپم"
+
+#: views/submission-form.php:91 views/submission-form-alt.php:96 
+#: library/plugin-settings.php:767
+msgid "Post Category"
+msgstr "دسته بندی پست"
+
+#: views/submission-form.php:93 views/submission-form-alt.php:98
+msgid "Please select a category.."
+msgstr "لطفا یک دسته را انتخاب کنید"
+
+#: views/submission-form.php:128 views/submission-form.php:129 
+#: views/submission-form-alt.php:133 views/submission-form-alt.php:134 
+#: library/plugin-settings.php:777
+msgid "Post Content"
+msgstr "محتوا ارسال"
+
+#: views/submission-form.php:135 views/submission-form-alt.php:140
+msgid "Verification"
+msgstr "تایید"
+
+#: views/submission-form.php:142 views/submission-form-alt.php:147
+msgid "Upload an Image"
+msgstr "آپلود تصویر"
+
+#: views/submission-form.php:151 views/submission-form-alt.php:156
+msgid "Add another image"
+msgstr "یک تصویر دیگر اضافه کنید"
+
+#: views/submission-form.php:173 views/submission-form-alt.php:178
+msgid "Human verification: leave this field empty."
+msgstr "تأیید انسان: این قسمت خالی را ترک کنید."
+
+#: views/submission-form.php:195 views/submission-form-alt.php:200
+msgid "Submit Post"
+msgstr "ارسال پست"
+
+#: library/plugin-settings.php:32
+msgid "Get USP Pro for unlimited forms!"
+msgstr "USP Pro را برای فرم های نامحدود دریافت کنید!"
+
+#: library/plugin-settings.php:33
+msgid "Go Pro"
+msgstr "برو طرفدار"
+
+#: library/plugin-settings.php:37
 msgid "Settings"
 msgstr "تنظیمات"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:471
+#: library/plugin-settings.php:55
+msgid "Give USP a 5-star rating at WordPress.org"
+msgstr "به USP یک امتیاز 5 ستاره در WordPress.org بدهید"
+
+#: library/plugin-settings.php:56
+msgid "Rate this plugin&nbsp;&raquo;"
+msgstr "این افزونه را ارزیابی کنید"
+
+#: library/plugin-settings.php:115
+msgid "WP Post (recommended)"
+msgstr "پست WP (توصیه می شود)"
+
+#: library/plugin-settings.php:119
+msgid "WP Page"
+msgstr "صفحه WP"
+
+#: library/plugin-settings.php:135
+msgid "HTML5 Form + Default CSS"
+msgstr "فرم HTML5 + پیش فرض CSS"
+
+#: library/plugin-settings.php:135
+msgid "(Recommended)"
+msgstr "(توصیه شده)"
+
+#: library/plugin-settings.php:139
+msgid "HTML5 Form + Disable CSS"
+msgstr "فرم HTML5 + غیر فعال کردن CSS"
+
+#: library/plugin-settings.php:139
+msgid "(Provide your own styles)"
+msgstr "(ارائه سبک های خود را)"
+
+#: library/plugin-settings.php:143
+msgid "Custom Form + Custom CSS"
+msgstr "فرم سفارشی + سفارشی CSS"
+
+#: library/plugin-settings.php:143
+msgid "(Provide your own form template &amp; styles)"
+msgstr "(قالب و سبک قالب خود را ارائه دهید)"
+
+#: library/plugin-settings.php:159 library/plugin-settings.php:183 
+#: library/plugin-settings.php:206
+msgid "Auto-display before post content"
+msgstr "نمایش خودکار قبل از ارسال محتوا"
+
+#: library/plugin-settings.php:163 library/plugin-settings.php:187 
+#: library/plugin-settings.php:210
+msgid "Auto-display after post content"
+msgstr "نمایش خودکار پس از محتوای پست"
+
+#: library/plugin-settings.php:167
+msgid "Do not auto-display submitted images"
+msgstr "نمایش تصاویر ارسال شده به صورت خودکار نمایش داده نمی شود"
+
+#: library/plugin-settings.php:191
+msgid "Do not auto-display submitted email"
+msgstr "ایمیل نمایش داده نشود"
+
+#: library/plugin-settings.php:214
+msgid "Do not auto-display submitted URL"
+msgstr "نمایش نشانی اینترنتی نمایش داده نشود"
+
+#: library/plugin-settings.php:367
 msgid ""
 "There was an error. Please ensure that you have added a title, some content, "
 "and that you have uploaded only images."
 msgstr ""
-"خطایی رخ داده. لطفا اطمینان حاصل کنید از آنکه همه کادر های عنوان ، محتوا "
-"و... را تکمیل نموده اید."
+"یک خطای وجود دارد. لطفا اطمینان حاصل کنید که عنوان، برخی از محتواها را اضافه "
+"کرده اید و فقط تصاویر را آپلود کرده اید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:478
-#: folder\user-submitted-posts/user-submitted-posts.php:479
-#: folder\user-submitted-posts/user-submitted-posts.php:480
-#: folder\user-submitted-posts/user-submitted-posts.php:481
-#: folder\user-submitted-posts/user-submitted-posts.php:482
-#: folder\user-submitted-posts/user-submitted-posts.php:489
-#: folder\user-submitted-posts/user-submitted-posts.php:490
-msgid "show"
-msgstr "نمایش"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:483
-msgid "hide"
-msgstr "مخفی کردن"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:484
+#: library/plugin-settings.php:381
 msgid "Please select your image(s) to upload."
-msgstr "لطفا عکس های موردنظرتان را برای بارگذاری انتخاب نمایید"
+msgstr "لطفا تصویر (ها) خود را برای آپلود انتخاب کنید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:491
+#: library/plugin-settings.php:387
 msgid "Success! Thank you for your submission."
-msgstr "موفقیت آمیز بود! از پستتان ممنونیم"
+msgstr "موفقیت متشکرم از ارسال شما."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:514
-msgid ""
-"Classic form + styles (<small><em><strong>Note:</strong> the &ldquo;"
-"classic&rdquo; form is deprecated and will be removed in a future version.</"
-"em></small>)"
-msgstr ""
-"Classic form + styles (<small><em><strong>Note:</strong> the &ldquo;"
-"classic&rdquo; form is deprecated and will be removed in a future version.</"
-"em></small>)"
+#: library/plugin-settings.php:413
+msgid "Email"
+msgstr "پست الکترونیک"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:518
-msgid "HTML5 form + styles"
-msgstr "شیوه نامه به صورت HTML5"
+#: library/plugin-settings.php:414
+msgid "URL"
+msgstr "نشانی اینترنتی"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:522
-msgid "Disable stylesheet"
-msgstr "غیرفعال کردن شیوه نامه"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:707
+#: library/plugin-settings.php:645
 msgid "Toggle all panels"
-msgstr "باز/بسته کردن همه تب ها"
+msgstr "همه تابلوها را تغییر دهید"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:715
+#: library/plugin-settings.php:654
+msgid "We need your support!"
+msgstr "ما به حمایت شما نیاز داریم!"
+
+#: library/plugin-settings.php:658
+msgid "Make a donation via PayPal"
+msgstr "کمک مالی از طریق PayPal"
+
+#: library/plugin-settings.php:658
+msgid "make a donation"
+msgstr "کمک مالی کنید"
+
+#: library/plugin-settings.php:658
+msgid "and/or"
+msgstr "و / یا"
+
+#: library/plugin-settings.php:659
+msgid "Rate and review at the Plugin Directory"
+msgstr "نرخ و بررسی در دایرکتوری پلاگین"
+
+#: library/plugin-settings.php:660
+msgid "give this plugin a 5-star rating"
+msgstr "این افزونه را به رتبه 5 ستاره بدهید"
+
+#: library/plugin-settings.php:664
+msgid ""
+"Your generous support enables continued development of this free plugin. "
+"Thank you!"
+msgstr ""
+"پشتیبانی سخاوتمندانه شما، توسعه مستمر این افزونه رایگان را امکان پذیر می "
+"سازد. متشکرم!"
+
+#: library/plugin-settings.php:669
+msgid "Check this box if you have shown support"
+msgstr "اگر این پشتیبانی را نشان داده اید، این کادر را علامت بزنید"
+
+#: library/plugin-settings.php:678
 msgid "Overview"
-msgstr "درباره"
+msgstr "بررسی اجمالی"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:719
+#: library/plugin-settings.php:682
 msgid ""
-"(USP) enables your visitors to submit posts and upload images from anywhere "
-"on your site."
+"enables your visitors to submit posts and upload images from the front-end "
+"of your site. "
 msgstr ""
-"افزونه به بازدیدکنندگانتان اجازه می دهد که مطالب و عکس هایشان در در هرحایی "
-"از وب سایت شما قرار دهند."
+"بازدیدکنندگان شما را قادر می سازد تا پست ها را ارسال و تصاویر را از جلوی "
+"سایت خود آپلود کنند."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:720
-msgid ""
-"To implement, configure the plugin settings and include the USP form in any "
-"post or page via shortcode or anywhere in your theme via template tag."
-msgstr ""
-"برای کارکردن ، تنظیمات افزونه را پیکر بندی کنید.سپس با استفاده از کد کوتاه "
-"یا کدهای PHP داده شده ، در هر جایی از پست ها یا برگه ها یا پوسته تان ، "
-"افزونه را استفاده کنید."
+#: library/plugin-settings.php:683
+msgid "For advanced functionality and unlimited forms, check out"
+msgstr "برای قابلیت های پیشرفته و فرم های نامحدود، بررسی کنید"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:721
-msgid "For more functionality check out"
-msgstr "بررسی کنید. برای قابلیت های بیشتر"
+#: library/plugin-settings.php:684
+msgid "&mdash; the ultimate solution for user-generated content."
+msgstr "& mdash؛ راه حل نهایی برای محتوای تولید شده توسط کاربر."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:722
-msgid "&mdash; the ultimate solution for unlimited front-end forms."
-msgstr ""
-".راه حل نهایی برای فرم های نامحدود<br />تر جمه به فارسی توسط گروه وبلاگ "
-"نویسی <a href=\"http://icomp.ir\">آی کامپ</a><br />انجمن آی کامپ. محل "
-"پاسخگویی به سوالات وبلاگ نویسان : <a href=\"http://forum.icomp.ir\">forum."
-"icomp.ir</a><br />وبلاگ آی کامپ. آموزش وبلاگ نویسی ، کدهای کاربردی و... : <a "
-"href=\"http://tuts.icomp.ir\">tuts.icomp.ir</a>"
+#: library/plugin-settings.php:688 library/plugin-settings.php:706
+msgid "Plugin Settings"
+msgstr "تنظیمات پلاگین"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:726
-msgid "Configure settings"
-msgstr "پیکربندی تنظیمات"
+#: library/plugin-settings.php:689
+msgid "Display the form"
+msgstr "فرم را نمایش دهید"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:727
-msgid "Get the shortcode &amp; template tag"
-msgstr "در یافت کدکوتاه &amp; کدپوسته"
+#: library/plugin-settings.php:690 library/plugin-settings.php:1243
+msgid "Plugin Homepage"
+msgstr "صفحه اصلی پلاگین"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:728
-msgid "More info:"
-msgstr "اطلاعات بیشتر:"
+#: library/plugin-settings.php:693
+msgid "If you like this plugin, please"
+msgstr "اگر این افزونه را دوست دارید، لطفا"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:728
-msgid "readme.txt"
-msgstr "readme.txt"
+#: library/plugin-settings.php:694
+msgid "THANK YOU for your support!"
+msgstr "با تشکر از شما برای حمایت شما!"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:729
-msgid "and"
-msgstr "و"
+#: library/plugin-settings.php:694
+msgid "give it a 5-star rating"
+msgstr "آن را به رتبه 5 ستاره بدهید"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:729
-msgid "homepage"
-msgstr "خانه"
+#: library/plugin-settings.php:698
+msgid "Unlimited front-end forms"
+msgstr "فرمهای نامحدود جلویی"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:730
-msgid "If you like USP, please"
-msgstr "اگر از افزونه خوشتان آمد ، لطفا"
+#: library/plugin-settings.php:698
+msgid "Get USP Pro"
+msgstr "دریافت USP Pro"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:731
-msgid "Rate and review this plugin at the WP Plugin Directory"
-msgstr ""
-"به این افزونه در مخزن وردپرس امتیاز دهید و نظرتان را در مورد آن به اشتراک "
-"بگذارید"
+#: library/plugin-settings.php:710
+msgid "Configure your settings for User Submitted Posts."
+msgstr "تنظیمات خود را برای ارسال پست های کاربر پیکربندی کنید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:732
-msgid "rate it at WordPress.org"
-msgstr "به افزونه در سایت وردپرس (wordpress.org) امتیاز دهید."
+#: library/plugin-settings.php:712
+msgid "Form Fields"
+msgstr "زمینه های فرم"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:744
-msgid "Options"
-msgstr "گزینه ها"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:746
-msgid ""
-"Here you may configure options for USP. See the <code>readme.txt</code> for "
-"more information."
-msgstr ""
-"در اینجا می توانید تنظیمات افزونه را انجام دهید. برای اطلاعات بیشتر به "
-"<code>readme.txt</code> مراجعه کنید."
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:747
-msgid "Show/hide the following form fields"
-msgstr "نمایش/مخفی کردن فیلدهای این تب"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:751
-#: folder\user-submitted-posts/user-submitted-posts.php:757
-#: folder\user-submitted-posts/user-submitted-posts.php:763
-#: folder\user-submitted-posts/user-submitted-posts.php:769
-#: folder\user-submitted-posts/user-submitted-posts.php:775
-#: folder\user-submitted-posts/user-submitted-posts.php:781
-#: folder\user-submitted-posts/user-submitted-posts.php:787
-#: folder\user-submitted-posts/user-submitted-posts.php:793
-msgid "Show"
-msgstr "نمایش دادن"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:752
-#: folder\user-submitted-posts/user-submitted-posts.php:758
-#: folder\user-submitted-posts/user-submitted-posts.php:764
-#: folder\user-submitted-posts/user-submitted-posts.php:770
-#: folder\user-submitted-posts/user-submitted-posts.php:776
-#: folder\user-submitted-posts/user-submitted-posts.php:782
-#: folder\user-submitted-posts/user-submitted-posts.php:788
-#: folder\user-submitted-posts/user-submitted-posts.php:794
-msgid "Hide"
-msgstr "مخفی کردن"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:753
+#: library/plugin-settings.php:717
 msgid "User Name"
 msgstr "نام کاربری"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:759
-msgid "Post URL"
-msgstr "آدرس مطلب"
+#: library/plugin-settings.php:720 library/plugin-settings.php:730 
+#: library/plugin-settings.php:740 library/plugin-settings.php:750 
+#: library/plugin-settings.php:760 library/plugin-settings.php:770 
+#: library/plugin-settings.php:780 library/plugin-settings.php:790 
+#: library/plugin-settings.php:800
+msgid "Display and require"
+msgstr "نمایش و نیاز"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:765
-#: folder\user-submitted-posts/views/submission-form-classic.php:46
-#: folder\user-submitted-posts/views/submission-form.php:46
-#: folder\user-submitted-posts/views/submission-form.php:47
-msgid "Post Title"
-msgstr "عنوان مطلب"
+#: library/plugin-settings.php:721 library/plugin-settings.php:731 
+#: library/plugin-settings.php:741 library/plugin-settings.php:751 
+#: library/plugin-settings.php:761 library/plugin-settings.php:771 
+#: library/plugin-settings.php:781
+msgid "Display but do not require"
+msgstr "نمایش داده شده اما لازم نیست"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:771
-#: folder\user-submitted-posts/views/submission-form-classic.php:53
-#: folder\user-submitted-posts/views/submission-form.php:51
-#: folder\user-submitted-posts/views/submission-form.php:52
-msgid "Post Tags"
-msgstr "برچسب های مطلب"
+#: library/plugin-settings.php:722 library/plugin-settings.php:732 
+#: library/plugin-settings.php:742 library/plugin-settings.php:752 
+#: library/plugin-settings.php:762 library/plugin-settings.php:772 
+#: library/plugin-settings.php:782 library/plugin-settings.php:791 
+#: library/plugin-settings.php:801
+msgid "Disable this field"
+msgstr "این فیلد را غیرفعال کنید"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:777
-#: folder\user-submitted-posts/views/submission-form-classic.php:60
-#: folder\user-submitted-posts/views/submission-form.php:61
-msgid "Post Category"
-msgstr "دسته بندی مطلب"
+#: library/plugin-settings.php:727
+msgid "User Email"
+msgstr "ایمیل کاربر"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:783
-#: folder\user-submitted-posts/views/submission-form-classic.php:98
-#: folder\user-submitted-posts/views/submission-form.php:89
-#: folder\user-submitted-posts/views/submission-form.php:90
-msgid "Post Content"
-msgstr "محتوا"
+#: library/plugin-settings.php:737
+msgid "User URL"
+msgstr "نشانی اینترنتی کاربر"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:789
+#: library/plugin-settings.php:787 library/plugin-settings.php:793 
+#: library/plugin-settings.php:999 library/plugin-settings.php:1004
+msgid "Challenge Question"
+msgstr "سوال چالش برانگیز"
+
+#: library/plugin-settings.php:793 library/plugin-settings.php:803 
+#: library/plugin-settings.php:813
+msgid "(Visit"
+msgstr "(بازدید"
+
+#: library/plugin-settings.php:793 library/plugin-settings.php:803 
+#: library/plugin-settings.php:813
+msgid "to configure options)"
+msgstr "برای پیکربندی گزینه ها)"
+
+#: library/plugin-settings.php:797 library/plugin-settings.php:803 
+#: library/plugin-settings.php:1021
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: library/plugin-settings.php:807
 msgid "Post Images"
-msgstr "تصاویر مطلب"
+msgstr "ارسال تصاویر"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:795
-msgid "Challenge question (Captcha)"
-msgstr "پرسش امنیتی (کپچا)"
+#: library/plugin-settings.php:810
+msgid "Display"
+msgstr "نمایش دادن"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:798
-msgid "Choose some general form options"
-msgstr "برای از گزینه های کلی فرم را انتخاب نمایید"
+#: library/plugin-settings.php:811
+msgid "Disable"
+msgstr "غیر فعال کردن"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:802
-msgid "Form style"
-msgstr "شیوه نامه فرم"
+#: library/plugin-settings.php:813 library/plugin-settings.php:1080
+msgid "Image Uploads"
+msgstr "آپلود عکس"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:820
+#: library/plugin-settings.php:819
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: library/plugin-settings.php:824
+msgid "Form Style"
+msgstr "شکل سبک"
+
+#: library/plugin-settings.php:829
+msgid "With this option, you can copy the plugin&rsquo;s default templates:"
+msgstr "با استفاده از این گزینه می توانید قالب های پیش فرض افزونه را کپی کنید:"
+
+#: library/plugin-settings.php:834
+msgid "..and upload them into a directory named"
+msgstr ".. و آپلود آنها را به یک دایرکتوری به نام"
+
+#: library/plugin-settings.php:834
+msgid "in your theme:"
+msgstr "در موضوع شما:"
+
+#: library/plugin-settings.php:840
 msgid ""
-"HTML5 is recommended. If upgrading and the new form looks weird, choose the "
-"Classic version."
+"That will enable you to customize the form and styles as desired. For more "
+"info, check out the \"Custom Submission Form\" section in the"
 msgstr ""
-"HTML5 قابل استفاده است. اگر پس از بروزرسانی ، استایل فرم جدید چشم نواز نبود "
-"(!) می توانید از Classic Version یا فرم سنتی استفاده کنید"
+"این به شما این امکان را می دهد که شکل و سبک ها را به دلخواه سفارشی کنید. "
+"برای اطلاعات بیشتر، از بخش «فرم ارسال سفارشی» در"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:821
+#: library/plugin-settings.php:841
+msgid "Installation Docs"
+msgstr "اسناد نصب"
+
+#: library/plugin-settings.php:842
+msgid "FYI: here is a"
+msgstr "FYI: در اینجا یک است"
+
+#: library/plugin-settings.php:842
+msgid "list of USP CSS selectors"
+msgstr "فهرست USP CSS selectors"
+
+#: library/plugin-settings.php:848
+msgid "Include JavaScript"
+msgstr "شامل جاوا اسکریپت"
+
+#: library/plugin-settings.php:850
 msgid ""
-"To disable the plugin&rsquo;s stylesheet, choose Disable. Note: complete "
-"list of CSS hooks for the submission form at"
-msgstr ""
-"برای نمایش شیوه نامه افزونه ، غیرفعال را انتخاب کنید. نکته : صفات سی اس اس "
-"را برای فرم تکمیل کنید در "
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:822
-msgid "CSS Hooks for User Submitted Posts"
-msgstr "صفات CSS برای افزونه"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:827
-msgid "Include JavaScript?"
-msgstr "شامل کردن جاوا اسکریپت؟"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:829
-msgid ""
-"Check this box if you want to include the external JavaScript file "
+"Check this box if you want to include the external JavaScript files "
 "(recommended)."
 msgstr ""
-"اگر می خواهید فایل JavaScript دلخواهی را به فرم مطلب پیوست کنید ، این گزینه "
-"را انتخاب کنید."
+"اگر می خواهید فایل های جاوا اسکریپتی خارجی (توصیه شده) را وارد کنید، این "
+"کادر را علامت بزنید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:832
+#: library/plugin-settings.php:853
 msgid "Targeted Loading"
-msgstr "بارگذاری ویژه"
+msgstr "بارگیری هدفمند"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:834
+#: library/plugin-settings.php:855
 msgid ""
-"When enabled, external CSS &amp; JavaScript files are loaded on every page. "
+"By default, external CSS &amp; JavaScript files are loaded on every page. "
 "Here you may specify the URL of the USP form to load resources only on that "
 "page. Note: leave blank to load on all pages."
 msgstr ""
-"زمانی که فعال شود ،فایل های JavaScript و CSS خارجی در صفحات بارگذاری می "
-"شوند. البته شما می توانید تعیین کنید که آن فایل فقط در چه صفحه ای بارگذاری "
-"شود. برای اینکه در تمام صفحات اجرا شوند ، کادر را خالی بگذارید."
+"به طور پیش فرض، فایل های CSS و جاوا اسکریپت در هر صفحه بارگذاری می شوند. در "
+"اینجا شما می توانید آدرس فرم فرم USP را برای بارگیری منابع تنها در آن صفحه "
+"مشخص کنید. توجه: برای بارگذاری در تمام صفحات، خالی بگذارید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:837
-msgid "Categories"
-msgstr "دسته بندی"
+#: library/plugin-settings.php:858
+msgid "Post Type"
+msgstr "نوع پست"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:850
-msgid "Select which categories may be assigned to submitted posts."
-msgstr "دسته بندی های مورد نظرتان را برای پست ها انتخاب کنید"
+#: library/plugin-settings.php:861
+msgid "Submit posts as WP Posts or Pages"
+msgstr "ارسال پست به عنوان WP پست یا صفحه"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:854
-msgid "Assigned Author"
-msgstr "کاربر معین"
+#: library/plugin-settings.php:865
+msgid "Auto Publish"
+msgstr "انتشار خودکار"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:864
-msgid ""
-"Specify the user that should be assigned as author for user-submitted posts."
-msgstr ""
-"کاربری را برای نویسنده ثابت پست ها در صورتی که نام نویسنده ذکر نشده باشد "
-"انتخاب کنید"
+#: library/plugin-settings.php:868
+msgid "Always moderate via Draft"
+msgstr "همیشه از طریق پیش نویس استفاده کنید"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:868
-msgid "Auto Publish?"
-msgstr "انتشار خودکار؟"
+#: library/plugin-settings.php:869
+msgid "Always moderate via Pending"
+msgstr "همیشه از طریق انتظار منتظر بمانید"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:871
-msgid "Always moderate"
-msgstr "همیشه نیاز به تایید"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:872
+#: library/plugin-settings.php:870
 msgid "Always publish immediately"
-msgstr "همیشه بدون نیاز به تایید مطالب را قبت کن"
+msgstr "همیشه فورا منتشر کنید"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:877
+#: library/plugin-settings.php:875
 msgid ""
-"For submitted posts, you can always moderate (recommended), publish "
-"immediately, or publish after any number of approved posts."
+"Post Status for submitted posts: moderate (recommended), publish immediately,"
+" or publish after any number of approved posts."
 msgstr ""
-"می توانید تعیین کنید که مطلب همیشه نیاز به تایید داشته باشند ، یا اینکه فورا "
-"ثبت شوند ، یا اینکه پس از چند پست ، دیگر نیازی به تایید نداشته باشند."
+"وضعیت پست برای پست های ارسال شده: متوسط ​​(توصیه شده)، بلافاصله منتشر یا "
+"منتشر شده پس از هر تعداد پست مورد تایید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:881
-msgid "Receive Email Alert"
-msgstr "دریافت ایمیل هشدار"
+#: library/plugin-settings.php:879
+msgid "Redirect URL"
+msgstr "تغییر آدرس URL"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:883
+#: library/plugin-settings.php:881
 msgid ""
-"Check this box if you want to be notified via email for new post submissions."
+"Specify a URL to redirect the user after post-submission. Leave blank to "
+"redirect back to current page."
 msgstr ""
-"این گزینه را تیک دار کنید ، اگر می خواهید پس از ارسال هر مطلب توسط کاربران "
-"یک ایمیل برای شما ارسال شود"
+"یک URL را برای هدایت کاربر پس از ارسال پس از ارسال تعیین کنید. برای برگشت به "
+"صفحه فعلی خالی بگذارید"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:886
-msgid "Enable Rich Text Editor"
-msgstr "فعال سازی Rich Text Editor"
+#: library/plugin-settings.php:884
+msgid "Success Message"
+msgstr "پیام موفقیت"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:888
+#: library/plugin-settings.php:886
+msgid ""
+"Success message that is displayed if post-submission is successful. Basic "
+"markup is allowed."
+msgstr ""
+"پیغام موفقیت آمیز که در صورت ارسال پس از ارسال موفقیت آمیز نمایش داده می شود."
+" نشانه گذاری عمومی مجاز است."
+
+#: library/plugin-settings.php:889
+msgid "Error Message"
+msgstr "پیغام خطا"
+
+#: library/plugin-settings.php:891
+msgid ""
+"General error message that is displayed if post-submission fails. Basic "
+"markup is allowed."
+msgstr ""
+"پیام خطای عمومی که نمایش داده می شود اگر پس از ارسال نتواند. نشانه گذاری "
+"عمومی مجاز است."
+
+#: library/plugin-settings.php:894
+msgid "Custom Content"
+msgstr "محتوای سفارشی"
+
+#: library/plugin-settings.php:896
+msgid ""
+"Custom text/markup to be included before the submission form. Leave blank to "
+"disable."
+msgstr ""
+"متن سفارشی / نشانه گذاری قبل از فرم ارسال، شامل می شود. خاموش کردن برای "
+"غیرفعال کردن"
+
+#: library/plugin-settings.php:899
+msgid "Rich Text Editor"
+msgstr "ویرایشگر متن غنی"
+
+#: library/plugin-settings.php:901
 msgid ""
 "Check this box if you want to enable WP rich text editing for submitted "
 "posts."
 msgstr ""
-"در صورتی که می خواهید ویرایشگر پیشفرض وردپرس را برای فرم ارسال مطالب فعال "
-"کنید ، این گزینه را تیک دار کنید."
+"اگر می خواهید WP Edit Rich Text را برای پست های ارسال شده فعال کنید، این "
+"کادر را علامت بزنید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:891
-msgid "Set Uploaded Image as Featured Image"
-msgstr "انتخاب تصاویر بارگذاری شده به عنوان تصاویر شاخص"
+#: library/plugin-settings.php:904
+msgid "Unique Titles"
+msgstr "عنوان های منحصر به فرد"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:893
+#: library/plugin-settings.php:906
 msgid ""
-"Check this box if you want to set submitted images as Featured Images (aka "
-"Post Thumbnails) for posts. \n"
-"\t\t\t\t\t\t\t\t\t\t\tNote: your theme&rsquo;s single.php file must include"
+"Require submitted post titles to be unique (useful for preventing "
+"multiple/duplicate submitted posts)."
 msgstr ""
-"اگر میخواهید تصاویر آپلود شده به عنوان تصاویر ویژه و شاخص انتخاب شوند ، این "
-"گزینه را تیک دار کنید. \n"
-"\t\t\t\t\t\t\t\t\t\t\t هشدار: فایل&rsquo;s single.php در پوسته شما باید از "
-"تصاویر شاخص پشتیبانی کنید"
+"نیازمند ارسال پست های ارسال شده به منحصر به فرد (مفید برای جلوگیری از چندین "
+"/ تکراری پست ارسال شده)."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:894
-msgid "to display Featured Images."
-msgstr "برای نمایش تصاویر ویژه و شاخص"
+#: library/plugin-settings.php:909
+msgid "Disable Required"
+msgstr "غیر فعال کردن مورد نیاز"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:897
-msgid "Email Address for Alerts"
-msgstr "آدرس ایمیل برای هشدار"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:899
+#: library/plugin-settings.php:911
 msgid ""
-"If you checked the box to receive email alerts, indicate here the "
-"address(es) to which the emails should be sent."
+"Disable all required attributes on default form fields (useful for "
+"troubleshooting error messages)."
 msgstr ""
-"اگر این گزینه را تیک دار کنید ، برای شما ایمیل های هشداردهنده ارسال خواهد "
-"شود. ایمیل هایی را که می خواهید هشدار ها برایشان ارسال شوند را وارد نمایید."
+"غیر فعال کردن تمام ویژگی های مورد نیاز در فیلدهای فرم پیش فرض (مفید برای "
+"پیام های خطا در عیب یابی)."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:900
-msgid "Tip: multiple addresses may be included using a comma, like so:"
-msgstr "نکته : آدرس های جداگانه را با کاما از هم جدا کنید. مانند: "
+#: library/plugin-settings.php:914
+msgid "Disable IP Tracking"
+msgstr "غیرفعال کردن پیگیری IP"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:903
-msgid "Redirect URL"
-msgstr "انتقال به آدرس"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:905
+#: library/plugin-settings.php:916
 msgid ""
-"Specify a URL to redirect the user after post-submission. Note: leave blank "
-"to redirect back to current page."
-msgstr "آدرسی را وارد کنید که می خواهید کاربر پس از ثبت مطلب ، به آن منتقل شود"
+"By default USP records the IP address with each submitted post. Check this "
+"box to disable all IP tracking."
+msgstr ""
+"به طور پیش فرض USP آدرس IP را با هر پست ارسالی ثبت می کند. برای غیرفعال کردن "
+"تمام ردیابی IP، این کادر را علامت بزنید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:908
-msgid "Success Message"
-msgstr "پیغام موفقیت آمیز بودن"
+#: library/plugin-settings.php:919
+msgid "Enable Shortcodes"
+msgstr "فعال کردن کد کوتاه"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:910
+#: library/plugin-settings.php:921
 msgid ""
-"This is the success message that is displayed if post-submission is "
-"successful."
+"Enable shortcodes in widgets. By default, WordPress does not enable "
+"shortcodes in widgets. "
 msgstr ""
-"این پیغام موفقیت آمیز بودنی است که هنگامی نمایش داده میشود که ثبت مطلب "
-"موفقیت آمیز بوده باشد"
+"فعال کردن کد کوتاه در ویدجت به طور پیش فرض، وردپرس کد کوتاه را در ویدجت ها "
+"فعال نمی کند."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:913
-msgid "Error Message"
-msgstr "پیغام خطا"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:915
-msgid "This is the error message that is displayed if post-submission fails."
-msgstr "این پیغام خطا زمانی نمایش داده می شود که ثبت مطلب با مشکلی مواجه شود"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:918
-msgid "Custom Content"
-msgstr "محتوای سفارشی"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:920
+#: library/plugin-settings.php:922
 msgid ""
-"Here you may specify custom text/markup to be included before the submission "
-"form. Note: leave blank to disable."
+"This setting enables any/all shortcodes in widgets (even shortcodes from "
+"other plugins)."
 msgstr ""
-"اینجا می توانید متن یا نشانه دلخواهی را وارد نمایید تا قبل از فرم نمایش داده "
-"شود. برای غیر فعال بودن ، کادر را خالی بگذارید"
+"این تنظیم هر کدام / کد کوتاه را در ویدجت ها (حتی کد های کوتاه از سایر پلاگین "
+"ها) را فعال می کند."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:924
-msgid "Use registered user info"
-msgstr "استفاده از اطلاعات کاربر ثبت نام کرده"
+#: library/plugin-settings.php:927 library/plugin-settings.php:932
+msgid "Categories"
+msgstr "دسته بندی ها"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:928
-msgid "Use registered username for author?"
-msgstr "استفاده از نام کاربری کاربر ثبت نام کرده برای نام نویسنده؟"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:930
+#: library/plugin-settings.php:935
 msgid ""
-"Check this box if you want to automatically use the registered username as "
-"the submitted-post author. Note: this really should only be used when "
-"requiring log-in for submissions."
+"Select which categories may be assigned to submitted posts (click to toggle)"
 msgstr ""
-"این گزینه را تیک دار کنید اگر می خواهید به صورت خودکار از نام کاربری فرد در "
-"فرم ارسال مطلب استفاده شود. نکته : این زمانی کاربرد دارد که کاربر وارد شده "
-"باشد."
+"انتخاب کنید که کدام دسته ممکن است به پست های ارسال شده اختصاص داده شود (کلیک "
+"کنید تا ضامن)"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:933
-msgid "Use registered URL for submitted URL?"
-msgstr ""
-"انتخاب آدرسی که کاربر ثبت نام کرده وارد کرده به عنوان آدرس وبگاه نویسنده مطلب"
+#: library/plugin-settings.php:952
+msgid "Hidden/Default Category"
+msgstr "پنهان / پیش فرض رده"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:935
+#: library/plugin-settings.php:954
 msgid ""
-"Check this box if you want to automatically use the registered user&rsquo;s "
-"specified URL as the submitted-post URL. Note: this really should only be "
-"used when requiring log-in for submissions."
+"Use a hidden field for the post category. This may be used to specify a "
+"default category when the category field is disabled."
 msgstr ""
-"این گزینه را تیک دار کنید ، اگر می خواهید به صورت خودکار از آدرس وبگاه کاربر "
-"ثبت نام کرده به عنوان وبگاه نویسنده مطلب استفاده شود.نکته : زمانی کاربرد "
-"دارد که کاربر وارد شده باشد"
+"از یک فیلد پنهان برای رده پست استفاده کنید. این می تواند برای تعیین یک دسته "
+"پیش فرض هنگام استفاده از فیلد رده غیر فعال شود."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:938
-msgid "Use a hidden field for submitted category?"
-msgstr "استفاده از یک کادرمخفی برای دسته بندی"
+#: library/plugin-settings.php:957
+msgid "Category ID for Hidden Field"
+msgstr "شناسه رده برای فیلد پنهان"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:940
+#: library/plugin-settings.php:959
 msgid ""
-"Check this box if you want to use a hidden category field for the submitted "
-"category. Note: this may be used to specify a default category for submitted "
-"posts when the category field is hidden."
-msgstr ""
-"تیک این گزینه را بزنید اگر می خواهید دسته بندی های مخفی باشند. زمانی از این "
-"استفاده کنید که می خواهید یک دسته بندی مشخص را برای مطالب انتخاب کنید"
+"Specify the ID of the category to use for the &ldquo;Hidden/Default "
+"Category&rdquo; option."
+msgstr "مشخص کردن شناسه رده برای استفاده از گزینه \"مخفی / پیش فرض\"."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:943
-msgid "Category ID for hidden field"
-msgstr "آی دی دسته مورد نظر برای کادر مخفی"
+#: library/plugin-settings.php:964
+msgid "Users"
+msgstr "کاربران"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:945
+#: library/plugin-settings.php:969
+msgid "Assigned Author"
+msgstr "اختصاصی نویسنده"
+
+#: library/plugin-settings.php:978
 msgid ""
-"Specify a cateogry (ID) to use as the default category when using the &ldquo;"
-"hidden field&rdquo; option."
+"Specify the user that should be assigned as author for user-submitted posts."
 msgstr ""
-"اگر می خواهید فیلد دسته بندی مخفی باشد ، یک آی دی دسته بندی را به عنوان "
-"پیشفرض انتخاب کنید."
+"تعیین کاربر که باید به عنوان نویسنده برای پست های ارسال شده توسط کاربر تعیین "
+"شده باشد."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:949
-msgid "Challenge question (captcha)"
-msgstr "پرسش امنیتی (کپچا)"
+#: library/plugin-settings.php:982
+msgid "Registered Username"
+msgstr "ثبت نام نام کاربری"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:953
-msgid "Challenge Question"
-msgstr "پرسش امنیتی"
+#: library/plugin-settings.php:984
+msgid ""
+"Use registered username as post author. Valid when the person submitting the "
+"form is logged in to WordPress."
+msgstr ""
+"از نام کاربری ثبت نام شده به عنوان پست نویسنده استفاده کنید. معتبر است زمانی "
+"که فردی که فرم را وارد کرده است به وردپرس وارد شده است."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:955
+#: library/plugin-settings.php:987
+msgid "User Profile URL"
+msgstr "URL نمایه کاربر"
+
+#: library/plugin-settings.php:989
+msgid ""
+"Use registered user&rsquo;s Profile URL as the value of the URL field. Valid "
+"when the person submitting the form is logged in to WordPress."
+msgstr ""
+"استفاده از URL کاربر ثبت نام شده به عنوان مقدار فیلد URL. معتبر است زمانی که "
+"فردی که فرم را وارد کرده است به وردپرس وارد شده است."
+
+#: library/plugin-settings.php:992
+msgid "Require User Login"
+msgstr "ورود کاربر نیاز دارد"
+
+#: library/plugin-settings.php:994
+msgid "Require users to be logged in to WordPress to view/submit the form"
+msgstr "نیاز به کاربران برای ورود به وردپرس برای مشاهده / ارسال فرم"
+
+#: library/plugin-settings.php:1006
 msgid ""
 "To prevent spam, enter a question that users must answer before submitting "
 "the form."
 msgstr ""
-"برای جلوگیری از هرزنامه ، یک پرسش امنیتی را وارد کنید تا کاربران قبل از ثبت "
-"مطلب ملزم به جواب دادن به آن شوند"
+"برای جلوگیری از هرزنامه، یک سوال را وارد کنید که کاربران قبل از ارسال فرم "
+"باید پاسخ دهند."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:958
+#: library/plugin-settings.php:1009
 msgid "Challenge Response"
-msgstr "پاسخ پرسش امنیتی"
+msgstr "پاسخ چالش"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:960
-msgid "Enter the <em>only</em> correct answer to the challenge question."
-msgstr "پاسخ درست پرسش امنیتی را وارد کنید"
+#: library/plugin-settings.php:1011
+msgid "Enter the *only* correct answer to the challenge question."
+msgstr "تنها پاسخ صحیح به سوال چالش را وارد کنید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:963
+#: library/plugin-settings.php:1014
 msgid "Case-sensitivity"
-msgstr "حساسیت به بزرگی و کوچکی حروف"
+msgstr "حساسیت مورد"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:965
+#: library/plugin-settings.php:1016
 msgid "Check this box if you want the challenge response to be case-sensitive."
+msgstr "این کادر را علامت بزنید اگر میخواهید پاسخ چالش حساس به حروف بزرگ باشد."
+
+#: library/plugin-settings.php:1022
+msgid "To enable Google reCAPTCHA, enter your public and private keys."
 msgstr ""
-"اگر می خواید پاسخ به پرسش امنیتی ، به حروف کوچک و بزرگ در زبان انگلیسی حساس "
-"باشد ، این گزینه را تیک داد کنید"
+"برای فعال کردن Google reCAPTCHA، کلیدهای عمومی و خصوصی خود را وارد کنید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:969
-msgid "Options for image uploads"
-msgstr "تنظیمات تصاویر"
+#: library/plugin-settings.php:1027
+msgid "Public Key"
+msgstr "کلید عمومی"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:973
+#: library/plugin-settings.php:1029
+msgid "Enter your Public Key"
+msgstr "کلید عمومی خود را وارد کنید"
+
+#: library/plugin-settings.php:1032
+msgid "Private Key"
+msgstr "کلید خصوصی"
+
+#: library/plugin-settings.php:1034
+msgid "Enter your Private Key"
+msgstr "کلید خصوصی خود را وارد کنید"
+
+#: library/plugin-settings.php:1039
+msgid "Email Alerts"
+msgstr "هشدارهای ایمیل"
+
+#: library/plugin-settings.php:1044
+msgid "Receive Email Alert"
+msgstr "دریافت هشدار ایمیل"
+
+#: library/plugin-settings.php:1046
+msgid ""
+"Check this box if you want to be notified via email for new post submissions."
+msgstr ""
+"اگر می خواهید از طریق ایمیل برای ارسال پست های جدید مطلع شوید، این کادر را "
+"علامت بزنید."
+
+#: library/plugin-settings.php:1049
+msgid "Enable HTML Format"
+msgstr "فعال کردن قالب HTML"
+
+#: library/plugin-settings.php:1051
+msgid "Check this box to enable HTML format for email alerts."
+msgstr "برای فعال کردن قالب HTML برای هشدارهای ایمیل، این کادر را فعال کنید."
+
+#: library/plugin-settings.php:1054
+msgid "Email Address for Alerts"
+msgstr "آدرس ایمیل برای هشدارها"
+
+#: library/plugin-settings.php:1056
+msgid ""
+"If you checked the box to receive email alerts, indicate here the address(es)"
+" to which the emails should be sent."
+msgstr ""
+"اگر جعبه را برای دریافت هشدارهای ایمیل چک کرده اید، در اینجا آدرس (های) که "
+"به آن ایمیل ها باید ارسال شود را نشان دهید."
+
+#: library/plugin-settings.php:1057
+msgid "Multiple recipients may be included using a comma, like so:"
+msgstr "گیرندگان چندگانه ممکن است با استفاده از کاما، مانند:"
+
+#: library/plugin-settings.php:1060
+msgid "Email &ldquo;From&rdquo; Address"
+msgstr "ایمیل \"از\" آدرس"
+
+#: library/plugin-settings.php:1062
+msgid ""
+"Here you may customize the address(es) used for the &ldquo;From&rdquo; "
+"header (see plugin FAQs for info). "
+msgstr ""
+"در اینجا شما می توانید آدرس (ها) مورد استفاده برای هدر \"از\" (به سؤالات "
+"متداول مربوط به پلاگین برای اطلاعات) سفارشی کنید."
+
+#: library/plugin-settings.php:1063
+msgid ""
+"If multiple addresses are specified in the previous setting, include an "
+"equal number of &ldquo;From&rdquo; addresses for this setting (in the same "
+"order)."
+msgstr ""
+"اگر چندین آدرس در تنظیم قبلی مشخص شده باشد، تعداد یکسانی از آدرس های "
+"\"From\" برای این تنظیم (همان سفارش) را شامل می شود."
+
+#: library/plugin-settings.php:1066
+msgid "Email Alert Subject"
+msgstr "موضوع هشدار ایمیل"
+
+#: library/plugin-settings.php:1068
+msgid ""
+"Subject line for email alerts. Leave blank to use the default subject line. "
+"Note: you can use the following variables: "
+msgstr ""
+"خط موضوع برای هشدارهای ایمیل. برای استفاده از خط موضوع پیش فرض خالی بگذارید. "
+"توجه: شما می توانید از متغیرهای زیر استفاده کنید:"
+
+#: library/plugin-settings.php:1072
+msgid "Email Alert Message"
+msgstr "پیام هشدار ایمیل"
+
+#: library/plugin-settings.php:1074
+msgid ""
+"Message for email alerts. Leave blank to use the default message. Note: you "
+"can use the following variables: "
+msgstr ""
+"پیام هشدار ایمیل برای استفاده از پیام پیش فرض خالی بگذارید توجه: شما می "
+"توانید از متغیرهای زیر استفاده کنید:"
+
+#: library/plugin-settings.php:1085
+msgid "Featured Image"
+msgstr "تصویر ویژه"
+
+#: library/plugin-settings.php:1087
+msgid ""
+"Set submitted images as Featured Images. Requires theme support for Featured "
+"Images (aka Post Thumbnails)."
+msgstr ""
+"تصاویر ارسال شده را به عنوان تصاویر ویژه تنظیم کنید. نیاز به پشتیبانی تم "
+"برای تصاویر برجسته (بعضی ها پست های ریز عکس ها)."
+
+#: library/plugin-settings.php:1090
 msgid "Upload Message"
-msgstr "پیغام بارگذاری"
+msgstr "پیام آپلود"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:975
+#: library/plugin-settings.php:1092
 msgid ""
-"This is the message that appears next to upload field. Useful to state your "
-"upload guidelines/rules/etc."
-msgstr "این پیغام زمانی نمایش داده می شود که آپلود تصویر موفقیت آمیز نباشد."
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:978
-msgid "&ldquo;Add another image&rdquo; link"
-msgstr "اضافه کردن یک لینک تصویر دیگر"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:980
-msgid ""
-"Here you may specify your own custom markup for the &ldquo;Add another "
-"image&rdquo; link (leave blank to use the default markup)."
+"Message that appears next to the upload field. Useful for stating your "
+"upload guidelines/policy/etc. Basic markup allowed."
 msgstr ""
-"می توانید نشانه مورد نظر خودرا برای لینک افزودن تصویر جدید انتخاب کنید. برای "
-"استفاده از حالت پیشفرض ، کادر را خالی بگذارید"
+"پیامی که در کنار فیلد آپلود ظاهر می شود. برای بیان دستورالعملهای آپلود / "
+"سیاست / و غیره مفید است نشانه گذاری عمومی مجاز است"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:983
+#: library/plugin-settings.php:1095
+msgid "&ldquo;Add another image&rdquo; link"
+msgstr "پیوند \"افزودن تصویر دیگری\""
+
+#: library/plugin-settings.php:1097
+msgid ""
+"Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to "
+"use the default markup (recommended)."
+msgstr ""
+"نشانه سفارشی برای پیوند «افزودن یک تصویر دیگر». برای استفاده از نشانه گذاری "
+"پیش فرض (توصیه می شود) خالی بگذارید."
+
+#: library/plugin-settings.php:1100
 msgid "Minimum number of images"
-msgstr "کمترین تعداد تصاویر"
+msgstr "حداقل تعداد تصاویر"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:986
-msgid "Specify the <em>minimum</em> number of images."
-msgstr "یک مقدار حداقل را برای تعداد عکس ها انتخاب نمایید."
+#: library/plugin-settings.php:1103
+msgid "Specify the minimum number of images."
+msgstr "حداقل تعداد تصاویر را مشخص کنید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:990
+#: library/plugin-settings.php:1107
 msgid "Maximum number of images"
-msgstr "بیشتر تعداد تصاویر"
+msgstr "حداکثر تعداد تصاویر"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:993
-msgid "Specify the <em>maximum</em> number of images."
-msgstr "یک مقدار حداکثر را برای تعداد عکس ها انتخاب نمایید."
+#: library/plugin-settings.php:1110
+msgid "Specify the maximum number of images."
+msgstr "حداکثر تعداد تصاویر را تعیین کنید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:997
+#: library/plugin-settings.php:1114
 msgid "Minimum image width"
-msgstr "کمترین طول تصاویر"
+msgstr "حداقل عرض تصویر"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:999
-msgid "Specify a <em>minimum width</em> (in pixels) for uploaded images."
-msgstr "یک مقدار حداقل را برای طول عکس های آپلود شده انتخاب نمایید."
+#: library/plugin-settings.php:1116
+msgid "Specify a minimum width (in pixels) for uploaded images."
+msgstr "حداقل عرض (در پیکسل) را برای تصاویر آپلود مشخص کنید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1002
+#: library/plugin-settings.php:1119
 msgid "Minimum image height"
-msgstr "کمترین ارتفاع عکس ها"
+msgstr "حداقل ارتفاع تصویر"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1004
-msgid "Specify a <em>minimum height</em> (in pixels) for uploaded images."
-msgstr "یک مقدار حداقل را برای ارتفاع عکس های آپلود شده انتخاب نمایید."
+#: library/plugin-settings.php:1121
+msgid "Specify a minimum height (in pixels) for uploaded images."
+msgstr "حداقل ارتفاع (در پیکسل) را برای تصاویر آپلود مشخص کنید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1007
+#: library/plugin-settings.php:1124
 msgid "Maximum image width"
-msgstr "بیشتر طول تصاویر"
+msgstr "حداکثر عرض تصویر"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1009
-msgid "Specify a <em>maximum width</em> (in pixels) for uploaded images."
-msgstr "یک مقدار حداکثر را برای طول عکس های آپلود شده انتخاب نمایید."
+#: library/plugin-settings.php:1126
+msgid "Specify a maximum width (in pixels) for uploaded images."
+msgstr "حداکثر عرض (در پیکسل) را برای تصاویر آپلود مشخص کنید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1012
+#: library/plugin-settings.php:1129
 msgid "Maximum image height"
-msgstr "بیشترین ارتفاع تصاویر"
+msgstr "حداکثر ارتفاع تصویر"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1014
-msgid "Specify a <em>maximum height</em> (in pixels) for uploaded images."
-msgstr "یک مقدار حداکثر را برای ارتفاع عکس های آپلود شده انتخاب نمایید."
+#: library/plugin-settings.php:1131
+msgid "Specify a maximum height (in pixels) for uploaded images."
+msgstr "حداکثر ارتفاع (در پیکسل) را برای تصاویر آپلود مشخص کنید."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1018
-#: folder\user-submitted-posts/user-submitted-posts.php:1046
+#: library/plugin-settings.php:1134
+msgid "More Options"
+msgstr "گزینه های بیشتر"
+
+#: library/plugin-settings.php:1137
+msgid ""
+"For more options, like the ability to upload other file types (like PDF, "
+"Word, Zip, videos, and more), check out"
+msgstr ""
+"برای گزینه های بیشتر، مانند قابلیت آپلود انواع فایل های دیگر (مانند PDF، "
+"ورد، Zip، فیلم ها و موارد دیگر)، بررسی کنید"
+
+#: library/plugin-settings.php:1138
+msgid "Go Pro!"
+msgstr "برو طرفدار"
+
+#: library/plugin-settings.php:1138
+msgid "USP Pro"
+msgstr "USP Pro"
+
+#: library/plugin-settings.php:1145
+msgid "Auto-Display Content"
+msgstr "محتوای خودکار نمایش"
+
+#: library/plugin-settings.php:1150
+msgid "Images Auto-Display"
+msgstr "خودکار نمایش تصاویر"
+
+#: library/plugin-settings.php:1152
+msgid "Auto-display user-submitted images:"
+msgstr "تصاویر ارسال شده به کاربر خودکار نمایش داده می شود:"
+
+#: library/plugin-settings.php:1157
+msgid "Image Markup"
+msgstr "نشانه گذاری تصویر"
+
+#: library/plugin-settings.php:1159
+msgid ""
+"Markup to use for each submitted image (when auto-display is enabled). Can "
+"use"
+msgstr ""
+"نشانه گذاری برای استفاده از هر تصویر ارسال شده (هنگامی که صفحه نمایش خودکار "
+"فعال می شود). می توانید استفاده کنید"
+
+#: library/plugin-settings.php:1161 library/plugin-settings.php:1174 
+#: library/plugin-settings.php:1187
+msgid "and"
+msgstr "و"
+
+#: library/plugin-settings.php:1164
+msgid "Email Auto-Display"
+msgstr "خودکار نمایش خودکار"
+
+#: library/plugin-settings.php:1166
+msgid "Auto-display user-submitted email:"
+msgstr "نمایش خودکار نمایش داده شده توسط کاربر:"
+
+#: library/plugin-settings.php:1171
+msgid "Email Markup"
+msgstr "نشانه گذاری ایمیل"
+
+#: library/plugin-settings.php:1173
+msgid ""
+"Markup to use for the submitted email address (when auto-display is enabled)."
+" Can use"
+msgstr ""
+"نشانه گذاری برای استفاده از آدرس ایمیل ارائه شده (هنگامی که صفحه نمایش "
+"خودکار فعال است). می توانید استفاده کنید"
+
+#: library/plugin-settings.php:1177
+msgid "URL Auto-Display"
+msgstr "URL نمایش خودکار"
+
+#: library/plugin-settings.php:1179
+msgid "Auto-display user-submitted URL:"
+msgstr "URL نمایش داده شده توسط کاربر به صورت خودکار نمایش داده می شود:"
+
+#: library/plugin-settings.php:1184
+msgid "URL Markup"
+msgstr "نشانه گذاری URL"
+
+#: library/plugin-settings.php:1186
+msgid ""
+"Markup to use for the submitted URL (when auto-display is enabled). Can use"
+msgstr ""
+"علامت گذاری برای استفاده برای URL ارسال شده (زمانی که صفحه نمایش خودکار فعال "
+"است). می توانید استفاده کنید"
+
+#: library/plugin-settings.php:1192 library/plugin-settings.php:1210
 msgid "Save Settings"
-msgstr "ذخیره تنظیمات"
+msgstr "تنظیمات را ذخیره کن"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1022
-msgid "Shortcode &amp; Template Tag"
-msgstr "کدکوتاه و کد داخل پوسته"
+#: library/plugin-settings.php:1197
+msgid "Restore Defaults"
+msgstr "بازگرداندن پیش فرض ها"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1025
-msgid "Shortcode"
-msgstr "کدکوتاه"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1026
-msgid "Use this shortcode to display the USP Form on any post or page:"
-msgstr "از کدکوتاه زیر برای نمایش فرم ارسال مطلب در برگه یا پست استفاده کنید"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1029
-msgid "Template tag"
-msgstr "قالب برچسب"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1030
-msgid ""
-"Use this template tag to display the USP Form anywhere in your theme "
-"template:"
-msgstr "کدهای زیر را برای نمایش فرم ارسال مطلب در پوسته تان قرار دهید"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1035
-msgid "Restore Default Options"
-msgstr "بازگردانی تنظیمات بیشتر"
-
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1039
+#: library/plugin-settings.php:1201
 msgid "Restore default options upon plugin deactivation/reactivation."
-msgstr "بازگردانی تنظیمات پیشفرض پس از غیرفعال / فعال کردن افزونه"
+msgstr "بازگرداندن گزینه های پیش فرض در هنگام غیرفعال کردن / فعال شدن پلاگین."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1043
+#: library/plugin-settings.php:1205
+msgid "Tip:"
+msgstr "نکته:"
+
+#: library/plugin-settings.php:1206
+msgid "leave this option unchecked to remember your settings."
+msgstr "این گزینه را بدون توجه به تنظیمات خود به خاطر بسپارید."
+
+#: library/plugin-settings.php:1207
 msgid ""
-"<strong>Tip:</strong> leave this option unchecked to remember your settings. "
 "Or, to go ahead and restore all default options, check the box, save your "
 "settings, and then deactivate/reactivate the plugin."
 msgstr ""
-"<strong>نکته:</strong> اگر میخواهید تنظیماتتان باقی بماند ، تیک این گزینه را "
-"بردارید. یا برای بازگرداند به پیشفرض ، تیک را بزنید ،همه گزینه ها را "
-"بازگردانید و اطلاعات را ذخیره کنید. سپس افزونه را غیر فعال/فعال کنید."
+"یا برای رفتن به جلو و بازگرداندن تمام گزینه های پیش فرض، جعبه را چک کنید، "
+"تنظیمات خود را ذخیره کنید، و سپس غیرفعال کردن / دوباره فعال کردن افزونه."
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1050
-msgid "Updates &amp; Info"
-msgstr "به روز رسانی ها و اطلاعات"
+#: library/plugin-settings.php:1215
+msgid "Shortcode &amp; Template Tag"
+msgstr "کوتاه و برچسب الگو"
 
-#: D:\WEB\New folder\user-submitted-posts/user-submitted-posts.php:1090
+#: library/plugin-settings.php:1218
+msgid ""
+"To implement USP, first configure the plugin settings, then use the "
+"shortcode or template to display the form on the front-end as desired."
+msgstr ""
+"برای اجرای USP، ابتدا تنظیمات پلاگین را پیکربندی کنید، سپس از کد کوتاه یا "
+"الگو برای نمایش فرم در قسمت جلویی به صورت دلخواه استفاده کنید."
+
+#: library/plugin-settings.php:1220
+msgid "Shortcode"
+msgstr "کد کوتاه"
+
+#: library/plugin-settings.php:1221
+msgid "Use this shortcode to display the USP Form on any WP Post or Page:"
+msgstr "از این کوتاه برای نمایش فرم USP در هر پست WP یا صفحه استفاده کنید."
+
+#: library/plugin-settings.php:1224
+msgid "Template tag"
+msgstr "برچسب الگو"
+
+#: library/plugin-settings.php:1225
+msgid ""
+"Use this template tag to display the USP Form anywhere in your theme "
+"template:"
+msgstr ""
+"از این تگ قالب برای نمایش فرم USP در هر کجای قالب قالب خود استفاده کنید:"
+
+#: library/plugin-settings.php:1231
+msgid "Show Support"
+msgstr "نمایش پشتیبانی"
+
+#: library/plugin-settings.php:1243
+msgid "by"
+msgstr "توسط"
+
+#: library/plugin-settings.php:1244
+msgid "Jeff Starr on Twitter"
+msgstr "جف استارر در توییتر"
+
+#: library/plugin-settings.php:1245
+msgid "Obsessive Web Design &amp; Development"
+msgstr "طراحی وب سایت وسواسي و توسعه"
+
+#: library/plugin-settings.php:1256
+msgid "Save Preference"
+msgstr "ذخیره ترجیح"
+
+#: library/plugin-settings.php:1263
 msgid ""
 "Are you sure you want to restore all default options? (this action cannot be "
 "undone)"
 msgstr ""
-"آیا مطمئن هستید که می خواهید تمامی تنظیمات را به حالت اولیه برگردانید؟ این "
-"انتخاب قابل بازگشت نخواهد بود!"
+"آیا مطمئن هستید که می خواهید تمام گزینه های پیش فرض را بازیابی کنید؟ (این "
+"عمل قابل لغو نیست)"
 
-#: D:\WEB\New folder\user-submitted-posts/views/submission-form-classic.php:32
-#: folder\user-submitted-posts/views/submission-form.php:36
-#: folder\user-submitted-posts/views/submission-form.php:37
-msgid "Your Name"
-msgstr "نام شما"
+#: library/template-tags.php:214
+msgid "View full post"
+msgstr "مشاهده کامل پست"
 
-#: D:\WEB\New folder\user-submitted-posts/views/submission-form-classic.php:39
-#: folder\user-submitted-posts/views/submission-form.php:41
-#: folder\user-submitted-posts/views/submission-form.php:42
-msgid "Your URL"
-msgstr "آدرس وبگاه شما"
+#. Description of the plugin
+msgid ""
+"Enables your visitors to submit posts and images from anywhere on your site."
+msgstr ""
+"بازدیدکنندگان شما را قادر می سازد تا پست ها و تصاویر را از هر نقطه از سایت "
+"خود ارسال نمایند."
 
-#: D:\WEB\New folder\user-submitted-posts/views/submission-form-classic.php:53
-msgid "(separate with commas)"
-msgstr "(با کاما جدا کنید)"
+#. URI of the plugin
+msgid "https://perishablepress.com/user-submitted-posts/"
+msgstr "https://perishablepress.com/user-submitted-posts/"
 
-#: D:\WEB\New
-#: folder\user-submitted-posts/views/submission-form-classic.php:109
-#: folder\user-submitted-posts/views/submission-form.php:96
-msgid "Upload an Image"
-msgstr "بارگذاری تصویر"
+#. Author of the plugin
+msgid "Jeff Starr"
+msgstr "جف استارر"
 
-#: D:\WEB\New
-#: folder\user-submitted-posts/views/submission-form-classic.php:116
-#: folder\user-submitted-posts/views/submission-form.php:104
-msgid "Add another image"
-msgstr "افزودن تصویر"
-
-#: D:\WEB\New
-#: folder\user-submitted-posts/views/submission-form-classic.php:133
-#: folder\user-submitted-posts/views/submission-form.php:122
-msgid "Human verification: leave this field empty."
-msgstr "تایید ربات نبودن: این کادر را خالی بگذارید"
-
-#: D:\WEB\New
-#: folder\user-submitted-posts/views/submission-form-classic.php:149
-#: folder\user-submitted-posts/views/submission-form.php:138
-msgid "Submit Post"
-msgstr "ثبت مطلب"
-
-#: D:\WEB\New folder\user-submitted-posts/views/submission-form.php:57
-msgid "Antispam Question"
-msgstr "پرسش امنیتی"
+#. Author URI of the plugin
+msgid "https://plugin-planet.com/"
+msgstr "https://plugin-planet.com/"

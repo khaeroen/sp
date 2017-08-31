@@ -3,15 +3,15 @@
 	Plugin Name: User Submitted Posts
 	Plugin URI: https://perishablepress.com/user-submitted-posts/
 	Description: Enables your visitors to submit posts and images from anywhere on your site.
-	Tags: frontend, submission, publish, upload, share,  community, content, custom fields, files, form, forms, front end, front-end, frontend content, frontend publishing, frontend uploader, generated, generated content, guest, images, login, post, posts, public, publishing, publishing, register, sharing, submit, submissions, submitted, uploader, user generated, user submit, user submitted, user-generated, user-submit, user-submitted, users, visitor
+	Tags: guest post, user post, anonymous post, frontend post, guest author,  frontend content, frontend post, frontend upload, generated content, guest blog, guest blogging, guest publish, guest upload, post sharing, post submission, public post, share posts, submit post, user generated, user submit, user submitted post, visitor post
 	Author: Jeff Starr
 	Author URI: https://plugin-planet.com/
 	Donate link: https://m0n.co/donate
 	Contributors: specialk
 	Requires at least: 4.1
 	Tested up to: 4.8
-	Stable tag: 20170531
-	Version: 20170531
+	Stable tag: 20170801
+	Version: 20170801
 	Text Domain: usp
 	Domain Path: /languages
 	License: GPL v2 or later
@@ -20,15 +20,18 @@
 /*
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
-	as published by the Free Software Foundation; either version 2
-	of the License, or (at your option) any later version.
+	as published by the Free Software Foundation; either version 
+	2 of the License, or (at your option) any later version.
 	
 	This program is distributed in the hope that it will be useful,
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 	
-	Get a copy of the GNU General Public License: http://www.gnu.org/licenses/
+	You should have received a copy of the GNU General Public License
+	with this program. If not, visit: https://www.gnu.org/licenses/
+	
+	Copyright 2017 Monzilla Media. All rights reserved.
 */
 
 if (!defined('ABSPATH')) die();
@@ -36,7 +39,7 @@ if (!defined('ABSPATH')) die();
 
 
 define('USP_WP_VERSION', '4.1');
-define('USP_VERSION', '20170531');
+define('USP_VERSION', '20170801');
 define('USP_PLUGIN', esc_html__('User Submitted Posts', 'usp'));
 define('USP_PATH', plugin_basename(__FILE__));
 
@@ -165,11 +168,17 @@ function usp_checkForPublicSubmission() {
 	
 	global $usp_options;
 	
-	if (isset($_POST['user-submitted-post'], $_POST['usp-nonce']) && !empty($_POST['user-submitted-post']) && wp_verify_nonce($_POST['usp-nonce'], 'usp-nonce')) {
+	if (
+		isset($_POST['user-submitted-post'], $_POST['usp-nonce']) && !empty($_POST['user-submitted-post']) && 
+		wp_verify_nonce($_POST['usp-nonce'], 'usp-nonce')
+	) {
 		
 		$title = usp_get_default_title();
 		
-		if (isset($_POST['user-submitted-title']) && ($usp_options['usp_title'] == 'show' || $usp_options['usp_title'] == 'optn')) {
+		if (
+			isset($_POST['user-submitted-title']) && !empty($_POST['user-submitted-title']) && 
+			($usp_options['usp_title'] == 'show' || $usp_options['usp_title'] == 'optn')
+		) {
 			
 			$title = sanitize_text_field($_POST['user-submitted-title']);
 			
@@ -181,7 +190,7 @@ function usp_checkForPublicSubmission() {
 		
 		$author   = isset($_POST['user-submitted-name'])     ? sanitize_text_field($_POST['user-submitted-name'])     : '';
 		$url      = isset($_POST['user-submitted-url'])      ? esc_url($_POST['user-submitted-url'])                  : '';
-		$email    = isset($_POST['user-submitted-email'])    ? sanitize_email($_POST['user-submitted-email'])         : '';
+		$email    = isset($_POST['user-submitted-email'])    ? sanitize_text_field($_POST['user-submitted-email'])    : '';
 		$tags     = isset($_POST['user-submitted-tags'])     ? sanitize_text_field($_POST['user-submitted-tags'])     : '';
 		$captcha  = isset($_POST['user-submitted-captcha'])  ? sanitize_text_field($_POST['user-submitted-captcha'])  : '';
 		$verify   = isset($_POST['user-submitted-verify'])   ? sanitize_text_field($_POST['user-submitted-verify'])   : '';
@@ -572,20 +581,35 @@ function usp_check_images($files, $newPost) {
 	
 	global $usp_options;
 	
-	$temp = false; $errr = false; $error = array();
+	$error = array(); $file_count = 0;
 	
-	if (isset($files['tmp_name'])) $temp = array_filter($files['tmp_name']);
-	if (isset($files['error']))    $errr = array_filter($files['error']);
-	
-	$file_count = 0;
-	
-	if (!empty($temp)) {
-		
-		foreach ($temp as $key => $value) if (is_uploaded_file($value)) $file_count++;
-		
-	}
+	$name = isset($files['name'])     ? array_filter($files['name'])     : false;
+	$temp = isset($files['tmp_name']) ? array_filter($files['tmp_name']) : false;
+	$errr = isset($files['error'])    ? array_filter($files['error'])    : false;
 	
 	if ($usp_options['usp_images'] == 'show') {
+		
+		if (!empty($temp)) {
+			
+			foreach ($temp as $key => $value) if (is_uploaded_file($value)) $file_count++;
+			
+		}
+		
+		if (!empty($errr)) {
+			
+			foreach ($errr as $key => $value) {
+				
+				if (!empty($name) && $value > 0) {
+						
+					error_log('WP Plugin USP: File error message '. $value .'. Info @ http://bit.ly/2uTJc4D', 0);
+					
+					$error[] = 'file-error';
+					
+				}
+				
+			}
+			
+		}
 		
 		if ($file_count < $usp_options['min-images']) $error[] = 'file-min';
 		if ($file_count > $usp_options['max-images']) $error[] = 'file-max';
@@ -642,7 +666,9 @@ function usp_check_images($files, $newPost) {
 					
 				}
 				
-				if (isset($errr[$i]) && $errr[$i] == 4) {
+				if (isset($errr[$i]) && $errr[$i] > 0) {
+					
+					error_log('WP Plugin USP: File error message '. $errr[$i] .'. Info @ http://bit.ly/2uTJc4D', 0);
 					
 					$error[] = 'file-error';
 					
@@ -653,10 +679,6 @@ function usp_check_images($files, $newPost) {
 			}
 			
 		}
-		
-	} else {
-		
-		$files = false;
 		
 	}
 	
@@ -677,6 +699,10 @@ function usp_prepare_post($title, $content, $author_id, $author, $ip) {
 	$postData['post_content'] = $content;
 	$postData['post_author']  = $author_id;
 	$postData['post_status']  = apply_filters('usp_post_status', 'pending');
+	
+	$postType = isset($usp_options['usp_post_type']) ? $usp_options['usp_post_type'] : 'post';
+	
+	$postData['post_type'] = apply_filters('usp_post_type', $postType);
 	
 	$numberApproved = $usp_options['number-approved'];
 	
@@ -759,7 +785,22 @@ function usp_createPublicSubmission($title, $files, $ip, $author, $url, $email, 
 	
 	if (isset($usp_options['usp_recaptcha']) && ($usp_options['usp_recaptcha'] == 'show') && !usp_verify_recaptcha())     $newPost['error'][] = 'required-recaptcha';
 	if (isset($usp_options['usp_captcha'])   && ($usp_options['usp_captcha']   == 'show') && !usp_spamQuestion($captcha)) $newPost['error'][] = 'required-captcha';
-	if (isset($usp_options['usp_email'])     && ($usp_options['usp_email']     != 'hide') && !usp_validateEmail($email))  $newPost['error'][] = 'required-email';
+	
+	if (isset($usp_options['usp_email']) && ($usp_options['usp_email'] == 'show')) {
+		
+		$email = sanitize_email($email);
+		
+		if (!usp_validateEmail($email)) $newPost['error'][] = 'required-email';
+		
+	}
+	
+	if (isset($usp_options['usp_email']) && ($usp_options['usp_email'] == 'optn') && !empty($email)) {
+		
+		$email = sanitize_email($email);
+		
+		if (!usp_validateEmail($email)) $newPost['error'][] = 'incorrect-email';
+		
+	}
 	
 	if (isset($usp_options['titles_unique']) && $usp_options['titles_unique'] && !usp_check_duplicates($title)) $newPost['error'][] = 'duplicate-title';
 	if (!empty($verify)) $newPost['error'][] = 'spam-verify';
@@ -791,7 +832,7 @@ function usp_createPublicSubmission($title, $files, $ip, $author, $url, $email, 
 		
 		wp_set_post_categories($post_id, array($category));
 		
-		usp_send_mail_alert($post_id, $title);
+		usp_send_mail_alert($post_id, $title, $content, $author);
 		
 		do_action('usp_files_before', $files);
 		
@@ -944,17 +985,19 @@ function usp_validateEmail($email) {
 
 
 
-function usp_send_mail_alert($post_id, $title) {
+function usp_send_mail_alert($post_id, $title, $content, $author) {
 	
 	global $usp_options;
 	
 	if ($usp_options['usp_email_alerts'] == true) {
 		
-		$blog_url   = get_bloginfo('url');     // %%blog_url%%
-		$blog_name  = get_bloginfo('name');    // %%blog_name%%
-		$post_url   = get_permalink($post_id); // %%post_url%%
-		$admin_url  = admin_url();             // %%admin_url%%
-		$post_title = $title;                  // %%post_title%%
+		$blog_url     = get_bloginfo('url');      // %%blog_url%%
+		$blog_name    = get_bloginfo('name');     // %%blog_name%%
+		$post_url     = get_permalink($post_id);  // %%post_url%%
+		$admin_url    = admin_url();              // %%admin_url%%
+		$post_title   = $title;                   // %%post_title%%
+		$post_content = $content;                 // %%post_content%%
+		$post_author  = $author;                  // %%post_author%%
 		
 		$patterns = array();
 		$patterns[0]  = "/%%blog_url%%/";
@@ -962,6 +1005,8 @@ function usp_send_mail_alert($post_id, $title) {
 		$patterns[2]  = "/%%post_url%%/";
 		$patterns[3]  = "/%%admin_url%%/";
 		$patterns[4]  = "/%%post_title%%/";
+		$patterns[5]  = "/%%post_content%%/";
+		$patterns[6]  = "/%%post_author%%/";
 		
 		$replacements = array();
 		$replacements[0]  = $blog_url;
@@ -969,6 +1014,8 @@ function usp_send_mail_alert($post_id, $title) {
 		$replacements[2]  = $post_url;
 		$replacements[3]  = $admin_url;
 		$replacements[4]  = $post_title;
+		$replacements[5]  = $post_content;
+		$replacements[6]  = $post_author;
 		
 		//
 		
@@ -1085,6 +1132,7 @@ function usp_error_message() {
 			elseif ($e == 'required-recaptcha')  $error[] = esc_html__('Correct captcha required', 'usp');
 			elseif ($e == 'required-captcha')    $error[] = esc_html__('Correct captcha required', 'usp');
 			elseif ($e == 'required-email')      $error[] = esc_html__('User email required', 'usp');
+			elseif ($e == 'incorrect-email')     $error[] = esc_html__('Please check your email and try again', 'usp');
 			elseif ($e == 'spam-verify')         $error[] = esc_html__('Non-empty value for hidden field', 'usp');
 			elseif ($e == 'file-min')            $error[] = esc_html__('Minimum number of images not met', 'usp') . $min;
 			elseif ($e == 'file-max')            $error[] = esc_html__('Maximum number of images exceeded ', 'usp') . $max;
@@ -1093,16 +1141,19 @@ function usp_error_message() {
 			elseif ($e == 'height-min')          $error[] = esc_html__('Minimum image height not met', 'usp') . $min_height;
 			elseif ($e == 'height-max')          $error[] = esc_html__('Image height exceeds maximum', 'usp') . $max_height;
 			elseif ($e == 'file-type')           $error[] = esc_html__('File type not allowed (please upload images only)', 'usp');
-			elseif ($e == 'file-error')          $error[] = esc_html__('The selected files could not be uploaded to the server', 'usp'); // general file(s) error
+			
+			// general error for file uploads, check error log for description.
+			// check server for proper values of memory_limit, max_execution_time, max_input_time, post_max_size, upload_max_filesize
+			elseif ($e == 'file-error')          $error[] = esc_html__('Error uploading file. Please check the file size and try again.', 'usp');
 			
 			// check permissions on /uploads/ directory, check error log for the following error:
 			// PHP Warning: mysql_real_escape_string() expects parameter 1 to be string, object given in /wp-includes/wp-db.php
-			elseif ($e == 'file-upload')       $error[] = esc_html__('The file(s) could not be uploaded', 'usp'); 
+			elseif ($e == 'file-upload')         $error[] = esc_html__('The file(s) could not be uploaded', 'usp'); 
 			
-			elseif ($e == 'post-fail')         $error[] = esc_html__('Post not created. Please contact the site administrator for help.', 'usp');
-			elseif ($e == 'duplicate-title')   $error[] = esc_html__('Duplicate post title. Please try again.', 'usp');
+			elseif ($e == 'post-fail')           $error[] = esc_html__('Post not created. Please contact the site administrator for help.', 'usp');
+			elseif ($e == 'duplicate-title')     $error[] = esc_html__('Duplicate post title. Please try again.', 'usp');
 			
-			elseif ($e == 'error')             $error[] = $general_error;
+			elseif ($e == 'error')               $error[] = $general_error;
 			
 		}
 		

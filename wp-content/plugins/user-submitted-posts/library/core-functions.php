@@ -11,6 +11,8 @@ function usp_auto_display_images($content) {
 	$location = isset($usp_options['auto_display_images']) ? $usp_options['auto_display_images'] : '';
 	$markup   = isset($usp_options['auto_image_markup'])   ? $usp_options['auto_image_markup'] : '';
 	
+	$author = get_post_meta(get_the_ID(), 'user_submit_name', true);
+	
 	apply_filters('usp_image_args', $args = array(
 			'post_type'   => 'attachment',
 			'post_parent' => get_the_ID(),
@@ -39,7 +41,7 @@ function usp_auto_display_images($content) {
 			$parent_id = wp_get_post_parent_id($attachment->ID);
 			$parent_title = get_the_title($parent_id);
 			
-			$images .= usp_replace_image_vars($markup, $title, $thumb, $medium, $large, $full, $custom, $parent_title);
+			$images .= usp_replace_image_vars($markup, $title, $thumb, $medium, $large, $full, $custom, $parent_title, $author);
 			
 		}
 		
@@ -61,7 +63,7 @@ add_filter('the_content', 'usp_auto_display_images');
 
 
 
-function usp_replace_image_vars($markup, $title, $thumb, $medium, $large, $full, $custom, $parent_title) {
+function usp_replace_image_vars($markup, $title, $thumb, $medium, $large, $full, $custom, $parent_title, $author) {
 	
 	$patterns = array();
 	$patterns[0] = "/%%title%%/";
@@ -73,6 +75,7 @@ function usp_replace_image_vars($markup, $title, $thumb, $medium, $large, $full,
 	$patterns[6] = "/%%width%%/";
 	$patterns[7] = "/%%height%%/";
 	$patterns[8] = "/%%title_parent%%/";
+	$patterns[9] = "/%%author%%/";
 	
 	$replacements = array();
 	$replacements[0] = $title;
@@ -109,6 +112,7 @@ function usp_replace_image_vars($markup, $title, $thumb, $medium, $large, $full,
 	}
 	
 	$replacements[8] = $parent_title;
+	$replacements[9] = $author;
 	
 	$image = preg_replace($patterns, $replacements, $markup);
 	
@@ -125,18 +129,21 @@ function usp_auto_display_email($content) {
 	$location = isset($usp_options['auto_display_email']) ? $usp_options['auto_display_email'] : '';
 	$markup   = isset($usp_options['auto_email_markup'])  ? $usp_options['auto_email_markup'] : '';
 	
-	$email = apply_filters('usp_email_custom_field', get_post_meta(get_the_ID(), 'user_submit_email', true));
-	$title = get_the_title(get_the_ID());
+	$author = apply_filters('usp_author_custom_field', get_post_meta(get_the_ID(), 'user_submit_name', true));
+	$email  = apply_filters('usp_email_custom_field', get_post_meta(get_the_ID(), 'user_submit_email', true));
+	$title  = get_the_title(get_the_ID());
 	
 	if (!empty($email)) {
 		
 		$patterns = array();
-		$patterns[0] = "/%%email%%/";
-		$patterns[1] = "/%%title%%/";
+		$patterns[0] = "/%%author%%/";
+		$patterns[1] = "/%%email%%/";
+		$patterns[2] = "/%%title%%/";
 		
 		$replacements = array();
-		$replacements[0] = $email;
-		$replacements[1] = $title;
+		$replacements[0] = $author;
+		$replacements[1] = $email;
+		$replacements[2] = $title;
 	
 		$markup = preg_replace($patterns, $replacements, $markup);
 		
@@ -163,18 +170,21 @@ function usp_auto_display_url($content) {
 	$location = isset($usp_options['auto_display_url']) ? $usp_options['auto_display_url'] : '';
 	$markup   = isset($usp_options['auto_url_markup'])  ? $usp_options['auto_url_markup'] : '';
 	
-	$url = apply_filters('usp_url_custom_field', get_post_meta(get_the_ID(), 'user_submit_url', true));
-	$title = get_the_title(get_the_ID());
+	$author = apply_filters('usp_author_custom_field', get_post_meta(get_the_ID(), 'user_submit_name', true));
+	$url    = apply_filters('usp_url_custom_field', get_post_meta(get_the_ID(), 'user_submit_url', true));
+	$title  = get_the_title(get_the_ID());
 	
 	if (!empty($url)) {
 		
 		$patterns = array();
-		$patterns[0] = "/%%url%%/";
-		$patterns[1] = "/%%title%%/";
+		$patterns[0] = "/%%author%%/";
+		$patterns[1] = "/%%url%%/";
+		$patterns[2] = "/%%title%%/";
 		
 		$replacements = array();
-		$replacements[0] = $url;
-		$replacements[1] = $title;
+		$replacements[0] = $author;
+		$replacements[1] = $url;
+		$replacements[2] = $title;
 	
 		$markup = preg_replace($patterns, $replacements, $markup);
 		

@@ -106,6 +106,26 @@ add_action('admin_init', 'usp_compare_version');
 
 
 
+function usp_post_type() {
+	
+	$post_type = array(
+		
+		'post' => array(
+			'value' => 'post',
+			'label' => esc_html__('WP Post (recommended)', 'usp'),
+		),
+		'page' => array(
+			'value' => 'page',
+			'label' => esc_html__('WP Page', 'usp'),
+		),
+	);
+	
+	return $post_type;
+	
+}
+
+
+
 function usp_form_version() {
 	
 	$form_version = array(
@@ -240,6 +260,36 @@ function usp_form_display_options() {
 
 
 
+function usp_post_type_options() {
+	
+	global $usp_options;
+	
+	$usp_post_type = usp_post_type();
+	
+	$selected_option = isset($usp_options['usp_post_type']) ? $usp_options['usp_post_type'] : 'post';
+	
+	$select_options = '<select name="usp_options[usp_post_type]">';
+	
+	foreach($usp_post_type as $k => $v) {
+		
+		$selected = selected($selected_option === $k, true, false);
+		
+		$value = isset($v['value']) ? $v['value'] : null;
+		
+		$label = isset($v['label']) ? $v['label'] : null;
+		
+		$select_options .= '<option value="'. $value .'"'. $selected .'>'. $label .'</option>';
+		
+	}
+	
+	$select_options .= '</select>';		
+	
+	return $select_options;
+	
+}
+
+
+
 function usp_auto_display_options($item) {
 	
 	global $usp_options;
@@ -366,6 +416,7 @@ function usp_add_defaults() {
 			'recaptcha_public'    => '',
 			'recaptcha_private'   => '',
 			'usp_recaptcha'       => 'hide',
+			'usp_post_type'       => 'post',
 		);
 		
 		update_option('usp_options', $arr);
@@ -427,6 +478,10 @@ function usp_validate_options($input) {
 	$usp_url_display = usp_url_display();
 	if (!isset($input['auto_display_url'])) $input['auto_display_url'] = null;
 	if (!array_key_exists($input['auto_display_url'], $usp_url_display)) $input['auto_display_url'] = null;
+	
+	$usp_post_type = usp_post_type();
+	if (!isset($input['usp_post_type'])) $input['usp_post_type'] = null;
+	if (!array_key_exists($input['usp_post_type'], $usp_post_type)) $input['usp_post_type'] = null;
 	
 	$input['author']              = wp_filter_nohtml_kses($input['author']);
 	$input['usp_name']            = wp_filter_nohtml_kses($input['usp_name']);
@@ -797,7 +852,14 @@ function usp_render_form() {
 									<tr>
 										<th scope="row"><label class="description" for="usp_options[usp_display_url]"><?php esc_html_e('Targeted Loading', 'usp'); ?></label></th>
 										<td><input type="text" size="45" maxlength="200" name="usp_options[usp_display_url]" value="<?php echo esc_attr($usp_options['usp_display_url']); ?>" />
-										<div class="mm-item-caption"><?php esc_html_e('When enabled, external CSS &amp; JavaScript files are loaded on every page. Here you may specify the URL of the USP form to load resources only on that page. Note: leave blank to load on all pages.', 'usp'); ?></div></td>
+										<div class="mm-item-caption"><?php esc_html_e('By default, external CSS &amp; JavaScript files are loaded on every page. Here you may specify the URL of the USP form to load resources only on that page. Note: leave blank to load on all pages.', 'usp'); ?></div></td>
+									</tr>
+									<tr>
+										<th scope="row"><label class="description" for="usp_options[usp_post_type]"><?php esc_html_e('Post Type', 'usp'); ?></label></th>
+										<td>
+											<?php echo usp_post_type_options(); ?>
+											<div class="mm-item-caption"><?php esc_html_e('Submit posts as WP Posts or Pages', 'usp'); ?></div>
+										</td>
 									</tr>
 									<tr>
 										<th scope="row"><label class="description" for="usp_options[number-approved]"><?php esc_html_e('Auto Publish', 'usp'); ?></label></th>
@@ -1004,13 +1066,13 @@ function usp_render_form() {
 										<th scope="row"><label class="description" for="usp_options[email_alert_subject]"><?php esc_html_e('Email Alert Subject', 'usp'); ?></label></th>
 										<td><input type="text" size="45" name="usp_options[email_alert_subject]" value="<?php echo esc_attr($usp_options['email_alert_subject']); ?>" />
 										<div class="mm-item-caption"><?php esc_html_e('Subject line for email alerts. Leave blank to use the default subject line. Note: you can use the following variables: ', 'usp'); ?>
-										<code>%%post_title%%</code>, <code>%%admin_url%%</code>, <code>%%blog_name%%</code>, <code>%%post_url%%</code>, <code>%%blog_url%%</code></div></td>
+										<code>%%post_title%%</code>, <code>%%post_content%%</code>, <code>%%post_author%%</code>, <code>%%blog_name%%</code>, <code>%%blog_url%%</code>, <code>%%post_url%%</code>, <code>%%admin_url%%</code></div></td>
 									</tr>
 									<tr>
 										<th scope="row"><label class="description" for="usp_options[email_alert_message]"><?php esc_html_e('Email Alert Message', 'usp'); ?></label></th>
 										<td><textarea class="textarea" rows="3" cols="50" name="usp_options[email_alert_message]"><?php echo esc_attr($usp_options['email_alert_message']); ?></textarea> 
 										<div class="mm-item-caption"><?php esc_html_e('Message for email alerts. Leave blank to use the default message. Note: you can use the following variables: ', 'usp'); ?>
-										<code>%%post_title%%</code>, <code>%%admin_url%%</code>, <code>%%blog_name%%</code>, <code>%%post_url%%</code>, <code>%%blog_url%%</code></div></td>
+										<code>%%post_title%%</code>, <code>%%post_content%%</code>, <code>%%post_author%%</code>, <code>%%blog_name%%</code>, <code>%%blog_url%%</code>, <code>%%post_url%%</code>, <code>%%admin_url%%</code></div></td>
 									</tr>
 								</table>
 							</div>
@@ -1095,8 +1157,8 @@ function usp_render_form() {
 										<th scope="row"><label class="description" for="usp_options[auto_image_markup]"><?php esc_html_e('Image Markup', 'usp'); ?></label></th>
 										<td><textarea class="textarea" rows="3" cols="50" name="usp_options[auto_image_markup]"><?php echo esc_attr($usp_options['auto_image_markup']); ?></textarea> 
 										<div class="mm-item-caption"><?php esc_html_e('Markup to use for each submitted image (when auto-display is enabled). Can use', 'usp'); ?> 
-										<code>%%width%%</code>, <code>%%height%%</code>, <code>%%thumb%%</code>, <code>%%medium%%</code>, <code>%%large%%</code>, 
-										<code>%%full%%</code>, <code>%%custom%%</code>, <code>%%title%%</code>, <?php esc_html_e('and', 'usp'); ?> <code>%%title_parent%%</code>.</div></td>
+										<code>%%width%%</code>, <code>%%height%%</code>, <code>%%thumb%%</code>, <code>%%medium%%</code>, <code>%%large%%</code>, <code>%%full%%</code>, <code>%%custom%%</code>, 
+										<code>%%title%%</code>, <code>%%title_parent%%</code>, <?php esc_html_e('and', 'usp'); ?> <code>%%author%%</code>.</div></td>
 									</tr>
 									<tr>
 										<th scope="row"><label class="description" for="usp_options[auto_display_email]"><?php esc_html_e('Email Auto-Display', 'usp'); ?></label></th>
@@ -1109,7 +1171,7 @@ function usp_render_form() {
 										<th scope="row"><label class="description" for="usp_options[auto_email_markup]"><?php esc_html_e('Email Markup', 'usp'); ?></label></th>
 										<td><textarea class="textarea" rows="3" cols="50" name="usp_options[auto_email_markup]"><?php echo esc_attr($usp_options['auto_email_markup']); ?></textarea> 
 										<div class="mm-item-caption"><?php esc_html_e('Markup to use for the submitted email address (when auto-display is enabled). Can use', 'usp'); ?> 
-										<code>%%email%%</code> <?php esc_html_e('and', 'usp'); ?> <code>%%title%%</code>.</div></td>
+										<code>%%email%%</code>, <code>%%author%%</code>, <?php esc_html_e('and', 'usp'); ?> <code>%%title%%</code>.</div></td>
 									</tr>
 									<tr>
 										<th scope="row"><label class="description" for="usp_options[auto_display_url]"><?php esc_html_e('URL Auto-Display', 'usp'); ?></label></th>
@@ -1122,7 +1184,7 @@ function usp_render_form() {
 										<th scope="row"><label class="description" for="usp_options[auto_url_markup]"><?php esc_html_e('URL Markup', 'usp'); ?></label></th>
 										<td><textarea class="textarea" rows="3" cols="50" name="usp_options[auto_url_markup]"><?php echo esc_attr($usp_options['auto_url_markup']); ?></textarea> 
 										<div class="mm-item-caption"><?php esc_html_e('Markup to use for the submitted URL (when auto-display is enabled). Can use', 'usp'); ?> 
-										<code>%%url%%</code> <?php esc_html_e('and', 'usp'); ?> <code>%%title%%</code>.</div></td>
+										<code>%%url%%</code>, <code>%%author%%</code>, <?php esc_html_e('and', 'usp'); ?> <code>%%title%%</code>.</div></td>
 									</tr>
 								</table>
 							</div>

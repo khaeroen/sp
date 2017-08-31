@@ -1912,3 +1912,16 @@ color: #38B54A
 .sfsi_curlerror_cross{float: right;text-decoration: underline;margin-top: 10px;}
 .sfsi_curlerrortab4 a{color: #0073aa !important;}
 .sfsi_curlerror a{color: #0073aa !important;}
+
+.social_data_post_types{float: left;width: 100%;margin-top: 10px;}
+.social_data_post_types .checkbox{ float: left;margin-top: 5px; margin-right: 5px;}
+.social_data_post_types ul{ float: left; margin-top: 5px;}
+.social_data_post_types li {float: left; min-width: 90px;}
+.social_data_post_types .radio_section.tb_4_ck{ float: left; margin-right: 5px; }
+.social_data_post_types .radio_section.tb_4_ck .cstmdsplsub{font-size: 16px;}
+.social_data_post_types ul {float: left;width:84%;}
+.social_data_post_types .radio_section.tb_4_ck input.styled { margin-top:20px; }
+ul.sfsi_show_hide_section {float: right;width: 14%;}
+
+.sfsi_social_sharing{margin-bottom: 15px;float: left;width: 51%;}
+.socialPostTypesUl span {pointer-events: none}

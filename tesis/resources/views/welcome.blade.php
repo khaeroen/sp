@@ -55,12 +55,12 @@
                         </td>
                         <td>
                             @if(isset($row['upload_thesis']))
-                                <a href="{{ $row['upload_thesis'] }}" class="btn btn-primary" target="_blank">Download Thesis</a>
+                                <a href="{{ $row['upload_thesis'] }}" class="btn btn-primary btn-sm" target="_blank">Download</a>
                             @endif
                         </td>
                        
                     </tr>
-                    
+                    <? $n++; ?>
                     @endforeach
                 </table>
         </div>

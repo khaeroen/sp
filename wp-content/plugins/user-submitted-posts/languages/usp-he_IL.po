@@ -1,0 +1,1217 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"Project-Id-Version: USP\n"
+"Language: he-IL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-03 19:42+0000\n"
+"PO-Revision-Date: 2017-08-03 19:42+0000\n"
+"Last-Translator: Jeff Starr <help@monzillamedia.com>\n"
+"Language-Team: Hebrew\n"
+"Plural-Forms: nplurals=2; plural=n != 1"
+
+#. Name of the plugin
+#: user-submitted-posts.php:43
+msgid "User Submitted Posts"
+msgstr "הודעות שנשלחו על ידי משתמשים"
+
+#: user-submitted-posts.php:75
+msgid "requires WordPress "
+msgstr "דורש וורדפרס"
+
+#: user-submitted-posts.php:76
+msgid " or higher, and has been deactivated! "
+msgstr " או גבוה יותר, והיא הופסקה!"
+
+#: user-submitted-posts.php:77
+msgid "Please return to the"
+msgstr "חזור אל"
+
+#: user-submitted-posts.php:78
+msgid "WordPress Admin Area"
+msgstr "אזור ניהול וורדפרס"
+
+#: user-submitted-posts.php:79
+msgid "to upgrade WordPress and try again."
+msgstr "כדי לשדרג וורדפרס ונסה שוב."
+
+#: user-submitted-posts.php:121
+msgid "User Submitted Post"
+msgstr "פוסט שנשלח על ידי משתמשים"
+
+#: user-submitted-posts.php:384
+msgid "User Submitted Post Info"
+msgstr "פרטי פוסט שנשלחו על ידי המשתמש"
+
+#: user-submitted-posts.php:414
+msgid "Submitter Name: "
+msgstr "שם איש קשר:"
+
+#: user-submitted-posts.php:415
+msgid "Submitter Email: "
+msgstr "דוא\"ל דוא\"ל:"
+
+#: user-submitted-posts.php:416
+msgid "Submitter URL: "
+msgstr "כתובת אתר של שולח:"
+
+#: user-submitted-posts.php:417
+msgid "Submitter IP: "
+msgstr "כתובת IP של שולח:"
+
+#: user-submitted-posts.php:468
+msgid "Show USP Posts"
+msgstr "הצג הודעות USP"
+
+#: user-submitted-posts.php:469
+msgid "USP"
+msgstr "USP"
+
+#: user-submitted-posts.php:1103
+msgid " files required"
+msgstr " הקבצים הנדרשים"
+
+#: user-submitted-posts.php:1104
+msgid " file required"
+msgstr " הקובץ הנדרש"
+
+#: user-submitted-posts.php:1106
+msgid " files"
+msgstr " קבצים"
+
+#: user-submitted-posts.php:1107
+msgid " file"
+msgstr " קוֹבֶץ"
+
+#: user-submitted-posts.php:1109 user-submitted-posts.php:1110 
+#: user-submitted-posts.php:1111 user-submitted-posts.php:1112
+msgid " pixels"
+msgstr " פיקסלים"
+
+#: user-submitted-posts.php:1115
+msgid "An error occurred. Please go back and try again."
+msgstr "התרחשה שגיאה. אנא חזור ונסה שוב."
+
+#: user-submitted-posts.php:1125
+msgid "User login required"
+msgstr "נדרשת התחברות משתמש"
+
+#: user-submitted-posts.php:1126
+msgid "User name required"
+msgstr "שם משתמש (חובה"
+
+#: user-submitted-posts.php:1127
+msgid "Post title required"
+msgstr "כותרת ההודעה נדרשת"
+
+#: user-submitted-posts.php:1128
+msgid "User URL required"
+msgstr "כתובת האתר של המשתמש דרושה"
+
+#: user-submitted-posts.php:1129
+msgid "Post tags required"
+msgstr "דרושים תגי פוסט"
+
+#: user-submitted-posts.php:1130
+msgid "Post category required"
+msgstr "דרושה קטגוריה"
+
+#: user-submitted-posts.php:1131
+msgid "Post content required"
+msgstr "פרסם תוכן נדרש"
+
+#: user-submitted-posts.php:1132 user-submitted-posts.php:1133
+msgid "Correct captcha required"
+msgstr "נדרש captcha נכון"
+
+#: user-submitted-posts.php:1134
+msgid "User email required"
+msgstr "נדרש דוא\"ל משתמש"
+
+#: user-submitted-posts.php:1135
+msgid "Please check your email and try again"
+msgstr "בדוק את הדוא\"ל שלך ונסה שוב"
+
+#: user-submitted-posts.php:1136
+msgid "Non-empty value for hidden field"
+msgstr "ערך לא ריק עבור שדה מוסתר"
+
+#: user-submitted-posts.php:1137
+msgid "Minimum number of images not met"
+msgstr "המספר המינימלי של תמונות שלא נפגש"
+
+#: user-submitted-posts.php:1138
+msgid "Maximum number of images exceeded "
+msgstr "חריגה ממספר התמונות המרבי"
+
+#: user-submitted-posts.php:1139
+msgid "Minimum image width not met"
+msgstr "רוחב התמונה המינימלי לא פגש"
+
+#: user-submitted-posts.php:1140
+msgid "Image width exceeds maximum"
+msgstr "רוחב התמונה חורג מהמקסימום"
+
+#: user-submitted-posts.php:1141
+msgid "Minimum image height not met"
+msgstr "גובה התמונה המינימלי לא נפגש"
+
+#: user-submitted-posts.php:1142
+msgid "Image height exceeds maximum"
+msgstr "גובה התמונה חורג מהמקסימום"
+
+#: user-submitted-posts.php:1143
+msgid "File type not allowed (please upload images only)"
+msgstr "סוג הקובץ אינו מותר (העלה תמונות בלבד)"
+
+#: user-submitted-posts.php:1147
+msgid "Error uploading file. Please check the file size and try again."
+msgstr "שגיאה בהעלאת הקובץ. בדוק את גודל הקובץ ונסה שוב."
+
+#: user-submitted-posts.php:1151
+msgid "The file(s) could not be uploaded"
+msgstr "לא ניתן היה לטעון את הקובץ (ים)"
+
+#: user-submitted-posts.php:1153
+msgid "Post not created. Please contact the site administrator for help."
+msgstr "הפוסט לא נוצר. פנה למנהל האתר לקבלת עזרה."
+
+#: user-submitted-posts.php:1154
+msgid "Duplicate post title. Please try again."
+msgstr "כותרת פוסט כפולה. בבקשה נסה שוב."
+
+#: user-submitted-posts.php:1164
+msgid "Error: "
+msgstr "שְׁגִיאָה:"
+
+#: user-submitted-posts.php:1190
+msgid "Return to form"
+msgstr "חזור לטופס"
+
+#: user-submitted-posts.php:1218 library/plugin-settings.php:658
+msgid "Please"
+msgstr "אנא"
+
+#: user-submitted-posts.php:1219
+msgid "log in"
+msgstr "התחברות"
+
+#: user-submitted-posts.php:1220
+msgid "to submit content!"
+msgstr "לשלוח תוכן!"
+
+#: views/submission-form.php:45 views/submission-form-alt.php:54
+msgid "Please complete the required fields."
+msgstr "נא למלא את השדות הדרושים."
+
+#: views/submission-form.php:55 views/submission-form.php:56 
+#: views/submission-form-alt.php:60 views/submission-form-alt.php:61
+msgid "Your Name"
+msgstr "השם שלך"
+
+#: views/submission-form.php:61 views/submission-form.php:62 
+#: views/submission-form-alt.php:66 views/submission-form-alt.php:67
+msgid "Your URL"
+msgstr "כתובת האתר שלך"
+
+#: views/submission-form.php:67 views/submission-form.php:68 
+#: views/submission-form-alt.php:72 views/submission-form-alt.php:73
+msgid "Your Email"
+msgstr "האימייל שלך"
+
+#: views/submission-form.php:73 views/submission-form.php:74 
+#: views/submission-form-alt.php:78 views/submission-form-alt.php:79 
+#: library/plugin-settings.php:747
+msgid "Post Title"
+msgstr "כותרת פוסט"
+
+#: views/submission-form.php:79 views/submission-form.php:80 
+#: views/submission-form-alt.php:84 views/submission-form-alt.php:85 
+#: library/plugin-settings.php:757
+msgid "Post Tags"
+msgstr "תגי פוסט"
+
+#: views/submission-form.php:86 views/submission-form-alt.php:91
+msgid "Antispam Question"
+msgstr "שאלה אנטי ספאם"
+
+#: views/submission-form.php:91 views/submission-form-alt.php:96 
+#: library/plugin-settings.php:767
+msgid "Post Category"
+msgstr "פוסט קטגוריה"
+
+#: views/submission-form.php:93 views/submission-form-alt.php:98
+msgid "Please select a category.."
+msgstr "בחר קטגוריה .."
+
+#: views/submission-form.php:128 views/submission-form.php:129 
+#: views/submission-form-alt.php:133 views/submission-form-alt.php:134 
+#: library/plugin-settings.php:777
+msgid "Post Content"
+msgstr "תוכן פוסט"
+
+#: views/submission-form.php:135 views/submission-form-alt.php:140
+msgid "Verification"
+msgstr "אימות"
+
+#: views/submission-form.php:142 views/submission-form-alt.php:147
+msgid "Upload an Image"
+msgstr "העלה תמונה"
+
+#: views/submission-form.php:151 views/submission-form-alt.php:156
+msgid "Add another image"
+msgstr "הוסף תמונה אחרת"
+
+#: views/submission-form.php:173 views/submission-form-alt.php:178
+msgid "Human verification: leave this field empty."
+msgstr "אימות אנושי: השאר שדה זה ריק."
+
+#: views/submission-form.php:195 views/submission-form-alt.php:200
+msgid "Submit Post"
+msgstr "שלח פוסט"
+
+#: library/plugin-settings.php:32
+msgid "Get USP Pro for unlimited forms!"
+msgstr "קבל USP Pro עבור צורות ללא הגבלה!"
+
+#: library/plugin-settings.php:33
+msgid "Go Pro"
+msgstr "להתמקצע"
+
+#: library/plugin-settings.php:37
+msgid "Settings"
+msgstr "הגדרות"
+
+#: library/plugin-settings.php:55
+msgid "Give USP a 5-star rating at WordPress.org"
+msgstr "תן ל- USP דירוג 5 כוכבים ב- WordPress.org"
+
+#: library/plugin-settings.php:56
+msgid "Rate this plugin&nbsp;&raquo;"
+msgstr "דרג את הפלאגין הזה"
+
+#: library/plugin-settings.php:115
+msgid "WP Post (recommended)"
+msgstr "WP פוסט (מומלץ)"
+
+#: library/plugin-settings.php:119
+msgid "WP Page"
+msgstr "דף WP"
+
+#: library/plugin-settings.php:135
+msgid "HTML5 Form + Default CSS"
+msgstr "טופס HTML5 + CSS ברירת מחדל"
+
+#: library/plugin-settings.php:135
+msgid "(Recommended)"
+msgstr "(מוּמלָץ)"
+
+#: library/plugin-settings.php:139
+msgid "HTML5 Form + Disable CSS"
+msgstr "טופס HTML5 + השבת CSS"
+
+#: library/plugin-settings.php:139
+msgid "(Provide your own styles)"
+msgstr "(לספק סגנונות משלך)"
+
+#: library/plugin-settings.php:143
+msgid "Custom Form + Custom CSS"
+msgstr "טופס מותאם אישית + ​​CSS מותאם אישית"
+
+#: library/plugin-settings.php:143
+msgid "(Provide your own form template &amp; styles)"
+msgstr "(לספק תבנית משלך סגנונות)"
+
+#: library/plugin-settings.php:159 library/plugin-settings.php:183 
+#: library/plugin-settings.php:206
+msgid "Auto-display before post content"
+msgstr "תצוגה אוטומטית לפני פרסום תוכן"
+
+#: library/plugin-settings.php:163 library/plugin-settings.php:187 
+#: library/plugin-settings.php:210
+msgid "Auto-display after post content"
+msgstr "תצוגה אוטומטית לאחר פרסום תוכן"
+
+#: library/plugin-settings.php:167
+msgid "Do not auto-display submitted images"
+msgstr "אל תציג תמונות שנשלחו באופן אוטומטי"
+
+#: library/plugin-settings.php:191
+msgid "Do not auto-display submitted email"
+msgstr "אל תציג באופן אוטומטי דוא\"ל שנשלח"
+
+#: library/plugin-settings.php:214
+msgid "Do not auto-display submitted URL"
+msgstr "אל תציג את כתובת האתר שנשלח באופן אוטומטי"
+
+#: library/plugin-settings.php:367
+msgid ""
+"There was an error. Please ensure that you have added a title, some content, "
+"and that you have uploaded only images."
+msgstr "ארעה שגיאה. ודא שהוספת כותרת, תוכן מסוים והעלית תמונות בלבד."
+
+#: library/plugin-settings.php:381
+msgid "Please select your image(s) to upload."
+msgstr "בחר את התמונות שלך לטעינה."
+
+#: library/plugin-settings.php:387
+msgid "Success! Thank you for your submission."
+msgstr "הַצלָחָה! תודה על ההגשה שלך."
+
+#: library/plugin-settings.php:413
+msgid "Email"
+msgstr "אֶלֶקטרוֹנִי"
+
+#: library/plugin-settings.php:414
+msgid "URL"
+msgstr "כתובת אתר"
+
+#: library/plugin-settings.php:645
+msgid "Toggle all panels"
+msgstr "החלף את כל החלוניות"
+
+#: library/plugin-settings.php:654
+msgid "We need your support!"
+msgstr "אנו זקוקים לתמיכתך!"
+
+#: library/plugin-settings.php:658
+msgid "Make a donation via PayPal"
+msgstr "תרומה באמצעות PayPal"
+
+#: library/plugin-settings.php:658
+msgid "make a donation"
+msgstr "לתרום"
+
+#: library/plugin-settings.php:658
+msgid "and/or"
+msgstr "ו / או"
+
+#: library/plugin-settings.php:659
+msgid "Rate and review at the Plugin Directory"
+msgstr "דרג וסקור את המדריך Plugin"
+
+#: library/plugin-settings.php:660
+msgid "give this plugin a 5-star rating"
+msgstr "לתת תוסף זה 5 כוכבים דירוג"
+
+#: library/plugin-settings.php:664
+msgid ""
+"Your generous support enables continued development of this free plugin. "
+"Thank you!"
+msgstr "התמיכה הנדיבה שלך מאפשרת המשך פיתוח של תוסף זה בחינם. תודה!"
+
+#: library/plugin-settings.php:669
+msgid "Check this box if you have shown support"
+msgstr "סמן תיבה זו אם הצגת תמיכה"
+
+#: library/plugin-settings.php:678
+msgid "Overview"
+msgstr "סקירה כללית"
+
+#: library/plugin-settings.php:682
+msgid ""
+"enables your visitors to submit posts and upload images from the front-end "
+"of your site. "
+msgstr "מאפשר למבקרים שלך לשלוח פוסטים ולהעלות תמונות מהחלק הקדמי של האתר שלך."
+
+#: library/plugin-settings.php:683
+msgid "For advanced functionality and unlimited forms, check out"
+msgstr "לקבלת פונקציונליות מתקדמת וצורות בלתי מוגבלות, בדוק"
+
+#: library/plugin-settings.php:684
+msgid "&mdash; the ultimate solution for user-generated content."
+msgstr "- הפתרון האולטימטיבי עבור תוכן שנוצר על ידי משתמשים."
+
+#: library/plugin-settings.php:688 library/plugin-settings.php:706
+msgid "Plugin Settings"
+msgstr "הגדרות Plugin"
+
+#: library/plugin-settings.php:689
+msgid "Display the form"
+msgstr "הצג את הטופס"
+
+#: library/plugin-settings.php:690 library/plugin-settings.php:1243
+msgid "Plugin Homepage"
+msgstr "דף הבית של"
+
+#: library/plugin-settings.php:693
+msgid "If you like this plugin, please"
+msgstr "אם אתה אוהב את הפלאגין הזה, בבקשה"
+
+#: library/plugin-settings.php:694
+msgid "THANK YOU for your support!"
+msgstr "תודה על תמיכתך!"
+
+#: library/plugin-settings.php:694
+msgid "give it a 5-star rating"
+msgstr "לתת לו דירוג 5 כוכבים"
+
+#: library/plugin-settings.php:698
+msgid "Unlimited front-end forms"
+msgstr "ללא הגבלה חזיתית צורות"
+
+#: library/plugin-settings.php:698
+msgid "Get USP Pro"
+msgstr "קבל USP Pro"
+
+#: library/plugin-settings.php:710
+msgid "Configure your settings for User Submitted Posts."
+msgstr "קבע את ההגדרות עבור הודעות שנשלחו על ידי משתמשים."
+
+#: library/plugin-settings.php:712
+msgid "Form Fields"
+msgstr "שדות טופס"
+
+#: library/plugin-settings.php:717
+msgid "User Name"
+msgstr "שם משתמש"
+
+#: library/plugin-settings.php:720 library/plugin-settings.php:730 
+#: library/plugin-settings.php:740 library/plugin-settings.php:750 
+#: library/plugin-settings.php:760 library/plugin-settings.php:770 
+#: library/plugin-settings.php:780 library/plugin-settings.php:790 
+#: library/plugin-settings.php:800
+msgid "Display and require"
+msgstr "הצג ודורש"
+
+#: library/plugin-settings.php:721 library/plugin-settings.php:731 
+#: library/plugin-settings.php:741 library/plugin-settings.php:751 
+#: library/plugin-settings.php:761 library/plugin-settings.php:771 
+#: library/plugin-settings.php:781
+msgid "Display but do not require"
+msgstr "הצג אך אינו דורש"
+
+#: library/plugin-settings.php:722 library/plugin-settings.php:732 
+#: library/plugin-settings.php:742 library/plugin-settings.php:752 
+#: library/plugin-settings.php:762 library/plugin-settings.php:772 
+#: library/plugin-settings.php:782 library/plugin-settings.php:791 
+#: library/plugin-settings.php:801
+msgid "Disable this field"
+msgstr "השבת שדה זה"
+
+#: library/plugin-settings.php:727
+msgid "User Email"
+msgstr "דוא\"ל משתמש"
+
+#: library/plugin-settings.php:737
+msgid "User URL"
+msgstr "כתובת אתר של משתמש"
+
+#: library/plugin-settings.php:787 library/plugin-settings.php:793 
+#: library/plugin-settings.php:999 library/plugin-settings.php:1004
+msgid "Challenge Question"
+msgstr "שאלה מאתגרת"
+
+#: library/plugin-settings.php:793 library/plugin-settings.php:803 
+#: library/plugin-settings.php:813
+msgid "(Visit"
+msgstr "(לְבַקֵר"
+
+#: library/plugin-settings.php:793 library/plugin-settings.php:803 
+#: library/plugin-settings.php:813
+msgid "to configure options)"
+msgstr "כדי להגדיר אפשרויות)"
+
+#: library/plugin-settings.php:797 library/plugin-settings.php:803 
+#: library/plugin-settings.php:1021
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: library/plugin-settings.php:807
+msgid "Post Images"
+msgstr "פרסם תמונות"
+
+#: library/plugin-settings.php:810
+msgid "Display"
+msgstr "לְהַצִיג"
+
+#: library/plugin-settings.php:811
+msgid "Disable"
+msgstr "השבת"
+
+#: library/plugin-settings.php:813 library/plugin-settings.php:1080
+msgid "Image Uploads"
+msgstr "העלאות תמונות"
+
+#: library/plugin-settings.php:819
+msgid "General Settings"
+msgstr "הגדרות כלליות"
+
+#: library/plugin-settings.php:824
+msgid "Form Style"
+msgstr "סגנון טופס"
+
+#: library/plugin-settings.php:829
+msgid "With this option, you can copy the plugin&rsquo;s default templates:"
+msgstr "בעזרת אפשרות זו, תוכל להעתיק את תבניות ברירת המחדל של הפלאגין:"
+
+#: library/plugin-settings.php:834
+msgid "..and upload them into a directory named"
+msgstr ".. ולהעלות אותם לתוך ספרייה בשם"
+
+#: library/plugin-settings.php:834
+msgid "in your theme:"
+msgstr "בנושא שלך:"
+
+#: library/plugin-settings.php:840
+msgid ""
+"That will enable you to customize the form and styles as desired. For more "
+"info, check out the \"Custom Submission Form\" section in the"
+msgstr ""
+"זה יאפשר לך להתאים אישית את הטופס והסגנונות לפי הצורך. לקבלת מידע נוסף, עיין "
+"בסעיף \"טופס שליחת טופס מותאם אישית\""
+
+#: library/plugin-settings.php:841
+msgid "Installation Docs"
+msgstr "התקנה של Google Docs"
+
+#: library/plugin-settings.php:842
+msgid "FYI: here is a"
+msgstr "לידיעתך: הנה א"
+
+#: library/plugin-settings.php:842
+msgid "list of USP CSS selectors"
+msgstr "רשימה של בוררי CSS USP"
+
+#: library/plugin-settings.php:848
+msgid "Include JavaScript"
+msgstr "כלול JavaScript"
+
+#: library/plugin-settings.php:850
+msgid ""
+"Check this box if you want to include the external JavaScript files "
+"(recommended)."
+msgstr "סמן תיבה זו אם ברצונך לכלול את קובצי ה- JavaScript החיצוניים (מומלץ)."
+
+#: library/plugin-settings.php:853
+msgid "Targeted Loading"
+msgstr "טעינה ממוקדת"
+
+#: library/plugin-settings.php:855
+msgid ""
+"By default, external CSS &amp; JavaScript files are loaded on every page. "
+"Here you may specify the URL of the USP form to load resources only on that "
+"page. Note: leave blank to load on all pages."
+msgstr ""
+"כברירת מחדל, קובצי CSS ו- JavaScript חיצוניים נטענים בכל דף. כאן תוכל לציין "
+"את כתובת האתר של טופס USP כדי לטעון משאבים רק בדף זה. הערה: השאר ריק כדי "
+"לטעון בכל הדפים."
+
+#: library/plugin-settings.php:858
+msgid "Post Type"
+msgstr "סוג פוסט"
+
+#: library/plugin-settings.php:861
+msgid "Submit posts as WP Posts or Pages"
+msgstr "שלח הודעות כמו הודעות WP או דפים"
+
+#: library/plugin-settings.php:865
+msgid "Auto Publish"
+msgstr "פרסום אוטומטי"
+
+#: library/plugin-settings.php:868
+msgid "Always moderate via Draft"
+msgstr "תמיד מתון דרך טיוטה"
+
+#: library/plugin-settings.php:869
+msgid "Always moderate via Pending"
+msgstr "תמיד מתון באמצעות 'בהמתנה'"
+
+#: library/plugin-settings.php:870
+msgid "Always publish immediately"
+msgstr "תמיד לפרסם מיד"
+
+#: library/plugin-settings.php:875
+msgid ""
+"Post Status for submitted posts: moderate (recommended), publish immediately,"
+" or publish after any number of approved posts."
+msgstr ""
+"סטטוס פוסט עבור פוסטים שנשלחו: בינוני (מומלץ), פרסם מיד, או פרסם אחרי מספר "
+"רב של פוסטים שאושרו."
+
+#: library/plugin-settings.php:879
+msgid "Redirect URL"
+msgstr "כתובת אתר להפניה מחדש"
+
+#: library/plugin-settings.php:881
+msgid ""
+"Specify a URL to redirect the user after post-submission. Leave blank to "
+"redirect back to current page."
+msgstr ""
+"ציין כתובת אתר שתפנה מחדש את המשתמש לאחר שליחת ההודעה. השאר ריק כדי להפנות "
+"חזרה לדף הנוכחי."
+
+#: library/plugin-settings.php:884
+msgid "Success Message"
+msgstr "הודעת הצלחה"
+
+#: library/plugin-settings.php:886
+msgid ""
+"Success message that is displayed if post-submission is successful. Basic "
+"markup is allowed."
+msgstr "הודעת הצלחה המוצגת אם ההודעה שלאחר ההצלה מוצלחת. הסימון הבסיסי מותר."
+
+#: library/plugin-settings.php:889
+msgid "Error Message"
+msgstr "הודעת שגיאה"
+
+#: library/plugin-settings.php:891
+msgid ""
+"General error message that is displayed if post-submission fails. Basic "
+"markup is allowed."
+msgstr "הודעת שגיאה כללית המוצגת אם ההודעה נכשלה. הסימון הבסיסי מותר."
+
+#: library/plugin-settings.php:894
+msgid "Custom Content"
+msgstr "תוכן מותאם אישית"
+
+#: library/plugin-settings.php:896
+msgid ""
+"Custom text/markup to be included before the submission form. Leave blank to "
+"disable."
+msgstr "טקסט / סימון מותאם אישית שייכללו לפני טופס ההגשה. השאר ריק כדי להשבית."
+
+#: library/plugin-settings.php:899
+msgid "Rich Text Editor"
+msgstr "עורך טקסט עשיר"
+
+#: library/plugin-settings.php:901
+msgid ""
+"Check this box if you want to enable WP rich text editing for submitted "
+"posts."
+msgstr "סמן תיבה זו אם ברצונך לאפשר עריכת טקסט עשירה של WP עבור פוסטים שנשלחו."
+
+#: library/plugin-settings.php:904
+msgid "Unique Titles"
+msgstr "כותרים ייחודיים"
+
+#: library/plugin-settings.php:906
+msgid ""
+"Require submitted post titles to be unique (useful for preventing "
+"multiple/duplicate submitted posts)."
+msgstr ""
+"דרוש לכתוב כותרות לכתוב להיות ייחודי (שימושי למניעת מרובות / כפולות שנשלחו "
+"הודעות)."
+
+#: library/plugin-settings.php:909
+msgid "Disable Required"
+msgstr "השבת את דרוש"
+
+#: library/plugin-settings.php:911
+msgid ""
+"Disable all required attributes on default form fields (useful for "
+"troubleshooting error messages)."
+msgstr ""
+"השבת את כל התכונות הדרושות בשדות ברירת המחדל (שימושי עבור הודעות שגיאה "
+"לפתרון בעיות)."
+
+#: library/plugin-settings.php:914
+msgid "Disable IP Tracking"
+msgstr "השבת מעקב IP"
+
+#: library/plugin-settings.php:916
+msgid ""
+"By default USP records the IP address with each submitted post. Check this "
+"box to disable all IP tracking."
+msgstr ""
+"כברירת מחדל, USP מתעדת את כתובת ה- IP עם כל פוסט שנשלח. סמן תיבה זו כדי "
+"להשבית את כל המעקב אחר כתובות IP."
+
+#: library/plugin-settings.php:919
+msgid "Enable Shortcodes"
+msgstr "הפעל קודים קצרים"
+
+#: library/plugin-settings.php:921
+msgid ""
+"Enable shortcodes in widgets. By default, WordPress does not enable "
+"shortcodes in widgets. "
+msgstr ""
+"אפשר קודים קצרים בווידג'טים. כברירת מחדל, WordPress אינו מאפשר קודים קצרים "
+"בווידג'טים."
+
+#: library/plugin-settings.php:922
+msgid ""
+"This setting enables any/all shortcodes in widgets (even shortcodes from "
+"other plugins)."
+msgstr ""
+"הגדרה זו מאפשרת כל / כל הקודים בווידג'טים (אפילו קודים קצרים מתוספים אחרים)."
+
+#: library/plugin-settings.php:927 library/plugin-settings.php:932
+msgid "Categories"
+msgstr "קטגוריות"
+
+#: library/plugin-settings.php:935
+msgid ""
+"Select which categories may be assigned to submitted posts (click to toggle)"
+msgstr "בחר אילו קטגוריות ניתן להקצות לפוסטים שנשלחו (לחץ כדי לעבור בין מצבים)"
+
+#: library/plugin-settings.php:952
+msgid "Hidden/Default Category"
+msgstr "קטגוריה מוסתרת / ברירת מחדל"
+
+#: library/plugin-settings.php:954
+msgid ""
+"Use a hidden field for the post category. This may be used to specify a "
+"default category when the category field is disabled."
+msgstr ""
+"השתמש בשדה מוסתר עבור קטגוריית הפוסט. ניתן להשתמש באפשרות זו כדי לציין "
+"קטגוריה של ברירת מחדל כאשר שדה הקטגוריה מושבת."
+
+#: library/plugin-settings.php:957
+msgid "Category ID for Hidden Field"
+msgstr "מזהה קטגוריה עבור שדה מוסתר"
+
+#: library/plugin-settings.php:959
+msgid ""
+"Specify the ID of the category to use for the &ldquo;Hidden/Default "
+"Category&rdquo; option."
+msgstr "ציין את המזהה של הקטגוריה עבור האפשרות \"Hidden / Default Category\"."
+
+#: library/plugin-settings.php:964
+msgid "Users"
+msgstr "משתמשים"
+
+#: library/plugin-settings.php:969
+msgid "Assigned Author"
+msgstr "מחבר מוקצה"
+
+#: library/plugin-settings.php:978
+msgid ""
+"Specify the user that should be assigned as author for user-submitted posts."
+msgstr "ציין את המשתמש שיש להקצות כמחבר לפוסטים שנשלחו על ידי משתמשים."
+
+#: library/plugin-settings.php:982
+msgid "Registered Username"
+msgstr "שם משתמש רשום"
+
+#: library/plugin-settings.php:984
+msgid ""
+"Use registered username as post author. Valid when the person submitting the "
+"form is logged in to WordPress."
+msgstr ""
+"השתמש בשם משתמש רשום ככותב פוסט. תקף כאשר האדם שולח את הטופס מחובר ל- "
+"WordPress."
+
+#: library/plugin-settings.php:987
+msgid "User Profile URL"
+msgstr "כתובת אתר של פרופיל משתמש"
+
+#: library/plugin-settings.php:989
+msgid ""
+"Use registered user&rsquo;s Profile URL as the value of the URL field. Valid "
+"when the person submitting the form is logged in to WordPress."
+msgstr ""
+"השתמש בכתובת האתר של המשתמש הרשום של המשתמש כערך השדה של כתובת האתר. תקף "
+"כאשר האדם שולח את הטופס מחובר ל- WordPress."
+
+#: library/plugin-settings.php:992
+msgid "Require User Login"
+msgstr "דרוש התחברות משתמש"
+
+#: library/plugin-settings.php:994
+msgid "Require users to be logged in to WordPress to view/submit the form"
+msgstr "לדרוש מהמשתמשים להיכנס ל- WordPress כדי להציג / לשלוח את הטופס"
+
+#: library/plugin-settings.php:1006
+msgid ""
+"To prevent spam, enter a question that users must answer before submitting "
+"the form."
+msgstr "כדי למנוע דואר זבל, הזן שאלה שעל המשתמשים להשיב עליה לפני שליחת הטופס."
+
+#: library/plugin-settings.php:1009
+msgid "Challenge Response"
+msgstr "תגובה לאתגר"
+
+#: library/plugin-settings.php:1011
+msgid "Enter the *only* correct answer to the challenge question."
+msgstr "הזן את התשובה הנכונה היחידה לשאלת האתגר."
+
+#: library/plugin-settings.php:1014
+msgid "Case-sensitivity"
+msgstr "רגישות למקרה"
+
+#: library/plugin-settings.php:1016
+msgid "Check this box if you want the challenge response to be case-sensitive."
+msgstr "סמן תיבה זו אם ברצונך שתגובת האתגר תהיה תלויית רישיות."
+
+#: library/plugin-settings.php:1022
+msgid "To enable Google reCAPTCHA, enter your public and private keys."
+msgstr "כדי להפעיל את Google reCAPTCHA, הזן את המפתחות הציבוריים והפרטיים שלך."
+
+#: library/plugin-settings.php:1027
+msgid "Public Key"
+msgstr "מפתח ציבורי"
+
+#: library/plugin-settings.php:1029
+msgid "Enter your Public Key"
+msgstr "הזן את המפתח הציבורי שלך"
+
+#: library/plugin-settings.php:1032
+msgid "Private Key"
+msgstr "מפתח פרטי"
+
+#: library/plugin-settings.php:1034
+msgid "Enter your Private Key"
+msgstr "הזן את המפתח הפרטי שלך"
+
+#: library/plugin-settings.php:1039
+msgid "Email Alerts"
+msgstr "התראות דוא\"ל"
+
+#: library/plugin-settings.php:1044
+msgid "Receive Email Alert"
+msgstr "קבל התראה בדוא\"ל"
+
+#: library/plugin-settings.php:1046
+msgid ""
+"Check this box if you want to be notified via email for new post submissions."
+msgstr "סמן תיבה זו אם ברצונך לקבל הודעה בדוא\"ל לגבי הגשות חדשות."
+
+#: library/plugin-settings.php:1049
+msgid "Enable HTML Format"
+msgstr "הפעל תבנית HTML"
+
+#: library/plugin-settings.php:1051
+msgid "Check this box to enable HTML format for email alerts."
+msgstr "סמן תיבה זו כדי לאפשר תבנית HTML עבור התראות בדוא\"ל."
+
+#: library/plugin-settings.php:1054
+msgid "Email Address for Alerts"
+msgstr "כתובת דוא\"ל עבור התראות"
+
+#: library/plugin-settings.php:1056
+msgid ""
+"If you checked the box to receive email alerts, indicate here the address(es)"
+" to which the emails should be sent."
+msgstr ""
+"אם סימנת את התיבה כדי לקבל התראות בדוא\"ל, ציין כאן את הכתובת (כתובות) "
+"שאליהן יש לשלוח את האימייל."
+
+#: library/plugin-settings.php:1057
+msgid "Multiple recipients may be included using a comma, like so:"
+msgstr "ניתן לכלול מספר נמענים באמצעות פסיק, כך:"
+
+#: library/plugin-settings.php:1060
+msgid "Email &ldquo;From&rdquo; Address"
+msgstr "דוא\"ל \"מ\" כתובת"
+
+#: library/plugin-settings.php:1062
+msgid ""
+"Here you may customize the address(es) used for the &ldquo;From&rdquo; "
+"header (see plugin FAQs for info). "
+msgstr ""
+"כאן אתה יכול להתאים אישית את כתובת (es) המשמש את הכותרת \"מאת\" (ראה תוסף "
+"שאלות נפוצות עבור מידע)."
+
+#: library/plugin-settings.php:1063
+msgid ""
+"If multiple addresses are specified in the previous setting, include an "
+"equal number of &ldquo;From&rdquo; addresses for this setting (in the same "
+"order)."
+msgstr ""
+"אם צוינו מספר כתובות בהגדרה הקודמת, כלול מספר שווה של כתובות \"מאת\" עבור "
+"הגדרה זו (בסדר זהה)."
+
+#: library/plugin-settings.php:1066
+msgid "Email Alert Subject"
+msgstr "נושא התראה בדוא\"ל"
+
+#: library/plugin-settings.php:1068
+msgid ""
+"Subject line for email alerts. Leave blank to use the default subject line. "
+"Note: you can use the following variables: "
+msgstr ""
+"שורת הנושא עבור התראות בדוא\"ל. השאר ריק כדי להשתמש בשורת הנושא המוגדרת "
+"כברירת מחדל. הערה: ניתן להשתמש במשתנים הבאים:"
+
+#: library/plugin-settings.php:1072
+msgid "Email Alert Message"
+msgstr "הודעת התראה בדוא\"ל"
+
+#: library/plugin-settings.php:1074
+msgid ""
+"Message for email alerts. Leave blank to use the default message. Note: you "
+"can use the following variables: "
+msgstr ""
+"הודעה עבור התראות בדוא\"ל. השאר ריק כדי להשתמש בהודעת ברירת המחדל. הערה: "
+"ניתן להשתמש במשתנים הבאים:"
+
+#: library/plugin-settings.php:1085
+msgid "Featured Image"
+msgstr "תמונה מצורפת"
+
+#: library/plugin-settings.php:1087
+msgid ""
+"Set submitted images as Featured Images. Requires theme support for Featured "
+"Images (aka Post Thumbnails)."
+msgstr ""
+"הגדר תמונות שנשלחו כתמונות נבחרות. דורש תמיכה נושא עבור תמונות נבחרות (aka "
+"Post Thumbnails)."
+
+#: library/plugin-settings.php:1090
+msgid "Upload Message"
+msgstr "טען הודעה"
+
+#: library/plugin-settings.php:1092
+msgid ""
+"Message that appears next to the upload field. Useful for stating your "
+"upload guidelines/policy/etc. Basic markup allowed."
+msgstr ""
+"הודעה שמופיעה ליד שדה ההעלאה. שימושי לקביעת הנחיות העלאה / מדיניות / וכו '. "
+"הסימון הבסיסי מותר."
+
+#: library/plugin-settings.php:1095
+msgid "&ldquo;Add another image&rdquo; link"
+msgstr "\"הוסף תמונה אחרת\" הקישור"
+
+#: library/plugin-settings.php:1097
+msgid ""
+"Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to "
+"use the default markup (recommended)."
+msgstr ""
+"סימון מותאם אישית עבור הקישור \"הוסף תמונה אחרת\". השאר ריק כדי להשתמש "
+"בסימון ברירת המחדל (מומלץ)."
+
+#: library/plugin-settings.php:1100
+msgid "Minimum number of images"
+msgstr "מספר תמונות מינימלי"
+
+#: library/plugin-settings.php:1103
+msgid "Specify the minimum number of images."
+msgstr "ציין את המספר המינימלי של תמונות."
+
+#: library/plugin-settings.php:1107
+msgid "Maximum number of images"
+msgstr "המספר המרבי של תמונות"
+
+#: library/plugin-settings.php:1110
+msgid "Specify the maximum number of images."
+msgstr "ציין את המספר המרבי של תמונות."
+
+#: library/plugin-settings.php:1114
+msgid "Minimum image width"
+msgstr "רוחב תמונה מינימלי"
+
+#: library/plugin-settings.php:1116
+msgid "Specify a minimum width (in pixels) for uploaded images."
+msgstr "ציין רוחב מינימלי (בפיקסלים) עבור תמונות שהועלו."
+
+#: library/plugin-settings.php:1119
+msgid "Minimum image height"
+msgstr "גובה תמונה מינימלי"
+
+#: library/plugin-settings.php:1121
+msgid "Specify a minimum height (in pixels) for uploaded images."
+msgstr "ציין גובה מינימלי (בפיקסלים) עבור תמונות שהועלו."
+
+#: library/plugin-settings.php:1124
+msgid "Maximum image width"
+msgstr "רוחב תמונה מקסימלי"
+
+#: library/plugin-settings.php:1126
+msgid "Specify a maximum width (in pixels) for uploaded images."
+msgstr "ציין רוחב מרבי (בפיקסלים) עבור תמונות שהועלו."
+
+#: library/plugin-settings.php:1129
+msgid "Maximum image height"
+msgstr "גובה התמונה המרבי"
+
+#: library/plugin-settings.php:1131
+msgid "Specify a maximum height (in pixels) for uploaded images."
+msgstr "ציין גובה מקסימלי (בפיקסלים) עבור תמונות שהועלו."
+
+#: library/plugin-settings.php:1134
+msgid "More Options"
+msgstr "אפשרויות נוספות"
+
+#: library/plugin-settings.php:1137
+msgid ""
+"For more options, like the ability to upload other file types (like PDF, "
+"Word, Zip, videos, and more), check out"
+msgstr ""
+"לקבלת אפשרויות נוספות, כגון היכולת להעלות סוגי קבצים אחרים (כגון PDF, Word, "
+"Zip, סרטוני וידאו ועוד), בדוק"
+
+#: library/plugin-settings.php:1138
+msgid "Go Pro!"
+msgstr "להתמקצע!"
+
+#: library/plugin-settings.php:1138
+msgid "USP Pro"
+msgstr "USP Pro"
+
+#: library/plugin-settings.php:1145
+msgid "Auto-Display Content"
+msgstr "תוכן תצוגה אוטומטית"
+
+#: library/plugin-settings.php:1150
+msgid "Images Auto-Display"
+msgstr "תמונות תצוגה אוטומטית"
+
+#: library/plugin-settings.php:1152
+msgid "Auto-display user-submitted images:"
+msgstr "תצוגה אוטומטית של תמונות שנשלחו על ידי משתמשים:"
+
+#: library/plugin-settings.php:1157
+msgid "Image Markup"
+msgstr "סימון תמונה"
+
+#: library/plugin-settings.php:1159
+msgid ""
+"Markup to use for each submitted image (when auto-display is enabled). Can "
+"use"
+msgstr ""
+"סמן כדי להשתמש בכל תמונה שנשלח (כאשר התצוגה האוטומטית מופעלת). יכול להשתמש"
+
+#: library/plugin-settings.php:1161 library/plugin-settings.php:1174 
+#: library/plugin-settings.php:1187
+msgid "and"
+msgstr "ו"
+
+#: library/plugin-settings.php:1164
+msgid "Email Auto-Display"
+msgstr "דוא\"ל אוטומטי תצוגה"
+
+#: library/plugin-settings.php:1166
+msgid "Auto-display user-submitted email:"
+msgstr "הצגה אוטומטית של דוא\"ל שנשלח על ידי המשתמש:"
+
+#: library/plugin-settings.php:1171
+msgid "Email Markup"
+msgstr "סימון דוא\"ל"
+
+#: library/plugin-settings.php:1173
+msgid ""
+"Markup to use for the submitted email address (when auto-display is enabled)."
+" Can use"
+msgstr ""
+"סמן כדי להשתמש בכתובת הדוא\"ל שהוגשה (כאשר התצוגה האוטומטית מופעלת). יכול "
+"להשתמש"
+
+#: library/plugin-settings.php:1177
+msgid "URL Auto-Display"
+msgstr "תצוגה אוטומטית של כתובת אתר"
+
+#: library/plugin-settings.php:1179
+msgid "Auto-display user-submitted URL:"
+msgstr "הצגה אוטומטית של כתובת אתר שנשלחו על ידי המשתמש:"
+
+#: library/plugin-settings.php:1184
+msgid "URL Markup"
+msgstr "סימון כתובת אתר"
+
+#: library/plugin-settings.php:1186
+msgid ""
+"Markup to use for the submitted URL (when auto-display is enabled). Can use"
+msgstr ""
+"סמן כדי להשתמש בכתובת האתר שהוגשה (כאשר התצוגה האוטומטית מופעלת). יכול להשתמש"
+
+#: library/plugin-settings.php:1192 library/plugin-settings.php:1210
+msgid "Save Settings"
+msgstr "שמור הגדרות"
+
+#: library/plugin-settings.php:1197
+msgid "Restore Defaults"
+msgstr "לשחזר את ברירות מחדל"
+
+#: library/plugin-settings.php:1201
+msgid "Restore default options upon plugin deactivation/reactivation."
+msgstr "שחזור אפשרויות ברירת המחדל בעת השבתה / הפעלה מחדש של תוסף."
+
+#: library/plugin-settings.php:1205
+msgid "Tip:"
+msgstr "עֵצָה:"
+
+#: library/plugin-settings.php:1206
+msgid "leave this option unchecked to remember your settings."
+msgstr "השאר אפשרות זו לא מסומנת כדי לזכור את ההגדרות שלך."
+
+#: library/plugin-settings.php:1207
+msgid ""
+"Or, to go ahead and restore all default options, check the box, save your "
+"settings, and then deactivate/reactivate the plugin."
+msgstr ""
+"לחלופין, כדי להמשיך ולשחזר את כל אפשרויות ברירת המחדל, סמן את התיבה, שמור את "
+"ההגדרות שלך ולאחר מכן בטל / הפעל מחדש את הפלאגין."
+
+#: library/plugin-settings.php:1215
+msgid "Shortcode &amp; Template Tag"
+msgstr "קוד קצר ותגית תבנית"
+
+#: library/plugin-settings.php:1218
+msgid ""
+"To implement USP, first configure the plugin settings, then use the "
+"shortcode or template to display the form on the front-end as desired."
+msgstr ""
+"כדי ליישם USP, תחילה להגדיר את הגדרות plugin, ולאחר מכן להשתמש בקוד או "
+"בתבנית קצרה כדי להציג את הטופס על חזיתית לפי הצורך."
+
+#: library/plugin-settings.php:1220
+msgid "Shortcode"
+msgstr "קוד קצר"
+
+#: library/plugin-settings.php:1221
+msgid "Use this shortcode to display the USP Form on any WP Post or Page:"
+msgstr "השתמש בקוד זה קצר כדי להציג את הטופס USP על כל פוסט WP או דף:"
+
+#: library/plugin-settings.php:1224
+msgid "Template tag"
+msgstr "תג תבנית"
+
+#: library/plugin-settings.php:1225
+msgid ""
+"Use this template tag to display the USP Form anywhere in your theme "
+"template:"
+msgstr "השתמש בתג תבנית זה כדי להציג את טופס USP בכל מקום בתבנית ערכת הנושא:"
+
+#: library/plugin-settings.php:1231
+msgid "Show Support"
+msgstr "הצג תמיכה"
+
+#: library/plugin-settings.php:1243
+msgid "by"
+msgstr "על ידי"
+
+#: library/plugin-settings.php:1244
+msgid "Jeff Starr on Twitter"
+msgstr "ג 'ף סטאר ב לצפצף"
+
+#: library/plugin-settings.php:1245
+msgid "Obsessive Web Design &amp; Development"
+msgstr "עיצוב ופיתוח אתרי אינטרנט"
+
+#: library/plugin-settings.php:1256
+msgid "Save Preference"
+msgstr "שמור את ההעדפה"
+
+#: library/plugin-settings.php:1263
+msgid ""
+"Are you sure you want to restore all default options? (this action cannot be "
+"undone)"
+msgstr ""
+"האם אתה בטוח שברצונך לשחזר את כל אפשרויות ברירת המחדל? (פעולה זו לא ניתן "
+"לבטל)"
+
+#: library/template-tags.php:214
+msgid "View full post"
+msgstr "צפה בהודעה המלאה"
+
+#. Description of the plugin
+msgid ""
+"Enables your visitors to submit posts and images from anywhere on your site."
+msgstr "מאפשר למבקרים שלך לשלוח פוסטים ותמונות מכל מקום באתר שלך."
+
+#. URI of the plugin
+msgid "https://perishablepress.com/user-submitted-posts/"
+msgstr "Https://perishablepress.com/user-submitted-posts/"
+
+#. Author of the plugin
+msgid "Jeff Starr"
+msgstr "ג 'ף סטאר"
+
+#. Author URI of the plugin
+msgid "https://plugin-planet.com/"
+msgstr "Https://plugin-planet.com/"

@@ -388,6 +388,8 @@ function sfsi_options_updater5()
     $sfsi_linkedinIcon_order        = isset($_POST["sfsi_linkedinIcon_order"]) ? $_POST["sfsi_linkedinIcon_order"] : '9';
     $sfsi_custom_MouseOverTexts     = isset($_POST["sfsi_custom_MouseOverTexts"]) ? serialize($_POST["sfsi_custom_MouseOverTexts"]) : '';
     
+    $sfsi_custom_social_hide        = isset($_POST["sfsi_custom_social_hide"]) ? $_POST["sfsi_custom_social_hide"] : 'no';    
+    
     /* size and spacing of icons */
     $up_option5=array(
         'sfsi_icons_size'               => intval($sfsi_icons_size),
@@ -425,7 +427,8 @@ function sfsi_options_updater5()
         'sfsi_pinterestIcon_order'      => intval($sfsi_pinterestIcon_order),
         'sfsi_instagramIcon_order'      => intval($sfsi_instagramIcon_order),
         'sfsi_linkedinIcon_order'       => intval($sfsi_linkedinIcon_order),
-        'sfsi_custom_MouseOverTexts'    => $sfsi_custom_MouseOverTexts
+        'sfsi_custom_MouseOverTexts'    => $sfsi_custom_MouseOverTexts,
+        'sfsi_custom_social_hide'       => $sfsi_custom_social_hide
     );
     
     update_option('sfsi_section5_options',  serialize($up_option5));
