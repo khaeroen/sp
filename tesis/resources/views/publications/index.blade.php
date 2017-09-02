@@ -5,13 +5,13 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Upload Thesis</div>
+                    <div class="panel-heading">Upload Publikasi Ilmiah</div>
                     <div class="panel-body">
-                        <!-- <a href="{{ url('/articles/create') }}" class="btn btn-success btn-sm" title="Add New Article">
+                        <!-- <a href="{{ url('/publications/create') }}" class="btn btn-success btn-sm" title="Add New Publication">
                             <i class="fa fa-plus" aria-hidden="true"></i> Add New
                         </a> -->
 
-                        {!! Form::open(['method' => 'GET', 'url' => '/articles', 'class' => '', 'role' => 'search'])  !!}
+                        {!! Form::open(['method' => 'GET', 'url' => '/publications', 'class' => '', 'role' => 'search'])  !!}
                         <div class="row">
                             <div class="col-md-4 col-sm-5 col-xs-6">
                                 <input type="text" name="search" placeholder="Search..." class="form-control" value="{{ isset($keyword) ? $keyword : '' }}">    
@@ -45,7 +45,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                @foreach($articles as $item)
+                                @foreach($publications as $item)
                                     <tr>
                                         <td>{{ $n }}</td>
                                         <td>{{ $item->title }}</td><td>{{ $item->author }}</td><td>{{ $item->supervisor }}</td><td>{{ $item->keyword }}</td>
@@ -54,7 +54,7 @@
                                             
                                             {!! Form::open([
                                                 
-                                                'url' => 'publish',
+                                                'url' => 'publish-publication',
                                                 'method' => 'post'
                                             
                                             ]) !!}
@@ -67,7 +67,7 @@
                                            
                                             {!! Form::open([
                                                 
-                                                'url' => 'publish',
+                                                'url' => 'publish-publication',
                                                 'method' => 'post'
                                             
                                             ]) !!}
@@ -78,17 +78,17 @@
                                             @endif
                                         </td>
                                         <td class="action">
-                                            <a href="{{ url('/articles/' . $item->id) }}" title="View Article"><button class="btn btn-info btn-xs"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
-                                            <a href="{{ url('/articles/' . $item->id . '/edit') }}" title="Edit Article"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</button></a>
+                                            <a href="{{ url('/publications/' . $item->id) }}" title="View Publication"><button class="btn btn-info btn-xs"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
+                                            <a href="{{ url('/publications/' . $item->id . '/edit') }}" title="Edit Publication"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</button></a>
                                             {!! Form::open([
                                                 'method'=>'DELETE',
-                                                'url' => ['/articles', $item->id],
+                                                'url' => ['/publications', $item->id],
                                                 'style' => 'display:inline'
                                             ]) !!}
                                                 {!! Form::button('<i class="fa fa-trash-o" aria-hidden="true"></i> Delete', array(
                                                         'type' => 'submit',
                                                         'class' => 'btn btn-danger btn-xs',
-                                                        'title' => 'Delete Article',
+                                                        'title' => 'Delete Publication',
                                                         'onclick'=>'return confirm("Confirm delete?")'
                                                 )) !!}
                                             {!! Form::close() !!}
@@ -98,7 +98,7 @@
                                 @endforeach
                                 </tbody>
                             </table>
-                            <div class="pagination-wrapper"> {!! $articles->appends(['search' => Request::get('search')])->render() !!} </div>
+                            <div class="pagination-wrapper"> {!! $publications->appends(['search' => Request::get('search')])->render() !!} </div>
                         </div>
 
                     </div>

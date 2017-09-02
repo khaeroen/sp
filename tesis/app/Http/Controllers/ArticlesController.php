@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use App\Article;
 use Illuminate\Http\Request;
 use Session;
+use DB;
 
 class ArticlesController extends Controller
 {
@@ -63,8 +64,8 @@ class ArticlesController extends Controller
 			'author' => 'required',
 			'supervisor' => 'required',
 			'email' => 'required',
-			'abstrack_en' => 'required',
-			'abstrack_id' => 'required',
+			'abstract_en' => 'required',
+			'abstract_id' => 'required',
 			'keyword' => 'required',
 			'cover' => 'required',
 			'bab_1' => 'required',
@@ -215,22 +216,15 @@ class ArticlesController extends Controller
      */
     public function update($id, Request $request)
     {
+
         $this->validate($request, [
 			'title' => 'required',
 			'author' => 'required',
 			'supervisor' => 'required',
 			'email' => 'required',
-			'abstrack_en' => 'required',
-			'abstrack_id' => 'required',
+			'abstract_en' => 'required',
+			'abstract_id' => 'required',
 			'keyword' => 'required',
-			'cover' => 'required',
-			'bab_1' => 'required',
-			'bab_2' => 'required',
-			'bab_3' => 'required',
-			'bab_4' => 'required',
-			'bab_5' => 'required',
-			'bab_6' => 'required',
-			'lampiran' => 'required'
 		]);
         $requestData = $request->all();
         
@@ -331,7 +325,7 @@ class ArticlesController extends Controller
         $article = Article::findOrFail($id);
         $article->update($requestData);
 
-        Session::flash('flash_message', 'Article updated!');
+        Session::flash('flash_message', 'This Thesis updated!');
 
         return redirect('articles');
     }
@@ -347,8 +341,17 @@ class ArticlesController extends Controller
     {
         Article::destroy($id);
 
-        Session::flash('flash_message', 'Article deleted!');
+        Session::flash('flash_message', 'Thesis deleted!');
 
         return redirect('articles');
+    }
+
+    public function publish(Request $request)
+    {
+        //toggle publish
+
+        //$article = Article::findOrFail($id);
+
+       
     }
 }

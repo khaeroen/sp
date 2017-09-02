@@ -5,9 +5,9 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Edit Thesis <strong>"{{ $article->title }}"</strong></div>
+                    <div class="panel-heading">Edit Publikasi Ilmiah: <strong>"{{ $publication->title }}"</strong></div>
                     <div class="panel-body">
-                        <a href="{{ url('/articles') }}" title="Back"><button class="btn btn-warning btn-xs"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button></a>
+                        <a href="{{ url('/publications') }}" title="Back"><button class="btn btn-warning btn-xs"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button></a>
                         <br />
                         <br />
 
@@ -19,14 +19,14 @@
                             </ul>
                         @endif
 
-                        {!! Form::model($article, [
+                        {!! Form::model($publication, [
                             'method' => 'PATCH',
-                            'url' => ['/articles', $article->id],
+                            'url' => ['/publications', $publication->id],
                             'class' => 'form-horizontal',
                             'files' => true
                         ]) !!}
 
-                        @include ('articles.form', ['submitButtonText' => 'Update'])
+                        @include ('publications.form', ['submitButtonText' => 'Update'])
 
                         {!! Form::close() !!}
 

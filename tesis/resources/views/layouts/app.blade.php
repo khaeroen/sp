@@ -19,7 +19,12 @@
         #app {
             margin-top: 30px;
         }
+        .action {
+            max-width: 150px;
+        }
+
     </style>
+    @yield('style')
 
     <!-- Scripts -->
     <script>
@@ -34,7 +39,7 @@
             <div class="row">
                 <div class="col-md-12">
                 @if(session('flash_message'))
-                  <div class="alert alert-default text-center" id="alert">
+                  <div class="alert alert-info text-center" id="alert">
                   {{ session('flash_message') }}
                   </div>
                 @endif
