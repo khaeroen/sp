@@ -24,10 +24,20 @@ class PublicationsController extends Controller
         $perPage = 20;
 
         if (!empty($keyword)) {
-            $publications = Publication::where($searchBy, 'LIKE', "%$keyword%")
+        	if (!isset($_GET['admin'])) {
+        		$publications = Publication::where($searchBy, 'LIKE', "%$keyword%")
+				->where('publish',1)->paginate($perPage);
+        	} else {
+        		$publications = Publication::where($searchBy, 'LIKE', "%$keyword%")
 				->paginate($perPage);
+        	}
+            
         } else {
-            $publications = Publication::paginate($perPage);
+            if (!isset($_GET['admin'])) {
+        		$publications = Publication::where('publish',1)->paginate($perPage);
+        	} else {
+        		$publications = Publication::paginate($perPage);
+        	}
         }
 
         $n = 1;

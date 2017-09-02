@@ -41,7 +41,9 @@
                             <table class="table table-borderless">
                                 <thead>
                                     <tr>
-                                        <th>No</th><th>Title</th><th>Author</th><th>Supervisor</th><th>Keywords</th><th class="action">Published <br>(checked by admin)</th><th class="action"></th>
+                                        <th>No</th><th>Title</th><th>Author</th><th>Supervisor</th><th>Keywords</th>
+                                        @if(isset($_GET['admin']))<th class="action">Published <br>(checked by admin)</th>@endif
+                                        <th class="action"></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -49,6 +51,7 @@
                                     <tr>
                                         <td>{{ $n }}</td>
                                         <td>{{ $item->title }}</td><td>{{ $item->author }}</td><td>{{ $item->supervisor }}</td><td>{{ $item->keyword }}</td>
+                                        @if(isset($_GET['admin']))
                                         <td class="action">
                                             @if($item->publish != 1)
                                             
@@ -77,8 +80,10 @@
                                             {!! Form::close() !!}
                                             @endif
                                         </td>
+                                        @endif
                                         <td class="action">
                                             <a href="{{ url('/publications/' . $item->id) }}" title="View Publication"><button class="btn btn-info btn-xs"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
+                                            @if(isset($_GET['admin']))
                                             <a href="{{ url('/publications/' . $item->id . '/edit') }}" title="Edit Publication"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</button></a>
                                             {!! Form::open([
                                                 'method'=>'DELETE',
@@ -92,6 +97,7 @@
                                                         'onclick'=>'return confirm("Confirm delete?")'
                                                 )) !!}
                                             {!! Form::close() !!}
+                                            @endif
                                         </td>
                                     </tr>
                                     <?php $n++; ?>

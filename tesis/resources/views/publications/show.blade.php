@@ -17,6 +17,7 @@
                     <div class="panel-body">
 
                         <a href="{{ url('/publications') }}" title="Back"><button class="btn btn-warning btn-xs"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button></a>
+                        @if(isset($_GET['admin']))
                         <a href="{{ url('/publications/' . $publication->id . '/edit') }}" title="Edit Publication"><button class="btn btn-primary btn-xs"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</button></a>
                         {!! Form::open([
                             'method'=>'DELETE',
@@ -30,6 +31,7 @@
                                     'onclick'=>'return confirm("Confirm delete?")'
                             ))!!}
                         {!! Form::close() !!}
+                        @endif
                         <br/>
                         <br/>
 
@@ -71,6 +73,7 @@
                                         <th>Last Update</th>
                                         <td>{{ $publication->updated_at }}</td>
                                     </tr>
+                                    @if(isset($_GET['admin']))
                                     <tr>
                                         <th>Publish this thesis?</th>
                                         <td>
@@ -100,6 +103,7 @@
                                             @endif
                                         </td>
                                     </tr>
+                                    @endif
                                 </tbody>
                             </table>
                         </div>

@@ -24,10 +24,22 @@ class ArticlesController extends Controller
         $perPage = 20;
 
         if (!empty($keyword)) {
-            $articles = Article::where($searchBy, 'LIKE', "%$keyword%")
-				->paginate($perPage);
+            if(!isset($_GET['admin']))
+            {
+                $articles = Article::where($searchBy, 'LIKE', "%$keyword%")
+                ->where('publish',1)->paginate($perPage);
+            } else {
+                $articles = Article::where($searchBy, 'LIKE', "%$keyword%")->paginate($perPage);
+            }
+            
         } else {
-            $articles = Article::paginate($perPage);
+
+            if(!isset($_GET['admin']))
+            {
+                $articles = Article::where('publish',1)->paginate($perPage);
+            } else {
+                $articles = Article::paginate($perPage);
+            }
         }
 
         $n = 1;
